@@ -2037,7 +2037,7 @@
               {
                 "name": "May have its power weapon exchanged for ",
                 "id": "efed-f305-8cc8-8e08",
-                "defaultSelectionEntryId": "5bed-e020-4fc0-7ada",
+                "defaultSelectionEntryId": "c42c-95ff-7b9c-88f4",
                 "hidden": false,
                 "constraints": [
                   {"id": "00d5-496c-68af-d0eb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
