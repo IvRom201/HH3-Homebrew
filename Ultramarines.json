@@ -1981,15 +1981,7 @@
                   {"id": "f6d6-e3c6-c2da-c3c0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {
-                "name": "Peritarch Targeter",
-                "id": "98df-e292-11f0-aac0",
-                "defaultAmount": "1",
-                "hidden": false,
-                "import": true,
-                "targetId": "7379-8243-491e-7be9",
-                "type": "selectionEntry"
-              }
+              {"name": "Peritarch Targeter", "id": "36ba-4670-46e9-36b6", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
             ],
             "profiles": [
               {
@@ -2131,15 +2123,7 @@
                   {"id": "4f6f-155e-e83b-5058", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {
-                "name": "Peritarch Targeter",
-                "id": "7c89-20ab-464b-0b31",
-                "defaultAmount": "1",
-                "hidden": false,
-                "import": true,
-                "targetId": "7379-8243-491e-7be9",
-                "type": "selectionEntry"
-              }
+              {"name": "Peritarch Targeter", "id": "174e-6fbf-a7c7-14f9", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
             ],
             "modifiers": [
               {
@@ -3444,7 +3428,7 @@
         "import": true,
         "type": "unit",
         "costs": [
-          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 50},
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 70},
           {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
           {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
           {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
@@ -3600,7 +3584,7 @@
               {"id": "31ef-0ea7-2658-ad1f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
             ],
             "costs": [
-              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 50},
+              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 40},
               {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
               {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
               {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
@@ -3637,7 +3621,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "Loadout",
+                "name": "Equipment",
                 "id": "c00f-a7cc-da93-3454",
                 "defaultSelectionEntryId": "9785-1bb7-4c40-38ce",
                 "hidden": false,
@@ -3718,7 +3702,7 @@
                     "type": "upgrade",
                     "constraints": [{"id": "b30f-690b-90bd-b77a", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 1}],
                     "costs": [
-                      {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20},
+                      {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 25},
                       {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
                       {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
                       {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
@@ -3761,7 +3745,7 @@
         ]
       },
       {
-        "name": "Aegis warblade",
+        "name": "Sovereign blade",
         "id": "b3ad-4b39-18bb-4ee0",
         "hidden": false,
         "import": true,
@@ -3779,17 +3763,17 @@
         ],
         "profiles": [
           {
-            "name": "Aegis warblade",
+            "name": "Sovereign blade",
             "id": "7fd3-1150-03f4-3a49",
             "hidden": false,
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
-              {"name": "IM", "$text": "-1", "typeId": "6eec-4093-f946-1014"},
+              {"name": "IM", "$text": "I", "typeId": "6eec-4093-f946-1014"},
               {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
               {"name": "SM", "$text": "+2", "typeId": "4505-de6f-d4ae-6280"},
               {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
-              {"name": "D", "$text": "2", "typeId": "6a9d-4feb-065a-33e7"},
+              {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
               {"name": "Special Rules", "$text": "Breaching (5+)", "typeId": "ebe0-7b28-b40c-694e"},
               {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
             ]
@@ -3797,24 +3781,24 @@
         ]
       },
       {
-        "name": "Heavy Thunder hammer",
+        "name": "Legatine Great Axe",
         "id": "fdb5-87c9-a07d-2f7f",
         "hidden": false,
         "import": true,
         "type": "upgrade",
         "profiles": [
           {
-            "name": "Heavy Thunder hammer",
+            "name": "Legatine Great Axe",
             "id": "ed55-5648-792f-b952",
             "hidden": false,
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
-              {"name": "IM", "$text": "-3", "typeId": "6eec-4093-f946-1014"},
+              {"name": "IM", "$text": "-2", "typeId": "6eec-4093-f946-1014"},
               {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
-              {"name": "SM", "$text": "+4", "typeId": "4505-de6f-d4ae-6280"},
+              {"name": "SM", "$text": "+2", "typeId": "4505-de6f-d4ae-6280"},
               {"name": "AP", "$text": "2", "typeId": "a014-126b-3b7b-27e8"},
-              {"name": "D", "$text": "3", "typeId": "6a9d-4feb-065a-33e7"},
+              {"name": "D", "$text": "2", "typeId": "6a9d-4feb-065a-33e7"},
               {"name": "Special Rules", "$text": "-", "typeId": "ebe0-7b28-b40c-694e"},
               {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
             ]
