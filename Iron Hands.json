@@ -4224,6 +4224,7 @@
                   {
                     "name": "1 in 5 may exchange their Bolter for:",
                     "id": "1464-1ff6-ff9c-e042",
+                    "defaultSelectionEntryId": "none",
                     "flatten": false,
                     "hidden": false,
                     "constraints": [{"id": "c027-93fa-5579-eda3", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 0}],
@@ -4284,7 +4285,7 @@
                         "field": "c027-93fa-5579-eda3",
                         "type": "increment",
                         "value": 1,
-                        "repeats": [{"childId": "model", "field": "selections", "includeChildSelections": true, "repeats": 1, "roundUp": false, "scope": "unit", "shared": true, "value": 3}]
+                        "repeats": [{"childId": "model", "field": "selections", "includeChildSelections": true, "repeats": 1, "roundUp": false, "scope": "unit", "shared": true, "value": 5}]
                       }
                     ]
                   }
@@ -4695,7 +4696,7 @@
                   {
                     "name": "May exchange bolt pistol for:",
                     "id": "e80f-b96a-2f79-e401",
-                    "defaultSelectionEntryId": "a2ba-eeca-c8a4-67b6",
+                    "defaultSelectionEntryId": "5a7f-086e-1616-eec7",
                     "hidden": false,
                     "sortIndex": 2,
                     "constraints": [
@@ -4760,102 +4761,6 @@
                         "targetId": "32d1-2c70-882f-9467",
                         "type": "selectionEntry",
                         "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
-                      },
-                      {
-                        "name": "Shrapnel pistol",
-                        "id": "35f3-0f2a-0569-ef5e",
-                        "hidden": true,
-                        "import": true,
-                        "sortIndex": 1,
-                        "targetId": "d735-44bc-116a-be41",
-                        "type": "selectionEntry",
-                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}],
-                        "modifiers": [
-                          {
-                            "field": "hidden",
-                            "type": "set",
-                            "value": false,
-                            "conditionGroups": [
-                              {
-                                "type": "or",
-                                "conditionGroups": [
-                                  {
-                                    "type": "and",
-                                    "conditions": [
-                                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
-                                      {
-                                        "childId": "4061-bc47-ebca-dc39",
-                                        "field": "selections",
-                                        "includeChildForces": true,
-                                        "includeChildSelections": true,
-                                        "scope": "roster",
-                                        "shared": true,
-                                        "type": "atLeast",
-                                        "value": 1
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "and",
-                                    "conditions": [
-                                      {"childId": "1d11-e616-eb66-a6ce", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
-                                      {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
-                                    ]
-                                  }
-                                ],
-                                "conditions": [{"childId": "21c0-18db-03dd-ae07", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "name": "Asphyx pistol",
-                        "id": "01c7-5450-a6a1-24cb",
-                        "hidden": true,
-                        "import": true,
-                        "sortIndex": 2,
-                        "targetId": "d293-df49-e8c3-f3bf",
-                        "type": "selectionEntry",
-                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}],
-                        "modifiers": [
-                          {
-                            "field": "hidden",
-                            "type": "set",
-                            "value": false,
-                            "conditionGroups": [
-                              {
-                                "type": "or",
-                                "conditionGroups": [
-                                  {
-                                    "type": "and",
-                                    "conditions": [
-                                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
-                                      {
-                                        "childId": "4eec-9111-7656-2023",
-                                        "field": "selections",
-                                        "includeChildForces": true,
-                                        "includeChildSelections": true,
-                                        "scope": "roster",
-                                        "shared": true,
-                                        "type": "atLeast",
-                                        "value": 1
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "and",
-                                    "conditions": [
-                                      {"childId": "f16b-151d-008f-72e0", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
-                                      {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
-                                    ]
-                                  }
-                                ],
-                                "conditions": [{"childId": "2496-21e2-1870-e9b8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
-                              }
-                            ]
-                          }
-                        ]
                       }
                     ],
                     "modifiers": [
