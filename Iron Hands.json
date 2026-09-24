@@ -182,7 +182,10 @@
         "import": true,
         "targetId": "7d89-51c6-9ec3-c61e",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "High Command", "id": "abbf-7f51-7210-a892", "hidden": false, "primary": true, "targetId": "d9a6-9b5f-b18a-4d63"}]
+        "categoryLinks": [
+          {"name": "High Command", "id": "abbf-7f51-7210-a892", "hidden": false, "primary": true, "targetId": "d9a6-9b5f-b18a-4d63"},
+          {"name": "Iron Hands", "id": "15b1-0247-a9a3-7d18", "hidden": false, "primary": false, "targetId": "3db6-86ea-fd61-340b"}
+        ]
       },
       {
         "name": "Helfather Сovenant",
@@ -191,7 +194,22 @@
         "import": true,
         "targetId": "0ed7-e5bb-bd5d-f3e6",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Support", "id": "a340-826f-f13c-0794", "hidden": false, "primary": true, "targetId": "345f-9ba6-9b02-ed5c"}]
+        "categoryLinks": [
+          {"name": "Support", "id": "a340-826f-f13c-0794", "hidden": false, "primary": true, "targetId": "345f-9ba6-9b02-ed5c"},
+          {"name": "Iron Hands", "id": "2d30-ed3e-dd61-3301", "hidden": false, "primary": false, "targetId": "3db6-86ea-fd61-340b"}
+        ]
+      },
+      {
+        "name": "Iron Revenant Squad",
+        "id": "8a44-cad4-015c-7b31",
+        "hidden": false,
+        "import": true,
+        "targetId": "f6e3-1a24-6fcb-c43b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Elites", "id": "6b83-188d-0b4a-584a", "hidden": false, "primary": true, "targetId": "5d5e-958f-e388-50b5"},
+          {"name": "Iron Hands", "id": "511a-8df8-dfbb-843d", "hidden": false, "primary": false, "targetId": "3db6-86ea-fd61-340b"}
+        ]
       }
     ],
     "sharedSelectionEntries": [
@@ -3548,6 +3566,18 @@
                   {"id": "e42e-656f-98cf-c2e9", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "4ac8-ae1c-39b5-1880", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
+              },
+              {
+                "name": "Combi-bolter",
+                "id": "36dd-6ef2-e0c6-4dd2",
+                "hidden": false,
+                "import": true,
+                "targetId": "042d-9e60-db9e-c147",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "7826-d52a-a5d4-4a2c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "ccaa-22cc-d304-0ae6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
               }
             ],
             "modifiers": [
@@ -3577,7 +3607,7 @@
                 "typeId": "a76f-8e23-8c3e-166d",
                 "typeName": "Profile",
                 "characteristics": [
-                  {"name": "Type", "$text": "Infantry (Sergeant, Heavy)", "typeId": "50fc-9241-d4a2-045b"},
+                  {"name": "Type", "$text": "Infantry (Heavy)", "typeId": "50fc-9241-d4a2-045b"},
                   {"name": "M", "$text": "6", "typeId": "a106-a779-d272-5e93"},
                   {"name": "WS", "$text": "4", "typeId": "253c-d694-4695-c89e"},
                   {"name": "BS", "$text": "4", "typeId": "0cd5-b269-e3bc-028b"},
@@ -3633,20 +3663,1298 @@
                   }
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Iron Revenant Squad",
+        "id": "f6e3-1a24-6fcb-c43b",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
+          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+          {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+          {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
+          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Prime Unit",
+            "id": "cb4b-75d6-fec2-f930",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 5,
+            "targetId": "3fa2-78b1-637f-7fb2",
+            "type": "selectionEntry",
+            "entryLinks": [{"name": "Prime Benefits", "id": "0adc-96d6-8142-5911", "hidden": false, "import": true, "targetId": "a396-b846-c263-6767", "type": "selectionEntryGroup"}]
+          },
+          {
+            "name": "Frag grenades",
+            "id": "c3c2-2f96-0dca-4c24",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "60e4-ca33-2e68-9afc",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "1083-cee0-1375-3b11", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f553-b2f0-8a96-6ef4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Krak grenades",
+            "id": "e645-eb92-c598-0d47",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "targetId": "fa20-82bc-c7de-9e97",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "242c-4271-7179-3be5", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "173d-fb95-be1d-6002", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "[Allegiance]", "id": "eb50-1951-780b-8854", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
+          {"name": "[Legiones Astartes]", "id": "4783-64f4-10ae-bf65", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {
+            "name": "Implacable Advance",
+            "id": "1c43-dd84-dd2b-5507",
+            "hidden": true,
+            "targetId": "3898-aafb-35e0-141b",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "b395-6603-4965-11f5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "unit",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Slow and Purposeful",
+            "id": "434e-0fb6-d294-4bea",
+            "hidden": true,
+            "targetId": "6a8e-e508-abc9-cb3e",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "b395-6603-4965-11f5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "unit",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bitter Duty",
+            "id": "a03e-7dfb-3af3-0b0e",
+            "hidden": true,
+            "targetId": "5d6f-552a-f409-cad5",
+            "type": "rule",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "b395-6603-4965-11f5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "scope": "unit",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "2e50-319d-ae62-a50c", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Iron Revenant",
+            "id": "39e9-983a-ab87-4322",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "type": "model",
+            "categoryLinks": [{"name": "Infantry Model Type", "id": "834a-90ae-f161-1ec9", "hidden": false, "primary": false, "targetId": "594d-fa82-13cb-a345"}],
+            "constraints": [
+              {"id": "fc15-ac54-437d-b953", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "287e-187d-89ca-4cce", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 9}
+            ],
+            "costs": [
+              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 25},
+              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+              {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+              {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+              {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+              {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
+              {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}
+            ],
+            "entryLinks": [
+              {
+                "name": "Bolt pistol",
+                "id": "2835-0b67-fe00-1782",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 3,
+                "targetId": "2942-f783-d627-33c5",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6b86-edea-6155-6d96",
+                    "automatic": true,
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "f81a-ed50-d6c3-ff0c",
+                    "automatic": true,
+                    "field": "selections",
+                    "includeChildSelections": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "4d86-d6e9-8bca-0ad5",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {"childId": "21c0-18db-03dd-ae07", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "2496-21e2-1870-e9b8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "6b86-edea-6155-6d96",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "21c0-18db-03dd-ae07", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "2496-21e2-1870-e9b8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "f81a-ed50-d6c3-ff0c",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "21c0-18db-03dd-ae07", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "2496-21e2-1870-e9b8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Iron Revenant",
+                "id": "a920-9cc9-0115-38bf",
+                "hidden": false,
+                "typeId": "a76f-8e23-8c3e-166d",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry(Heavy", "typeId": "50fc-9241-d4a2-045b"},
+                  {"name": "M", "$text": "6", "typeId": "a106-a779-d272-5e93"},
+                  {"name": "WS", "$text": "4", "typeId": "253c-d694-4695-c89e"},
+                  {"name": "BS", "$text": "4", "typeId": "0cd5-b269-e3bc-028b"},
+                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
+                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
+                  {"name": "W", "$text": "2", "typeId": "f5cc-79a3-d302-cc1d"},
+                  {"name": "I", "$text": "3", "typeId": "af9d-7db8-dc95-71c1"},
+                  {"name": "A", "$text": "2", "typeId": "024e-bdb1-7982-25a0"},
+                  {"name": "LD", "$text": "8", "typeId": "02ad-ebe6-86e7-9fd6"},
+                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
+                  {"name": "WP", "$text": "9", "typeId": "f714-1726-37d3-44df"},
+                  {"name": "IN", "$text": "6", "typeId": "29c5-925d-5b1d-1e77"},
+                  {"name": "SAV", "$text": "3+", "typeId": "03bd-4ecb-351d-143b"},
+                  {"name": "INV", "$text": "-", "typeId": "a951-a772-7ce0-0b64"}
+                ],
+                "modifierGroups": [
+                  {
+                    "comment": "Combat Veterans",
+                    "type": "and",
+                    "conditions": [{"childId": "8cf8-9be5-91d6-c96d", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}],
+                    "modifiers": [
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "increment", "value": 1},
+                      {"field": "9cd1-0e7c-2cd6-5f2f", "type": "increment", "value": 1},
+                      {"field": "f714-1726-37d3-44df", "type": "increment", "value": 1},
+                      {"field": "29c5-925d-5b1d-1e77", "type": "increment", "value": 1},
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "ceil", "value": 10},
+                      {"field": "9cd1-0e7c-2cd6-5f2f", "type": "ceil", "value": 10},
+                      {"field": "f714-1726-37d3-44df", "type": "ceil", "value": 10},
+                      {"field": "29c5-925d-5b1d-1e77", "type": "ceil", "value": 10}
+                    ]
+                  },
+                  {
+                    "comment": "The Flesh is Weak",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "e5d8-4df8-c3ce-ecd5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ],
+                    "modifiers": [{"arg": "Infantry", "field": "50fc-9241-d4a2-045b", "type": "replace", "value": "Automata"}]
+                  },
+                  {
+                    "comment": "Clone",
+                    "type": "and",
+                    "conditions": [{"childId": "1abc-c093-9e5a-d142", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}],
+                    "modifiers": [
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "decrement", "value": 1},
+                      {"field": "f714-1726-37d3-44df", "type": "decrement", "value": 1},
+                      {"field": "29c5-925d-5b1d-1e77", "type": "decrement", "value": 1},
+                      {"field": "9cd1-0e7c-2cd6-5f2f", "type": "decrement", "value": 1}
+                    ]
+                  },
+                  {
+                    "comment": "Aberrant",
+                    "type": "and",
+                    "conditions": [{"childId": "b395-6603-4965-11f5", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}],
+                    "modifiers": [
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "decrement", "value": 1},
+                      {"field": "f714-1726-37d3-44df", "type": "decrement", "value": 1},
+                      {"field": "29c5-925d-5b1d-1e77", "type": "decrement", "value": 1},
+                      {"field": "9cd1-0e7c-2cd6-5f2f", "type": "decrement", "value": 1},
+                      {"field": "498f-dce1-59fd-d8d7", "type": "increment", "value": 1},
+                      {"field": "024e-bdb1-7982-25a0", "type": "increment", "value": 1}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "TS - Cult Arcana",
+                    "field": "f714-1726-37d3-44df",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [{"childId": "2496-21e2-1870-e9b8", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
+              }
             ],
             "selectionEntryGroups": [
               {
-                "name": "Exchange combi-bolter for:",
-                "id": "904c-4174-de27-01ba",
-                "defaultSelectionEntryId": "7881-face-4b30-63df",
+                "name": "Options",
+                "id": "6973-46c6-8f39-6039",
+                "hidden": false,
+                "sortIndex": 3,
+                "entryLinks": [
+                  {
+                    "name": "Legion Equipment",
+                    "id": "617a-1c44-b3ae-48eb",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "0e69-ccf1-cde7-acaf",
+                    "type": "selectionEntryGroup",
+                    "constraints": [
+                      {"id": "ff01-7efd-6371-b644", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "7014-0795-019a-e671", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 2}
+                    ]
+                  },
+                  {
+                    "name": "Vexilla",
+                    "id": "08f8-d58e-632f-f2fe",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "dfcd-0669-ad43-28aa",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "0428-cb6b-6a30-2366", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                      {"id": "31c6-ba73-730a-7aab", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                  }
+                ]
+              },
+              {
+                "name": "May exchange Bolter for:",
+                "id": "2a2d-5ca9-adba-d16c",
+                "defaultSelectionEntryId": "bb45-f74b-e4ec-3a23",
                 "hidden": false,
                 "constraints": [
-                  {"id": "23ff-d4e2-60c5-8ea4", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "bd1a-cf47-5c3a-a040", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                  {"id": "8df2-a93f-a27b-368a", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": false, "type": "min", "value": 1},
+                  {"id": "f592-a692-56ce-4017", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": false, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Combi-bolter", "id": "025d-d03e-4100-2307", "hidden": false, "import": true, "targetId": "042d-9e60-db9e-c147", "type": "selectionEntry"},
-                  {"name": "Legion Combi-weapons", "id": "d713-b72d-f24a-a25c", "hidden": false, "import": true, "targetId": "f335-622e-6b0a-6b08", "type": "selectionEntryGroup"}
+                  {
+                    "name": "Bolter",
+                    "id": "bb45-f74b-e4ec-3a23",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 1,
+                    "targetId": "d3f9-b9e6-3ea5-cc8e",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "8da0-3a57-dbab-c9d4", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "modifiers": [
+                      {
+                        "field": "8da0-3a57-dbab-c9d4",
+                        "type": "set",
+                        "value": 0,
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Legion Combi-weapons",
+                    "id": "03c7-398c-f899-8823",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 2,
+                    "targetId": "f335-622e-6b0a-6b08",
+                    "type": "selectionEntryGroup"
+                  },
+                  {
+                    "name": "Volkite charger",
+                    "id": "063c-fd97-8bdb-87e5",
+                    "hidden": false,
+                    "import": true,
+                    "sortIndex": 7,
+                    "targetId": "93e7-6a83-1e9e-204a",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}]
+                  },
+                  {
+                    "name": "Flamer",
+                    "id": "3a5d-a6a6-c69a-59c3",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "9a45-35cd-3806-2303",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
+                  },
+                  {
+                    "name": "Rotor cannon",
+                    "id": "de3a-89dd-a4ff-0265",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "05bf-af5e-be67-36a2",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}]
+                  },
+                  {
+                    "name": "Volkite caliver",
+                    "id": "f73a-7c9d-2183-53a6",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "a042-1a69-9052-c59a",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditions": [
+                      {
+                        "childId": "4d86-d6e9-8bca-0ad5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "8df2-a93f-a27b-368a",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "4d86-d6e9-8bca-0ad5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "field": "f592-a692-56ce-4017",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "4d86-d6e9-8bca-0ad5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "1 in 5 may exchange their Bolter for:",
+                    "id": "1464-1ff6-ff9c-e042",
+                    "flatten": false,
+                    "hidden": false,
+                    "constraints": [{"id": "c027-93fa-5579-eda3", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 0}],
+                    "entryLinks": [
+                      {
+                        "name": "Meltagun",
+                        "id": "14ea-6fb8-3c26-17ea",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 1,
+                        "targetId": "b1e1-e164-5877-6734",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+                      },
+                      {
+                        "name": "Graviton gun",
+                        "id": "9e96-186e-2edd-6d68",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 2,
+                        "targetId": "4a06-c55e-a06f-bd0c",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                      },
+                      {
+                        "name": "Graviton shredder",
+                        "id": "0dcd-3f9a-9fbf-61ab",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 4,
+                        "targetId": "5921-7ef7-197a-ef9f",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+                      },
+                      {
+                        "name": "Plasma gun",
+                        "id": "82c2-9f0d-676d-dc5b",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 3,
+                        "targetId": "433d-56e0-9878-dea1",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                      },
+                      {
+                        "name": "Volkite culverin",
+                        "id": "4c9d-88c6-a6a6-26c9",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 5,
+                        "targetId": "fcf0-9c1b-d51e-6bc7",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "c027-93fa-5579-eda3",
+                        "type": "increment",
+                        "value": 1,
+                        "repeats": [{"childId": "model", "field": "selections", "includeChildSelections": true, "repeats": 1, "roundUp": false, "scope": "unit", "shared": true, "value": 3}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "May have one chainsword selected for it:",
+                "id": "3d26-b86b-4ca0-43bf",
+                "defaultSelectionEntryId": "none",
+                "hidden": false,
+                "constraints": [
+                  {"id": "b8a5-259b-2301-a70a", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "4d48-6f98-5aec-636d", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Chainsword",
+                    "id": "dcb6-77d9-b3f1-01e7",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "78f4-4967-2896-c3a5",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "8144-8f2c-d95b-7b9e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "69de-4883-efd2-b876", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0},
+                          {"childId": "d3f9-b9e6-3ea5-cc8e", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0},
+                          {"childId": "9532-a693-d2ac-f198", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Iron Spectre",
+            "id": "e41f-f91d-fb61-776f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Sergeant Model Sub-Type", "id": "8d92-09bd-278f-9677", "hidden": false, "primary": false, "targetId": "8045-89a4-76d4-fcef"},
+              {"name": "Infantry Model Type", "id": "2409-f9a0-8d30-cc12", "hidden": false, "primary": false, "targetId": "594d-fa82-13cb-a345"}
+            ],
+            "constraints": [
+              {"id": "ae2a-3e86-3c9e-dcd5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "efe9-0b2a-7ee6-0097", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "costs": [
+              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 30},
+              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+              {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+              {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+              {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+              {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+            ],
+            "entryLinks": [
+              {
+                "name": "Legion Specific Upgrade",
+                "id": "5761-5fd6-a801-40ee",
+                "hidden": false,
+                "import": true,
+                "targetId": "ef74-faa7-0d36-762b",
+                "type": "selectionEntryGroup"
+              },
+              {
+                "name": "Bolt pistol",
+                "id": "76cb-b6eb-fde5-a790",
+                "hidden": false,
+                "import": true,
+                "targetId": "2942-f783-d627-33c5",
+                "type": "selectionEntry",
+                "constraints": [{"id": "22d8-3598-bf65-3e86", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "22d8-3598-bf65-3e86",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "4d86-d6e9-8bca-0ad5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "category",
+                "type": "add",
+                "value": "5a95-e564-96b2-8dc9",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "4c06-aa1a-eea4-3b54",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "2c90-1d52-7075-59d3", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Iron Spectre",
+                "id": "ef39-b6a2-51a9-3612",
+                "hidden": false,
+                "typeId": "a76f-8e23-8c3e-166d",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry (Sergeant, Heavy)", "typeId": "50fc-9241-d4a2-045b"},
+                  {"name": "M", "$text": "6", "typeId": "a106-a779-d272-5e93"},
+                  {"name": "WS", "$text": "4", "typeId": "253c-d694-4695-c89e"},
+                  {"name": "BS", "$text": "4", "typeId": "0cd5-b269-e3bc-028b"},
+                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
+                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
+                  {"name": "W", "$text": "2", "typeId": "f5cc-79a3-d302-cc1d"},
+                  {"name": "I", "$text": "3", "typeId": "af9d-7db8-dc95-71c1"},
+                  {"name": "A", "$text": "2", "typeId": "024e-bdb1-7982-25a0"},
+                  {"name": "LD", "$text": "9", "typeId": "02ad-ebe6-86e7-9fd6"},
+                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
+                  {"name": "WP", "$text": "9", "typeId": "f714-1726-37d3-44df"},
+                  {"name": "IN", "$text": "6", "typeId": "29c5-925d-5b1d-1e77"},
+                  {"name": "SAV", "$text": "3+", "typeId": "03bd-4ecb-351d-143b"},
+                  {"name": "INV", "$text": "-", "typeId": "a951-a772-7ce0-0b64"}
+                ],
+                "modifierGroups": [
+                  {
+                    "comment": "Combat Veterans",
+                    "type": "and",
+                    "conditions": [{"childId": "8cf8-9be5-91d6-c96d", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1}],
+                    "modifiers": [
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "increment", "value": 1},
+                      {"field": "9cd1-0e7c-2cd6-5f2f", "type": "increment", "value": 1},
+                      {"field": "f714-1726-37d3-44df", "type": "increment", "value": 1},
+                      {"field": "29c5-925d-5b1d-1e77", "type": "increment", "value": 1},
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "ceil", "value": 10},
+                      {"field": "9cd1-0e7c-2cd6-5f2f", "type": "ceil", "value": 10},
+                      {"field": "f714-1726-37d3-44df", "type": "ceil", "value": 10},
+                      {"field": "29c5-925d-5b1d-1e77", "type": "ceil", "value": 10}
+                    ]
+                  },
+                  {
+                    "comment": "Master Sergeant",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "2c90-1d52-7075-59d3",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ],
+                    "modifiers": [
+                      {"field": "253c-d694-4695-c89e", "type": "increment", "value": 1},
+                      {"field": "024e-bdb1-7982-25a0", "type": "increment", "value": 1},
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "increment", "value": 1},
+                      {"arg": "Sergeant", "field": "50fc-9241-d4a2-045b", "type": "replace", "value": "Sergeant, Champion"}
+                    ]
+                  },
+                  {
+                    "comment": "The Flesh is Weak",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "e5d8-4df8-c3ce-ecd5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ],
+                    "modifiers": [{"arg": "Infantry", "field": "50fc-9241-d4a2-045b", "type": "replace", "value": "Automata"}]
+                  },
+                  {
+                    "comment": "Petty Warlord",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "4c06-aa1a-eea4-3b54",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ],
+                    "modifiers": [
+                      {"field": "253c-d694-4695-c89e", "type": "increment", "value": 1},
+                      {"field": "024e-bdb1-7982-25a0", "type": "increment", "value": 1},
+                      {"field": "02ad-ebe6-86e7-9fd6", "type": "increment", "value": 1},
+                      {"arg": "Sergeant", "field": "50fc-9241-d4a2-045b", "type": "replace", "value": "Sergeant, Champion"}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "comment": "TS - Cult Arcana",
+                    "field": "f714-1726-37d3-44df",
+                    "type": "increment",
+                    "value": 1,
+                    "conditions": [{"childId": "2496-21e2-1870-e9b8", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Options",
+                "id": "616d-5151-2454-e6a1",
+                "hidden": false,
+                "sortIndex": 2,
+                "selectionEntryGroups": [
+                  {
+                    "name": "May exchange bolter for:",
+                    "id": "2f65-67e7-1f2d-53d9",
+                    "defaultSelectionEntryId": "7502-0038-a66a-df62",
+                    "hidden": false,
+                    "sortIndex": 1,
+                    "constraints": [
+                      {"id": "7d4c-aaaf-66dd-467b", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": false, "type": "min", "value": 1},
+                      {"id": "bcac-8299-05bf-36c1", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": false, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Bolter",
+                        "id": "7502-0038-a66a-df62",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 1,
+                        "targetId": "d3f9-b9e6-3ea5-cc8e",
+                        "type": "selectionEntry",
+                        "constraints": [{"id": "5f82-3b38-93d6-bf7c", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                        "modifiers": [
+                          {
+                            "field": "5f82-3b38-93d6-bf7c",
+                            "type": "set",
+                            "value": 0,
+                            "conditions": [
+                              {
+                                "childId": "4d86-d6e9-8bca-0ad5",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Legion Sergeant Melee Weapons",
+                        "id": "63e8-03bd-3fe5-a528",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 8,
+                        "targetId": "b8d7-8ff0-721e-a963",
+                        "type": "selectionEntryGroup"
+                      },
+                      {
+                        "name": "Legion Combi-weapons",
+                        "id": "87ca-10a3-73fa-2bd6",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 2,
+                        "targetId": "f335-622e-6b0a-6b08",
+                        "type": "selectionEntryGroup"
+                      },
+                      {
+                        "name": "Volkite charger",
+                        "id": "3a53-e7ef-e7c9-e506",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 7,
+                        "targetId": "93e7-6a83-1e9e-204a",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}]
+                      },
+                      {
+                        "name": "Flamer",
+                        "id": "24da-f9af-f08b-5732",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "9a45-35cd-3806-2303",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
+                      },
+                      {
+                        "name": "Rotor cannon",
+                        "id": "8c77-290a-5448-55db",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "05bf-af5e-be67-36a2",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}]
+                      },
+                      {
+                        "name": "Volkite caliver",
+                        "id": "8bd7-5687-5e0c-de3f",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "a042-1a69-9052-c59a",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      },
+                      {
+                        "field": "7d4c-aaaf-66dd-467b",
+                        "type": "set",
+                        "value": 0,
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      },
+                      {
+                        "field": "bcac-8299-05bf-36c1",
+                        "type": "set",
+                        "value": 0,
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "May exchange bolt pistol for:",
+                    "id": "e80f-b96a-2f79-e401",
+                    "defaultSelectionEntryId": "a2ba-eeca-c8a4-67b6",
+                    "hidden": false,
+                    "sortIndex": 2,
+                    "constraints": [
+                      {"id": "86c5-d5e3-1623-0ced", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": false, "type": "max", "value": 1},
+                      {"id": "69d1-a76f-aab8-621e", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": false, "type": "min", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Legion Sergeant Melee Weapons",
+                        "id": "93a3-3014-de7d-2398",
+                        "flatten": true,
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 4,
+                        "targetId": "b8d7-8ff0-721e-a963",
+                        "type": "selectionEntryGroup"
+                      },
+                      {
+                        "name": "Bolt pistol",
+                        "id": "5a7f-086e-1616-eec7",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 1,
+                        "targetId": "2942-f783-d627-33c5",
+                        "type": "selectionEntry",
+                        "constraints": [{"id": "8d3d-bdfb-fa66-8fc6", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                        "modifiers": [
+                          {
+                            "field": "8d3d-bdfb-fa66-8fc6",
+                            "type": "set",
+                            "value": 0,
+                            "conditions": [
+                              {
+                                "childId": "4d86-d6e9-8bca-0ad5",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Legion Pistols",
+                        "id": "e212-b5df-9aec-b184",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 2,
+                        "targetId": "4041-7fad-77cd-f9cf",
+                        "type": "selectionEntryGroup"
+                      },
+                      {
+                        "name": "Disintegrator pistol",
+                        "id": "03a7-2438-5c9d-309a",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 3,
+                        "targetId": "32d1-2c70-882f-9467",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
+                      },
+                      {
+                        "name": "Shrapnel pistol",
+                        "id": "35f3-0f2a-0569-ef5e",
+                        "hidden": true,
+                        "import": true,
+                        "sortIndex": 1,
+                        "targetId": "d735-44bc-116a-be41",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}],
+                        "modifiers": [
+                          {
+                            "field": "hidden",
+                            "type": "set",
+                            "value": false,
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditionGroups": [
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                      {
+                                        "childId": "4061-bc47-ebca-dc39",
+                                        "field": "selections",
+                                        "includeChildForces": true,
+                                        "includeChildSelections": true,
+                                        "scope": "roster",
+                                        "shared": true,
+                                        "type": "atLeast",
+                                        "value": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {"childId": "1d11-e616-eb66-a6ce", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                      {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                    ]
+                                  }
+                                ],
+                                "conditions": [{"childId": "21c0-18db-03dd-ae07", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Asphyx pistol",
+                        "id": "01c7-5450-a6a1-24cb",
+                        "hidden": true,
+                        "import": true,
+                        "sortIndex": 2,
+                        "targetId": "d293-df49-e8c3-f3bf",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}],
+                        "modifiers": [
+                          {
+                            "field": "hidden",
+                            "type": "set",
+                            "value": false,
+                            "conditionGroups": [
+                              {
+                                "type": "or",
+                                "conditionGroups": [
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1},
+                                      {
+                                        "childId": "4eec-9111-7656-2023",
+                                        "field": "selections",
+                                        "includeChildForces": true,
+                                        "includeChildSelections": true,
+                                        "scope": "roster",
+                                        "shared": true,
+                                        "type": "atLeast",
+                                        "value": 1
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "and",
+                                    "conditions": [
+                                      {"childId": "f16b-151d-008f-72e0", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "atLeast", "value": 1},
+                                      {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                    ]
+                                  }
+                                ],
+                                "conditions": [{"childId": "2496-21e2-1870-e9b8", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      },
+                      {
+                        "field": "86c5-d5e3-1623-0ced",
+                        "type": "set",
+                        "value": 0,
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      },
+                      {
+                        "field": "69d1-a76f-aab8-621e",
+                        "type": "set",
+                        "value": 0,
+                        "conditions": [
+                          {
+                            "childId": "4d86-d6e9-8bca-0ad5",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "May have one chainsword selected for it:",
+                "id": "ead2-6263-95c2-83a8",
+                "defaultSelectionEntryId": "none",
+                "hidden": false,
+                "sortIndex": 3,
+                "constraints": [
+                  {"id": "49ce-a149-e67e-7097", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
+                  {"id": "ac27-3aac-60e2-52b3", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Chainsword",
+                    "id": "bee0-7143-b334-a476",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "78f4-4967-2896-c3a5",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "4e24-e28e-119b-7dc8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": true,
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "69de-4883-efd2-b876", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0},
+                          {"childId": "d3f9-b9e6-3ea5-cc8e", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0},
+                          {"childId": "9532-a693-d2ac-f198", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0}
+                        ]
+                      }
+                    ]
+                  }
                 ]
               }
             ]
