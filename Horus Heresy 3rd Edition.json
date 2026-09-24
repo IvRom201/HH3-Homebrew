@@ -1039,7 +1039,8 @@
       {"name": "Support - Tzeench only", "id": "8e14-b4d2-59c9-e474", "hidden": false},
       {"name": "Fast Attack - Tzeench only", "id": "6bea-2cb9-c6b9-d183", "hidden": false},
       {"name": "Cohort Doctrine: Fateweaver Cohort", "id": "cb73-8d71-1d7a-cb1a", "hidden": false},
-      {"name": "Prosperine Sorcerer", "id": "04b3-9ebe-bf51-20f2", "hidden": false}
+      {"name": "Prosperine Sorcerer", "id": "04b3-9ebe-bf51-20f2", "hidden": false},
+      {"name": "The Flame of Ultramar", "id": "d61b-c304-2e0e-3e74", "hidden": false}
     ],
     "costTypes": [
       {
@@ -4007,6 +4008,16 @@
                       }
                     ]
                   }
+                ]
+              },
+              {
+                "name": "The Flame of Ultramar",
+                "id": "ff78-376d-e226-6682",
+                "hidden": false,
+                "targetId": "d61b-c304-2e0e-3e74",
+                "constraints": [
+                  {"id": "c210-559e-56f7-603d", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0},
+                  {"id": "3088-e049-5175-c552", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               }
             ],

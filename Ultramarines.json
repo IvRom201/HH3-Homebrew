@@ -133,6 +133,125 @@
           {"name": "Ultramarines", "id": "27ed-8a21-5e71-cecf", "hidden": false, "primary": false, "targetId": "7fcf-5885-0a4d-ee31"},
           {"name": "Retinue", "id": "3ed0-5105-f101-b017", "hidden": false, "primary": true, "targetId": "a38e-50ff-310f-f19e"}
         ]
+      },
+      {
+        "name": "Eikos Lamiad",
+        "id": "c6f1-d00f-3116-62b9",
+        "hidden": false,
+        "import": true,
+        "targetId": "84c0-dec5-cce9-e04b",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "High Command", "id": "a46b-0bf0-b5de-efd4", "hidden": false, "primary": true, "targetId": "d9a6-9b5f-b18a-4d63"},
+          {"name": "Ultramarines", "id": "2b95-56b1-ce58-630b", "hidden": false, "primary": false, "targetId": "7fcf-5885-0a4d-ee31"}
+        ]
+      },
+      {
+        "name": "Captain Hierax",
+        "id": "b377-3e79-74b0-f801",
+        "hidden": false,
+        "import": true,
+        "targetId": "b070-68c8-cb84-37e4",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Command", "id": "743b-bb7d-e2b9-f747", "hidden": false, "primary": true, "targetId": "6dbf-654a-f06f-2d69"},
+          {"name": "Ultramarines", "id": "a87d-d732-a032-23f6", "hidden": false, "primary": false, "targetId": "7fcf-5885-0a4d-ee31"}
+        ]
+      },
+      {
+        "name": "Nemesis Destroyer Squad",
+        "id": "9ce8-fe87-604b-7dde",
+        "hidden": true,
+        "import": true,
+        "targetId": "99b9-94e2-4ef2-9cd6",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "2552-30f5-edbf-bc09", "hidden": false, "primary": false, "targetId": "d61b-c304-2e0e-3e74"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b070-68c8-cb84-37e4",
+                "childName": "Captain Hierax",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mortalis Destroyer Squad",
+        "id": "befb-cfab-d8c6-1f44",
+        "hidden": true,
+        "import": true,
+        "targetId": "7711-26d2-4b83-b2c8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "7169-2700-bd07-253e", "hidden": false, "primary": false, "targetId": "d61b-c304-2e0e-3e74"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b070-68c8-cb84-37e4",
+                "childName": "Captain Hierax",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Destroyer Assault Squad",
+        "id": "18df-87b6-a278-f00c",
+        "hidden": true,
+        "import": true,
+        "targetId": "95e2-f176-4750-914e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "d52d-9b65-39f0-2ee0", "hidden": false, "primary": false, "targetId": "d61b-c304-2e0e-3e74"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": false,
+            "conditions": [
+              {
+                "childId": "b070-68c8-cb84-37e4",
+                "childName": "Captain Hierax",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "The Flame of Ultramar",
+        "id": "d2b0-5590-2f4d-9d79",
+        "description": "Captain Hierax may Join a Unit with the Bitter Duty Special Rule as though he also had the Bitter Duty Special Rule.\nIn addition, an Army that includes Captain Hierax may include one additional Force Organisation Slot. This Slot may only be filled by a Mortalis Destroyer Squad, Destroyer Assault Squad or Ultramarines Nemesis Destroyer Squad.",
+        "hidden": false
       }
     ],
     "sharedSelectionEntries": [
@@ -1334,7 +1453,7 @@
               {"name": "SM", "$text": "S", "typeId": "4505-de6f-d4ae-6280"},
               {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
               {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
-              {"name": "Special Rules", "$text": "Breaching (6+), Duellist's Edge (1)", "typeId": "ebe0-7b28-b40c-694e"},
+              {"name": "Special Rules", "$text": "Breaching (5+), Duellist's Edge (1)", "typeId": "ebe0-7b28-b40c-694e"},
               {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
             ]
           }
@@ -2701,7 +2820,7 @@
                 "characteristics": [
                   {"name": "Type", "$text": "Walker (Unique)", "typeId": "50fc-9241-d4a2-045b"},
                   {"name": "M", "$text": "8", "typeId": "a106-a779-d272-5e93"},
-                  {"name": "WS", "$text": "4", "typeId": "253c-d694-4695-c89e"},
+                  {"name": "WS", "$text": "\n", "typeId": "253c-d694-4695-c89e"},
                   {"name": "BS", "$text": "4", "typeId": "0cd5-b269-e3bc-028b"},
                   {"name": "S", "$text": "7", "typeId": "498f-dce1-59fd-d8d7"},
                   {"name": "T", "$text": "7", "typeId": "3120-8275-e537-ecd2"},
@@ -3678,6 +3797,426 @@
               {"name": "D", "$text": "3", "typeId": "6a9d-4feb-065a-33e7"},
               {"name": "Special Rules", "$text": "-", "typeId": "ebe0-7b28-b40c-694e"},
               {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eikos Lamiad",
+        "id": "84c0-dec5-cce9-e04b",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Loyalist", "id": "f867-7a20-d661-7011", "hidden": false, "primary": false, "targetId": "4381-ed35-c3fa-a225"},
+          {"name": "Master of the Legion", "id": "042f-d131-60d8-b5df", "hidden": false, "primary": false, "targetId": "e3cd-7a38-34d7-9cbf"}
+        ],
+        "constraints": [
+          {
+            "id": "79b7-a586-712f-2a5e",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 200},
+          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+          {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+          {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
+          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Prime Unit",
+            "id": "311e-c35e-29a7-86ea",
+            "hidden": false,
+            "import": true,
+            "targetId": "3fa2-78b1-637f-7fb2",
+            "type": "selectionEntry",
+            "entryLinks": [{"name": "Prime Benefits", "id": "d912-8a65-1de5-9824", "hidden": false, "import": true, "targetId": "a396-b846-c263-6767", "type": "selectionEntryGroup"}]
+          },
+          {
+            "name": "Bolt pistol",
+            "id": "b9fa-d845-a1c8-50d8",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "targetId": "2942-f783-d627-33c5",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "ef8f-654d-faa0-960f", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "a393-0020-be50-ab5c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Frag grenades",
+            "id": "0c86-3dc2-663a-484b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 6,
+            "targetId": "60e4-ca33-2e68-9afc",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "8366-ce4f-4eb1-77f7", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "02c1-c6b1-f338-4dd9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Krak grenades",
+            "id": "8826-fd07-e265-f733",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 7,
+            "targetId": "fa20-82bc-c7de-9e97",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "69c8-f600-8840-e2eb", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "60f2-bd17-191d-bba9", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "The Tetrarch's Broadsword",
+            "id": "2c1a-6494-28fb-92f5",
+            "hidden": false,
+            "import": true,
+            "targetId": "a784-686e-77d2-28ad",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "506e-ba59-84fd-fbb0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6c84-9fa0-747e-538f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Bolter",
+            "id": "85f6-9d93-7296-3718",
+            "hidden": false,
+            "import": true,
+            "targetId": "d3f9-b9e6-3ea5-cc8e",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "863a-d1c8-8c69-4ae2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "e1c2-ae31-0058-0e99", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "[Allegiance]", "id": "30ae-0742-39c9-d295", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
+          {"name": "[Legiones Astartes]", "id": "e6c1-47dc-7e62-7cd3", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {
+            "name": "Eternal Warrior (X)",
+            "id": "efa4-3bc6-72b2-e35d",
+            "hidden": false,
+            "targetId": "15b4-9e4a-f361-c5a3",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Eternal Warrior (1)"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "597e-83d8-32e1-8eaa",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Eikos Lamiad",
+            "id": "f0a3-3ed1-e3bb-5d40",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Infantry Model Type", "id": "cd56-a6cd-666e-358a", "hidden": false, "primary": false, "targetId": "594d-fa82-13cb-a345"},
+              {"name": "Unique Model Sub-Type", "id": "8dc0-cd3d-10d1-9f64", "hidden": false, "primary": false, "targetId": "b980-187b-2b17-d635"},
+              {"name": "Command Model Sub-type", "id": "ad93-82ca-fa1c-f421", "hidden": false, "primary": false, "targetId": "9871-cb62-5283-2216"}
+            ],
+            "constraints": [
+              {"id": "17be-973f-23d5-d81e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "344d-b66a-9b5c-0f44", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "profiles": [
+              {
+                "name": "Eikos Lamiad",
+                "id": "b172-818a-b12f-175c",
+                "hidden": false,
+                "page": "",
+                "typeId": "a76f-8e23-8c3e-166d",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry (Unique, Command, Heavy)", "typeId": "50fc-9241-d4a2-045b"},
+                  {"name": "M", "$text": "7", "typeId": "a106-a779-d272-5e93"},
+                  {"name": "WS", "$text": "7", "typeId": "253c-d694-4695-c89e"},
+                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
+                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
+                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
+                  {"name": "W", "$text": "4", "typeId": "f5cc-79a3-d302-cc1d"},
+                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
+                  {"name": "A", "$text": "5", "typeId": "024e-bdb1-7982-25a0"},
+                  {"name": "LD", "$text": "10", "typeId": "02ad-ebe6-86e7-9fd6"},
+                  {"name": "CL", "$text": "10", "typeId": "9cd1-0e7c-2cd6-5f2f"},
+                  {"name": "WP", "$text": "9", "typeId": "f714-1726-37d3-44df"},
+                  {"name": "IN", "$text": "9", "typeId": "29c5-925d-5b1d-1e77"},
+                  {"name": "SAV", "$text": "2+", "typeId": "03bd-4ecb-351d-143b"},
+                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "The Tetrarch's Broadsword",
+        "id": "a784-686e-77d2-28ad",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Duellist's Edge (X)",
+            "id": "f2b2-bb24-2191-c5df",
+            "hidden": false,
+            "targetId": "94bc-c69f-99b6-8ba0",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Duellist's Edge (1)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "The Tetrarch's Broadsword",
+            "id": "215e-d1f6-2569-71b3",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {"name": "IM", "$text": "I", "typeId": "6eec-4093-f946-1014"},
+              {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
+              {"name": "SM", "$text": "+2", "typeId": "4505-de6f-d4ae-6280"},
+              {"name": "AP", "$text": "2", "typeId": "a014-126b-3b7b-27e8"},
+              {"name": "D", "$text": "2", "typeId": "6a9d-4feb-065a-33e7"},
+              {"name": "Special Rules", "$text": "Duellist's Edge (1)", "typeId": "ebe0-7b28-b40c-694e"},
+              {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Captain Hierax",
+        "id": "b070-68c8-cb84-37e4",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Loyalist", "id": "7d1e-8de1-698c-3515", "hidden": false, "primary": false, "targetId": "4381-ed35-c3fa-a225"},
+          {"name": "Officer of the Line (2)", "id": "bbe9-bb49-4ff9-0187", "hidden": false, "primary": false, "targetId": "901a-6b71-7a29-4597"}
+        ],
+        "constraints": [
+          {
+            "id": "38cc-23b5-19cb-14ef",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 120},
+          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+          {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+          {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0},
+          {"name": "Asset Point(s)", "typeId": "57e3-1031-7d4d-5ae3", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Prime Unit",
+            "id": "9eac-3203-32be-5016",
+            "hidden": false,
+            "import": true,
+            "targetId": "3fa2-78b1-637f-7fb2",
+            "type": "selectionEntry",
+            "entryLinks": [{"name": "Prime Benefits", "id": "1e74-1222-8b89-544d", "hidden": false, "import": true, "targetId": "a396-b846-c263-6767", "type": "selectionEntryGroup"}]
+          },
+          {
+            "name": "Power sword",
+            "id": "b48c-cdd6-e096-3c0c",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "targetId": "59a9-57c1-fff9-ca75",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "11dd-7be2-f369-b347", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "10d1-e528-c536-a800", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Mortifier Bolter",
+            "id": "31a1-4bbb-cbc5-a8fd",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "targetId": "54a6-c85d-141a-9577",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "e080-9f0b-0132-a745", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "4caf-ac8a-110f-0a3d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Rad grenades",
+            "id": "48c4-bd10-adcc-27dd",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 3,
+            "targetId": "cd5f-1eff-df69-6bd2",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "67e1-e687-310c-4638", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "8684-8eb2-bbe6-efaf", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Bolt pistol",
+            "id": "3b5e-b3d3-8d7c-a97e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "targetId": "2942-f783-d627-33c5",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "29e0-0ead-f2f7-85b5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f800-d060-864d-04ad", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Frag grenades",
+            "id": "e66f-54df-f882-3aa1",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 6,
+            "targetId": "60e4-ca33-2e68-9afc",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "3e3d-0e03-ede8-43cb", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "0e8a-5ff1-9c7f-5a34", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          },
+          {
+            "name": "Krak grenades",
+            "id": "9e20-983a-8859-7bfb",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 7,
+            "targetId": "fa20-82bc-c7de-9e97",
+            "type": "selectionEntry",
+            "constraints": [
+              {"id": "ae6f-64f2-16fe-8d56", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "88b7-be44-e429-2660", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "[Allegiance]", "id": "accd-fc84-1fb3-3ec1", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
+          {"name": "[Legiones Astartes]", "id": "20ea-2452-8f5b-437e", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {
+            "name": "Officer of the Line (X)",
+            "id": "7050-110c-436d-8265",
+            "hidden": false,
+            "targetId": "7779-47c8-99a8-b935",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Officer of the Line (2)"}]
+          },
+          {"name": "The Flame of Ultramar", "id": "7833-d199-a1a0-6cf2", "hidden": false, "targetId": "d2b0-5590-2f4d-9d79", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "597e-83d8-32e1-8eaa",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Captain Hierax",
+            "id": "af5d-2c75-b9ff-d8b7",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Infantry Model Type", "id": "8dca-ed31-dfc9-5368", "hidden": false, "primary": false, "targetId": "594d-fa82-13cb-a345"},
+              {"name": "Unique Model Sub-Type", "id": "4e3a-83b6-b397-b027", "hidden": false, "primary": false, "targetId": "b980-187b-2b17-d635"},
+              {"name": "Command Model Sub-type", "id": "009b-7398-cb66-e9a2", "hidden": false, "primary": false, "targetId": "9871-cb62-5283-2216"}
+            ],
+            "constraints": [
+              {"id": "a2e2-5c09-4804-30fd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "183b-4897-a7c8-7b87", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "profiles": [
+              {
+                "name": "Captain Hierax",
+                "id": "59c3-5739-e5e6-3237",
+                "hidden": false,
+                "page": 250,
+                "publicationId": "b905-0414-1057-bb34",
+                "typeId": "a76f-8e23-8c3e-166d",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry (Unique, Command)", "typeId": "50fc-9241-d4a2-045b"},
+                  {"name": "M", "$text": "7", "typeId": "a106-a779-d272-5e93"},
+                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
+                  {"name": "BS", "$text": "5", "typeId": "0cd5-b269-e3bc-028b"},
+                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
+                  {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
+                  {"name": "W", "$text": "4", "typeId": "f5cc-79a3-d302-cc1d"},
+                  {"name": "I", "$text": "5", "typeId": "af9d-7db8-dc95-71c1"},
+                  {"name": "A", "$text": "4", "typeId": "024e-bdb1-7982-25a0"},
+                  {"name": "LD", "$text": "9", "typeId": "02ad-ebe6-86e7-9fd6"},
+                  {"name": "CL", "$text": "8", "typeId": "9cd1-0e7c-2cd6-5f2f"},
+                  {"name": "WP", "$text": "8", "typeId": "f714-1726-37d3-44df"},
+                  {"name": "IN", "$text": "8", "typeId": "29c5-925d-5b1d-1e77"},
+                  {"name": "SAV", "$text": "2+", "typeId": "03bd-4ecb-351d-143b"},
+                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                ]
+              }
             ]
           }
         ]
