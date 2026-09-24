@@ -165,7 +165,7 @@
         "import": true,
         "targetId": "99b9-94e2-4ef2-9cd6",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "2552-30f5-edbf-bc09", "hidden": false, "primary": false, "targetId": "d61b-c304-2e0e-3e74"}],
+        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "2552-30f5-edbf-bc09", "hidden": false, "primary": true, "targetId": "d61b-c304-2e0e-3e74"}],
         "modifiers": [
           {
             "field": "hidden",
@@ -194,7 +194,7 @@
         "import": true,
         "targetId": "7711-26d2-4b83-b2c8",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "7169-2700-bd07-253e", "hidden": false, "primary": false, "targetId": "d61b-c304-2e0e-3e74"}],
+        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "7169-2700-bd07-253e", "hidden": false, "primary": true, "targetId": "d61b-c304-2e0e-3e74"}],
         "modifiers": [
           {
             "field": "hidden",
@@ -223,7 +223,7 @@
         "import": true,
         "targetId": "95e2-f176-4750-914e",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "d52d-9b65-39f0-2ee0", "hidden": false, "primary": false, "targetId": "d61b-c304-2e0e-3e74"}],
+        "categoryLinks": [{"name": "The Flame of Ultramar", "id": "d52d-9b65-39f0-2ee0", "hidden": false, "primary": true, "targetId": "d61b-c304-2e0e-3e74"}],
         "modifiers": [
           {
             "field": "hidden",
