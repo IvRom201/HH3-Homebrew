@@ -1981,7 +1981,15 @@
                   {"id": "f6d6-e3c6-c2da-c3c0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {"name": "Peritarch Targeter", "id": "98df-e292-11f0-aac0", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
+              {
+                "name": "Peritarch Targeter",
+                "id": "98df-e292-11f0-aac0",
+                "defaultAmount": "1",
+                "hidden": false,
+                "import": true,
+                "targetId": "7379-8243-491e-7be9",
+                "type": "selectionEntry"
+              }
             ],
             "profiles": [
               {
@@ -2123,7 +2131,15 @@
                   {"id": "4f6f-155e-e83b-5058", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {"name": "Peritarch Targeter", "id": "7c89-20ab-464b-0b31", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
+              {
+                "name": "Peritarch Targeter",
+                "id": "7c89-20ab-464b-0b31",
+                "defaultAmount": "1",
+                "hidden": false,
+                "import": true,
+                "targetId": "7379-8243-491e-7be9",
+                "type": "selectionEntry"
+              }
             ],
             "modifiers": [
               {
