@@ -121,6 +121,18 @@
         "targetId": "455f-d06a-45b1-a332",
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Troops", "id": "e68b-afe2-675e-aa36", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
+      },
+      {
+        "name": "Evocati Terminator Squad",
+        "id": "e6c6-304b-ca92-01d4",
+        "hidden": false,
+        "import": true,
+        "targetId": "90a7-da5a-5b30-d5ce",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Prime Retinue", "id": "1ea2-0795-ded5-c9c1", "hidden": false, "primary": false, "targetId": "c66b-ef39-b20f-725b"},
+          {"name": "Ultramarines", "id": "27ed-8a21-5e71-cecf", "hidden": false, "primary": false, "targetId": "7fcf-5885-0a4d-ee31"}
+        ]
       }
     ],
     "sharedSelectionEntries": [
@@ -2068,6 +2080,7 @@
                 "name": "May have its peritarch targeter exchanged for ",
                 "id": "717d-2f2c-43e7-a1f2",
                 "defaultSelectionEntryId": "7c89-20ab-464b-0b31",
+                "sortIndex": 1,
                 "constraints": [
                   {"id": "4d77-b4a9-41ff-be7c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
                   {"id": "fa8f-5528-0891-84a3", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1}
@@ -3281,6 +3294,390 @@
                   }
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Evocati Terminator Squad",
+        "id": "90a7-da5a-5b30-d5ce",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "costs": [
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 50},
+          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+          {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+          {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Prime Unit",
+            "id": "01d4-63ad-8f0b-d30a",
+            "hidden": false,
+            "import": true,
+            "targetId": "3fa2-78b1-637f-7fb2",
+            "type": "selectionEntry",
+            "entryLinks": [{"name": "Prime Benefits", "id": "ff1a-3f98-57d8-433c", "hidden": false, "import": true, "targetId": "a396-b846-c263-6767", "type": "selectionEntryGroup"}]
+          }
+        ],
+        "infoLinks": [
+          {"name": "[Allegiance]", "id": "5e76-d93f-d7da-a501", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
+          {"name": "[Legiones Astartes]", "id": "5c2b-1c30-ca5c-5b70", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
+          {
+            "name": "Bulky (X)",
+            "id": "b90d-c641-89bc-fe17",
+            "hidden": false,
+            "targetId": "50ad-a9a5-1f1d-9a25",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Bulky (2)"}]
+          },
+          {"name": "Implacable Advance", "id": "4411-23be-ade0-b323", "hidden": false, "targetId": "3898-aafb-35e0-141b", "type": "rule"},
+          {"name": "Slow and Purposeful", "id": "6139-68b3-006b-e44e", "hidden": false, "targetId": "6a8e-e508-abc9-cb3e", "type": "rule"}
+        ],
+        "selectionEntries": [
+          {
+            "name": "Evocati Primus",
+            "id": "7a16-c425-8b4a-8125",
+            "defaultAmount": "1",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "step": "1",
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Infantry Model Type", "id": "e5b3-1cbc-ee3e-270b", "hidden": false, "primary": false, "targetId": "594d-fa82-13cb-a345"},
+              {"name": "Heavy Model Sub-Type", "id": "67e7-ede1-c4a6-81a5", "hidden": false, "primary": false, "targetId": "1e7d-9066-28d2-97a0"},
+              {"name": "Sergeant Model Sub-Type", "id": "53c5-660f-b081-f1c8", "hidden": false, "primary": false, "targetId": "8045-89a4-76d4-fcef"},
+              {"name": "Champion Model Sub-Type", "id": "51ea-1912-fc58-a1cd", "hidden": false, "primary": false, "targetId": "5a95-e564-96b2-8dc9"}
+            ],
+            "constraints": [
+              {"id": "f7b4-2adb-463f-92b4-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f7b4-2adb-463f-92b4-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "costs": [
+              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
+              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+              {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+              {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+              {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+              {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+            ],
+            "entryLinks": [
+              {
+                "name": "Heavy Thunder hammer",
+                "id": "b99c-56ee-cbe5-8aa9",
+                "hidden": false,
+                "import": true,
+                "targetId": "fdb5-87c9-a07d-2f7f",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "2ddf-9fbf-c91c-c694", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "c940-8d77-844a-f58c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Evocati Primus",
+                "id": "3169-6391-43c7-2fc4",
+                "hidden": false,
+                "typeId": "a76f-8e23-8c3e-166d",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry (Sergeant, Heavy)", "typeId": "50fc-9241-d4a2-045b"},
+                  {"name": "M", "$text": "6", "typeId": "a106-a779-d272-5e93"},
+                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
+                  {"name": "BS", "$text": "4", "typeId": "0cd5-b269-e3bc-028b"},
+                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
+                  {"name": "T", "$text": "5", "typeId": "3120-8275-e537-ecd2"},
+                  {"name": "W", "$text": "2", "typeId": "f5cc-79a3-d302-cc1d"},
+                  {"name": "I", "$text": "4", "typeId": "af9d-7db8-dc95-71c1"},
+                  {"name": "A", "$text": "4", "typeId": "024e-bdb1-7982-25a0"},
+                  {"name": "LD", "$text": "9", "typeId": "02ad-ebe6-86e7-9fd6"},
+                  {"name": "CL", "$text": "9", "typeId": "9cd1-0e7c-2cd6-5f2f"},
+                  {"name": "WP", "$text": "8", "typeId": "f714-1726-37d3-44df"},
+                  {"name": "IN", "$text": "8", "typeId": "29c5-925d-5b1d-1e77"},
+                  {"name": "SAV", "$text": "2+", "typeId": "03bd-4ecb-351d-143b"},
+                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Ranged weapon",
+                "id": "83b5-2e01-ac2a-84e9",
+                "defaultSelectionEntryId": "a78f-e9f5-2350-7f9c",
+                "hidden": false,
+                "constraints": [
+                  {"id": "3181-f5d3-179f-ebd1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "c275-0460-d666-7c65", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Volkite charger",
+                    "id": "a78f-e9f5-2350-7f9c",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "93e7-6a83-1e9e-204a",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0}]
+                  },
+                  {
+                    "name": "Combi-bolter",
+                    "id": "3d22-65d8-a356-b780",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "042d-9e60-db9e-c147",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0}]
+                  },
+                  {"name": "Legion Combi-weapons", "id": "4cc3-482a-c9e5-09e1", "hidden": false, "import": true, "targetId": "f335-622e-6b0a-6b08", "type": "selectionEntryGroup"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Evocati Terminator",
+            "id": "6bf9-ea5c-fea8-e2e2",
+            "defaultAmount": "2",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 2,
+            "step": "1",
+            "type": "model",
+            "categoryLinks": [
+              {"name": "Infantry Model Type", "id": "b2b1-a521-40ef-d63b", "hidden": false, "primary": false, "targetId": "594d-fa82-13cb-a345"},
+              {"name": "Heavy Model Sub-Type", "id": "3a38-42b7-c1be-58fe", "hidden": false, "primary": false, "targetId": "1e7d-9066-28d2-97a0"}
+            ],
+            "constraints": [
+              {"id": "b632-c41b-e7dd-ff2b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
+              {"id": "31ef-0ea7-2658-ad1f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "costs": [
+              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 50},
+              {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+              {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+              {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+              {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+              {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+              {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+              {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+            ],
+            "profiles": [
+              {
+                "name": "Evocati Terminator",
+                "id": "48a5-bdb6-5e28-21cc",
+                "hidden": false,
+                "typeId": "a76f-8e23-8c3e-166d",
+                "typeName": "Profile",
+                "characteristics": [
+                  {"name": "Type", "$text": "Infantry (Heavy)", "typeId": "50fc-9241-d4a2-045b"},
+                  {"name": "M", "$text": "6", "typeId": "a106-a779-d272-5e93"},
+                  {"name": "WS", "$text": "5", "typeId": "253c-d694-4695-c89e"},
+                  {"name": "BS", "$text": "4", "typeId": "0cd5-b269-e3bc-028b"},
+                  {"name": "S", "$text": "4", "typeId": "498f-dce1-59fd-d8d7"},
+                  {"name": "T", "$text": "5", "typeId": "3120-8275-e537-ecd2"},
+                  {"name": "W", "$text": "2", "typeId": "f5cc-79a3-d302-cc1d"},
+                  {"name": "I", "$text": "4", "typeId": "af9d-7db8-dc95-71c1"},
+                  {"name": "A", "$text": "3", "typeId": "024e-bdb1-7982-25a0"},
+                  {"name": "LD", "$text": "9", "typeId": "02ad-ebe6-86e7-9fd6"},
+                  {"name": "CL", "$text": "9", "typeId": "9cd1-0e7c-2cd6-5f2f"},
+                  {"name": "WP", "$text": "8", "typeId": "f714-1726-37d3-44df"},
+                  {"name": "IN", "$text": "8", "typeId": "29c5-925d-5b1d-1e77"},
+                  {"name": "SAV", "$text": "2+", "typeId": "03bd-4ecb-351d-143b"},
+                  {"name": "INV", "$text": "4+", "typeId": "a951-a772-7ce0-0b64"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Loadout",
+                "id": "c00f-a7cc-da93-3454",
+                "defaultSelectionEntryId": "9785-1bb7-4c40-38ce",
+                "hidden": false,
+                "constraints": [
+                  {"id": "e9e7-f250-df01-e788", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "26a1-1f71-75cc-c8b8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Aegis loadout",
+                    "id": "9785-1bb7-4c40-38ce",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "entryLinks": [
+                      {
+                        "name": "Aegis warblade",
+                        "id": "12db-0061-f9e2-e38e",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "b3ad-4b39-18bb-4ee0",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {"id": "3fbc-2680-93d0-066a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "0ff3-9b13-482f-55f0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ]
+                      }
+                    ],
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Ranged weapon",
+                        "id": "f623-e7f6-8043-45c9",
+                        "defaultSelectionEntryId": "3785-e2fc-4f00-dd34",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "059b-bd84-f776-4160", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "927c-19d2-f673-ceca", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Volkite charger",
+                            "id": "3785-e2fc-4f00-dd34",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "93e7-6a83-1e9e-204a",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0}]
+                          },
+                          {
+                            "name": "Combi-bolter",
+                            "id": "1c98-b4e7-6983-d53c",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "042d-9e60-db9e-c147",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0}]
+                          },
+                          {"name": "Legion Combi-weapons", "id": "047c-ef04-9af6-6a07", "hidden": false, "import": true, "targetId": "f335-622e-6b0a-6b08", "type": "selectionEntryGroup"},
+                          {
+                            "name": "Legion standard",
+                            "id": "8b58-2f4c-f747-07dc",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "df7f-540b-00d5-1d82",
+                            "type": "selectionEntry",
+                            "constraints": [{"id": "5c94-b924-0ccd-ff4b", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 1}],
+                            "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Proteus assault loadout",
+                    "id": "ff24-d576-0869-b613",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "constraints": [{"id": "b30f-690b-90bd-b77a", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 1}],
+                    "costs": [
+                      {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20},
+                      {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+                      {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+                      {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+                      {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+                      {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+                      {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+                      {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Proteus Assault Cannon",
+                        "id": "ac22-01af-cf76-b25f",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "dfbb-3165-fdc7-546d",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {"id": "e06c-f794-cfa1-e5d8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "bf70-243e-a434-9714", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ]
+                      },
+                      {
+                        "name": "Power fist",
+                        "id": "0092-0c00-a1ea-94fd",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "2fcc-92a6-d03a-4b55",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {"id": "e1d7-4d09-9453-458a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                          {"id": "fb11-d5f7-32c8-2ecf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aegis warblade",
+        "id": "b3ad-4b39-18bb-4ee0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Breaching (X)",
+            "id": "f04a-87a3-2921-a15c",
+            "comment": "5+",
+            "hidden": false,
+            "targetId": "b094-0b64-eb57-aed6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Breaching (5+)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Aegis warblade",
+            "id": "7fd3-1150-03f4-3a49",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {"name": "IM", "$text": "-1", "typeId": "6eec-4093-f946-1014"},
+              {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
+              {"name": "SM", "$text": "+2", "typeId": "4505-de6f-d4ae-6280"},
+              {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
+              {"name": "D", "$text": "2", "typeId": "6a9d-4feb-065a-33e7"},
+              {"name": "Special Rules", "$text": "Breaching (5+)", "typeId": "ebe0-7b28-b40c-694e"},
+              {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy Thunder hammer",
+        "id": "fdb5-87c9-a07d-2f7f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Heavy Thunder hammer",
+            "id": "ed55-5648-792f-b952",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {"name": "IM", "$text": "-3", "typeId": "6eec-4093-f946-1014"},
+              {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
+              {"name": "SM", "$text": "+4", "typeId": "4505-de6f-d4ae-6280"},
+              {"name": "AP", "$text": "2", "typeId": "a014-126b-3b7b-27e8"},
+              {"name": "D", "$text": "3", "typeId": "6a9d-4feb-065a-33e7"},
+              {"name": "Special Rules", "$text": "-", "typeId": "ebe0-7b28-b40c-694e"},
+              {"name": "Traits", "$text": "Power", "typeId": "76e3-c188-bc65-3467"}
             ]
           }
         ]
