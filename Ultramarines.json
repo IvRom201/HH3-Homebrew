@@ -130,8 +130,8 @@
         "targetId": "90a7-da5a-5b30-d5ce",
         "type": "selectionEntry",
         "categoryLinks": [
-          {"name": "Prime Retinue", "id": "1ea2-0795-ded5-c9c1", "hidden": false, "primary": true, "targetId": "c66b-ef39-b20f-725b"},
-          {"name": "Ultramarines", "id": "27ed-8a21-5e71-cecf", "hidden": false, "primary": false, "targetId": "7fcf-5885-0a4d-ee31"}
+          {"name": "Ultramarines", "id": "27ed-8a21-5e71-cecf", "hidden": false, "primary": false, "targetId": "7fcf-5885-0a4d-ee31"},
+          {"name": "Retinue", "id": "3ed0-5105-f101-b017", "hidden": false, "primary": true, "targetId": "a38e-50ff-310f-f19e"}
         ]
       }
     ],
