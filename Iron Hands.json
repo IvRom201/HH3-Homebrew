@@ -3177,6 +3177,18 @@
           {"name": "Medusan Vanguard Unlock", "id": "4f8b-8618-4718-15c1", "hidden": false, "primary": false, "targetId": "fc09-911b-ee8c-7967"},
           {"name": "Master of the Legion", "id": "6492-a814-dbf8-cd7e", "hidden": false, "primary": false, "targetId": "e3cd-7a38-34d7-9cbf"}
         ],
+        "constraints": [
+          {
+            "id": "c971-4381-2681-e2a7",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
         "costs": [
           {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 240},
           {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},

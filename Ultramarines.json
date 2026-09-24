@@ -1980,7 +1980,8 @@
                   {"id": "cb01-4e36-81c7-b876", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "f6d6-e3c6-c2da-c3c0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
-              }
+              },
+              {"name": "Peritarch Targeter", "id": "98df-e292-11f0-aac0", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
             ],
             "profiles": [
               {
@@ -2026,7 +2027,7 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "May have its peritarch targeter exchanged for ",
+                "name": "May have its power weapon exchanged for ",
                 "id": "efed-f305-8cc8-8e08",
                 "defaultSelectionEntryId": "5bed-e020-4fc0-7ada",
                 "hidden": false,
@@ -2056,25 +2057,26 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "5538-06bf-1f49-b5ad", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
-                  },
+                  }
+                ],
+                "selectionEntries": [
                   {
-                    "name": "Peritarch Targeter",
-                    "id": "5bed-e020-4fc0-7ada",
+                    "name": "Power weapon",
+                    "id": "c42c-95ff-7b9c-88f4",
                     "hidden": false,
                     "import": true,
-                    "sortIndex": 1,
-                    "targetId": "7379-8243-491e-7be9",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "name": "Power Weapon",
-                    "id": "c530-6b5f-c476-d362",
-                    "flatten": true,
-                    "hidden": false,
-                    "import": true,
-                    "sortIndex": 2,
-                    "targetId": "d23f-b4f0-0127-9394",
-                    "type": "selectionEntryGroup"
+                    "type": "upgrade",
+                    "entryLinks": [
+                      {
+                        "name": "Power Weapon",
+                        "id": "39d2-9d0a-3dad-2ee1",
+                        "flatten": true,
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "d23f-b4f0-0127-9394",
+                        "type": "selectionEntryGroup"
+                      }
+                    ]
                   }
                 ]
               }
@@ -2120,7 +2122,8 @@
                   {"id": "801e-4ac2-13ec-6d13", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "4f6f-155e-e83b-5058", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
-              }
+              },
+              {"name": "Peritarch Targeter", "id": "7c89-20ab-464b-0b31", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
             ],
             "modifiers": [
               {
@@ -2196,9 +2199,9 @@
             ],
             "selectionEntryGroups": [
               {
-                "name": "May have its peritarch targeter exchanged for ",
+                "name": "May have its power weapon exchanged for ",
                 "id": "717d-2f2c-43e7-a1f2",
-                "defaultSelectionEntryId": "7c89-20ab-464b-0b31",
+                "defaultSelectionEntryId": "9608-22ea-62e8-b759",
                 "sortIndex": 1,
                 "constraints": [
                   {"id": "4d77-b4a9-41ff-be7c", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
@@ -2236,25 +2239,26 @@
                     "type": "selectionEntry",
                     "constraints": [{"id": "1852-5076-af54-3007", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}]
-                  },
+                  }
+                ],
+                "selectionEntries": [
                   {
-                    "name": "Peritarch Targeter",
-                    "id": "7c89-20ab-464b-0b31",
+                    "name": "Power weapon",
+                    "id": "9608-22ea-62e8-b759",
                     "hidden": false,
                     "import": true,
-                    "sortIndex": 1,
-                    "targetId": "7379-8243-491e-7be9",
-                    "type": "selectionEntry"
-                  },
-                  {
-                    "name": "Power Weapon",
-                    "id": "33eb-5b24-eeb8-dc90",
-                    "flatten": true,
-                    "hidden": false,
-                    "import": true,
-                    "sortIndex": 2,
-                    "targetId": "d23f-b4f0-0127-9394",
-                    "type": "selectionEntryGroup"
+                    "type": "upgrade",
+                    "entryLinks": [
+                      {
+                        "name": "Power Weapon",
+                        "id": "0a79-4d97-2621-b9bb",
+                        "flatten": true,
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "d23f-b4f0-0127-9394",
+                        "type": "selectionEntryGroup"
+                      }
+                    ]
                   }
                 ]
               }
@@ -3906,6 +3910,14 @@
               {"id": "863a-d1c8-8c69-4ae2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "e1c2-ae31-0058-0e99", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
             ]
+          },
+          {
+            "name": "High Command Detachment Choice",
+            "id": "8412-9f5e-e3ff-b5f0",
+            "hidden": false,
+            "import": true,
+            "targetId": "969e-8b5b-1410-cfc6",
+            "type": "selectionEntryGroup"
           }
         ],
         "infoLinks": [
