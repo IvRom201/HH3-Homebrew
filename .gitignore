@@ -15,6 +15,9 @@
 # Don't ignore docs
 !*.md
 
+#Don't ignor folowing JSON
+!Orks.json
+
 # Don't ignore github files
 !/.github
 !/.github/**
