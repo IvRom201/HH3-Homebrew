@@ -3483,7 +3483,7 @@
             "hidden": false,
             "targetId": "313f-7ed6-3833-e97c",
             "type": "rule",
-            "modifiers": [{"comment": "3", "field": "name", "type": "set", "value": "Support Unit (2)"}]
+            "modifiers": [{"comment": "3", "field": "name", "type": "set", "value": "Support Unit (1)"}]
           },
           {"name": "[Allegiance]", "id": "171d-e297-1f89-1f32", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
           {"name": "[Legiones Astartes]", "id": "545b-94a0-a24b-4243", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
@@ -3565,18 +3565,6 @@
                 "constraints": [
                   {"id": "e42e-656f-98cf-c2e9", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "4ac8-ae1c-39b5-1880", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ]
-              },
-              {
-                "name": "Combi-bolter",
-                "id": "36dd-6ef2-e0c6-4dd2",
-                "hidden": false,
-                "import": true,
-                "targetId": "042d-9e60-db9e-c147",
-                "type": "selectionEntry",
-                "constraints": [
-                  {"id": "7826-d52a-a5d4-4a2c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "ccaa-22cc-d304-0ae6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               }
             ],
@@ -4286,45 +4274,6 @@
                         "type": "increment",
                         "value": 1,
                         "repeats": [{"childId": "model", "field": "selections", "includeChildSelections": true, "repeats": 1, "roundUp": false, "scope": "unit", "shared": true, "value": 5}]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "May have one chainsword selected for it:",
-                "id": "3d26-b86b-4ca0-43bf",
-                "defaultSelectionEntryId": "none",
-                "hidden": false,
-                "constraints": [
-                  {"id": "b8a5-259b-2301-a70a", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1},
-                  {"id": "4d48-6f98-5aec-636d", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0}
-                ],
-                "entryLinks": [
-                  {
-                    "name": "Chainsword",
-                    "id": "dcb6-77d9-b3f1-01e7",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "78f4-4967-2896-c3a5",
-                    "type": "selectionEntry",
-                    "constraints": [{"id": "8144-8f2c-d95b-7b9e", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 2}]
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {"childId": "69de-4883-efd2-b876", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0},
-                          {"childId": "d3f9-b9e6-3ea5-cc8e", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0},
-                          {"childId": "9532-a693-d2ac-f198", "field": "selections", "includeChildSelections": true, "scope": "model", "shared": true, "type": "equalTo", "value": 0}
-                        ]
                       }
                     ]
                   }
