@@ -56223,6 +56223,54 @@
                 "type": "selectionEntry",
                 "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
                 "modifiers": [{"field": "name", "type": "append", "value": "with in-built ranged weapon"}]
+              },
+              {
+                "name": "Gravis graviton cannon",
+                "id": "0c64-4135-06f4-0d60",
+                "hidden": true,
+                "import": true,
+                "targetId": "c292-229c-f33b-6c2f",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}],
+                "modifiers": [
+                  {
+                    "comment": "IH",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "1c05-5fde-9ef6-9807",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "00f5-a974-fd19-84e5", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1},
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "736e-3967-e72b-e3ac", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -56577,6 +56625,54 @@
                 "type": "selectionEntry",
                 "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 5}],
                 "modifiers": [{"field": "name", "type": "append", "value": "with in-built ranged weapon"}]
+              },
+              {
+                "name": "Gravis graviton cannon",
+                "id": "32c6-0eef-a3ac-7e6a",
+                "hidden": true,
+                "import": true,
+                "targetId": "c292-229c-f33b-6c2f",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 15}],
+                "modifiers": [
+                  {
+                    "comment": "IH",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "1c05-5fde-9ef6-9807",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "00f5-a974-fd19-84e5", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1},
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "736e-3967-e72b-e3ac", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [

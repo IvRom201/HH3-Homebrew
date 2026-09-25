@@ -14398,6 +14398,78 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Gravis graviton cannon",
+        "id": "c292-229c-f33b-6c2f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Breaching (X)",
+            "id": "3909-a37b-0e8b-b2c8",
+            "comment": "6+",
+            "hidden": false,
+            "targetId": "b094-0b64-eb57-aed6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Breaching (6+)"}]
+          },
+          {
+            "name": "Shock (X)",
+            "id": "e4e9-0164-c799-e2f0",
+            "comment": "Pinned",
+            "hidden": false,
+            "targetId": "c6fd-28d0-3f80-672c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Shock (Pinned)"}]
+          },
+          {
+            "name": "Pinning (X)",
+            "id": "ad5b-5b7a-e8c0-b4cb",
+            "comment": "1",
+            "hidden": false,
+            "targetId": "88b6-6493-e4d7-1805",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Pinning (1)"}]
+          },
+          {
+            "name": "Heavy (X)",
+            "id": "c817-d178-18fc-2362",
+            "comment": "1",
+            "hidden": false,
+            "targetId": "bc30-3b33-2683-01a2",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Heavy (D)"}]
+          },
+          {
+            "name": "Blast (X)",
+            "id": "df59-e2de-3522-31e5",
+            "comment": "1",
+            "hidden": false,
+            "targetId": "8687-05f8-7034-412c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Blast (X)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Gravis graviton cannon",
+            "id": "74b1-6c69-d79e-8c6c",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "18", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "1", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "8", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "3", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Breaching (6+), Blast (3\"), Shock (Pinned), Pinning (2), Heavy (D)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Graviton", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
