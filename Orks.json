@@ -9,7 +9,7 @@
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 1,
+    "revision": 2,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -363,6 +363,26 @@
             "primary": true,
             "targetId": "3235-bd79-e9b1-60fa"
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Deffwing allows only Meganobz Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "76f5-ec17-e65b-a74f",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -443,6 +463,26 @@
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0672-44dc-9570-a641",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -459,6 +499,26 @@
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0672-44dc-9570-a641",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -474,6 +534,26 @@
             "id": "2c3e-ce49-0bc0-ce4d",
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0672-44dc-9570-a641",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -506,6 +586,26 @@
             "id": "747a-21ef-e234-fb27",
             "primary": true,
             "targetId": "345f-9ba6-9b02-ed5c"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0672-44dc-9570-a641",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -619,6 +719,26 @@
             "primary": true,
             "targetId": "2b65-a3f2-620a-dc58"
           }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Auxiliary - Kult of Speed allows only Deffkoptas",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "31f6-742b-3396-2d7e",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
         ]
       },
       {
@@ -650,6 +770,26 @@
             "id": "7f78-b911-7c5f-d47a",
             "primary": true,
             "targetId": "2b65-a3f2-620a-dc58"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Auxiliary - Kult of Speed allows only Deffkoptas",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "31f6-742b-3396-2d7e",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
           }
         ]
       },
@@ -7966,6 +8106,15 @@
             "type": "selectionEntryGroup"
           },
           {
+            "name": "High Command Detachment Choice",
+            "id": "9b4c-b4c0-e59f-cc1b",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 99,
+            "targetId": "969e-8b5b-1410-cfc6",
+            "type": "selectionEntryGroup"
+          },
+          {
             "name": "Ork Boss Weapons",
             "id": "509e-45ba-2f26-36e3",
             "hidden": false,
@@ -8183,6 +8332,15 @@
             "hidden": false,
             "import": true,
             "targetId": "0cdb-aee2-6a97-b40a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "High Command Detachment Choice",
+            "id": "cc2c-d541-ffd5-7d3e",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 99,
+            "targetId": "969e-8b5b-1410-cfc6",
             "type": "selectionEntryGroup"
           },
           {
@@ -8610,6 +8768,15 @@
             "hidden": false,
             "import": true,
             "targetId": "0cdb-aee2-6a97-b40a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "High Command Detachment Choice",
+            "id": "c828-e7de-553d-4f13",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 99,
+            "targetId": "969e-8b5b-1410-cfc6",
             "type": "selectionEntryGroup"
           }
         ]
@@ -24992,298 +25159,6 @@
         "description": "If an Army’s Primary Detachment is from the Orks Army List, the Controlling Player gains one additional Reaction Point if that Detachment contains any Models with the Prophet of the Waaagh! Trait."
       }
     ],
-    "forceEntries": [
-      {
-        "name": "Apex - Deffwing",
-        "id": "61c0-e3ec-0647-dce4",
-        "hidden": false,
-        "categoryLinks": [
-          {
-            "name": "Heavy Assault",
-            "id": "bd3a-0c3a-4128-5586",
-            "hidden": false,
-            "targetId": "3235-bd79-e9b1-60fa",
-            "constraints": [
-              {
-                "id": "8b72-9824-6784-e712",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 3
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Apex - Deffwing",
-            "id": "b805-d457-1c37-dc29",
-            "hidden": false,
-            "typeId": "7c4f-ca47-b489-3125",
-            "typeName": "Detachment Description",
-            "characteristics": [
-              {
-                "name": "Detachment Composition",
-                "$text": "3 Heavy Assault (first is Prime). Heavy Assault slots may only select Meganobz Mob. Available when a Mega Warboss fills a High Command slot.",
-                "typeId": "ec3f-877b-f887-18b2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Apex - Dread Mob",
-        "id": "348b-c38e-54f8-bc52",
-        "hidden": false,
-        "categoryLinks": [
-          {
-            "name": "War-engine",
-            "id": "49fb-c3e2-46f8-fb94",
-            "hidden": false,
-            "targetId": "2499-7239-685f-8465",
-            "constraints": [
-              {
-                "id": "bbda-ae2b-9b32-68e9",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 4
-              }
-            ]
-          },
-          {
-            "name": "Support",
-            "id": "ecbf-5079-c6df-2ee1",
-            "hidden": false,
-            "targetId": "345f-9ba6-9b02-ed5c",
-            "constraints": [
-              {
-                "id": "2db3-dd54-b457-3d18",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 2
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Apex - Dread Mob",
-            "id": "f396-71f0-ba45-ff9b",
-            "hidden": false,
-            "typeId": "7c4f-ca47-b489-3125",
-            "typeName": "Detachment Description",
-            "characteristics": [
-              {
-                "name": "Detachment Composition",
-                "$text": "4 War-engine (first is Prime) and 2 Support. Support slots may only select Killa Kan Mob. Available when a Kustom Meka-dread fills a High Command slot.",
-                "typeId": "ec3f-877b-f887-18b2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Auxiliary - Boss’s Bodyguard",
-        "id": "4c58-512c-a587-1132",
-        "hidden": false,
-        "categoryLinks": [
-          {
-            "name": "Retinue",
-            "id": "44fa-f5a0-6380-7429",
-            "hidden": false,
-            "targetId": "a38e-50ff-310f-f19e",
-            "constraints": [
-              {
-                "id": "8436-5b4c-7b26-9993",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Elites",
-            "id": "0966-0af3-7577-ee42",
-            "hidden": false,
-            "targetId": "5d5e-958f-e388-50b5",
-            "constraints": [
-              {
-                "id": "3bc9-d796-4536-01cf",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Heavy Transport",
-            "id": "8cf4-b65b-cb25-00de",
-            "hidden": false,
-            "targetId": "52d0-8b78-439e-18e5",
-            "constraints": [
-              {
-                "id": "3dee-9f91-2bf4-5a95",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Auxiliary - Boss’s Bodyguard",
-            "id": "912e-e11f-8598-37f2",
-            "hidden": false,
-            "typeId": "7c4f-ca47-b489-3125",
-            "typeName": "Detachment Description",
-            "characteristics": [
-              {
-                "name": "Detachment Composition",
-                "$text": "1 Retinue, 1 Elites, 1 Heavy Transport.",
-                "typeId": "ec3f-877b-f887-18b2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Auxiliary - Green Tide",
-        "id": "99ee-bf9e-1b73-5525",
-        "hidden": false,
-        "categoryLinks": [
-          {
-            "name": "Troops",
-            "id": "aadd-3b40-3a7e-82b1",
-            "hidden": false,
-            "targetId": "88e6-d373-4152-0dd8",
-            "constraints": [
-              {
-                "id": "d962-9635-7178-0a75",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 3
-              }
-            ]
-          },
-          {
-            "name": "Support",
-            "id": "cdb7-4a88-b840-99db",
-            "hidden": false,
-            "targetId": "345f-9ba6-9b02-ed5c",
-            "constraints": [
-              {
-                "id": "3417-347c-b4e2-0fc0",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 3
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Auxiliary - Green Tide",
-            "id": "2a8b-37bd-02e5-c048",
-            "hidden": false,
-            "typeId": "7c4f-ca47-b489-3125",
-            "typeName": "Detachment Description",
-            "characteristics": [
-              {
-                "name": "Detachment Composition",
-                "$text": "3 Troops (first Prime), 3 Support (first Prime).",
-                "typeId": "ec3f-877b-f887-18b2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Auxiliary - Kult of Speed",
-        "id": "381b-801d-b889-1d6e",
-        "hidden": false,
-        "categoryLinks": [
-          {
-            "name": "Fast Attack",
-            "id": "f61f-5b01-c257-8d0e",
-            "hidden": false,
-            "targetId": "cf96-8891-3f9a-8921",
-            "constraints": [
-              {
-                "id": "2f1e-15ba-ba9d-6ab3",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 2
-              }
-            ]
-          },
-          {
-            "name": "Heavy Transport",
-            "id": "bbef-3efe-42a4-cb30",
-            "hidden": false,
-            "targetId": "52d0-8b78-439e-18e5",
-            "constraints": [
-              {
-                "id": "87d3-9295-8826-106f",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
-            ]
-          },
-          {
-            "name": "Recon",
-            "id": "d171-b9ca-66ba-3d98",
-            "hidden": false,
-            "targetId": "2b65-a3f2-620a-dc58",
-            "constraints": [
-              {
-                "id": "9401-7837-e212-482e",
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "type": "max",
-                "value": 1
-              }
-            ]
-          }
-        ],
-        "profiles": [
-          {
-            "name": "Auxiliary - Kult of Speed",
-            "id": "1832-c5b2-7ed6-710b",
-            "hidden": false,
-            "typeId": "7c4f-ca47-b489-3125",
-            "typeName": "Detachment Description",
-            "characteristics": [
-              {
-                "name": "Detachment Composition",
-                "$text": "2 Fast Attack (first Prime), 1 Heavy Transport, 1 Recon. Recon slot may only select Deffkoptas. Available when Big Mek or Big Mek on Warbike (not Mega Big Mek) fills a Command slot.",
-                "typeId": "ec3f-877b-f887-18b2"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "forceEntries": []
   }
 }
