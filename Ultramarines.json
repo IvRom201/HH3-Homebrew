@@ -942,7 +942,15 @@
           {"name": "[Allegiance]", "id": "c75c-988d-0e44-b3bf", "hidden": false, "targetId": "bb66-f1f6-4d65-5a07", "type": "profile"},
           {"name": "Shield", "id": "09c7-9bdf-7d03-8579", "hidden": false, "targetId": "1af7-07d5-7558-0b64", "type": "profile"},
           {"name": "[Legiones Astartes]", "id": "67c5-099d-739c-3879", "hidden": false, "targetId": "641c-ca0a-7093-4525", "type": "profile"},
-          {"name": "Shieldwall!", "id": "d416-7187-be1f-9018", "hidden": false, "targetId": "e70e-0849-1ca6-81d6", "type": "profile"}
+          {"name": "Shieldwall!", "id": "d416-7187-be1f-9018", "hidden": false, "targetId": "e70e-0849-1ca6-81d6", "type": "profile"},
+          {
+            "name": "Line (X)",
+            "id": "34da-3140-4b1a-1c8a",
+            "hidden": false,
+            "targetId": "1b5d-ceec-802a-c611",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Line (1)"}]
+          }
         ],
         "selectionEntries": [
           {
@@ -1014,7 +1022,7 @@
                   {"name": "T", "$text": "4", "typeId": "3120-8275-e537-ecd2"},
                   {"name": "W", "$text": "2", "typeId": "f5cc-79a3-d302-cc1d"},
                   {"name": "I", "$text": "4", "typeId": "af9d-7db8-dc95-71c1"},
-                  {"name": "A", "$text": "2", "typeId": "024e-bdb1-7982-25a0"},
+                  {"name": "A", "$text": "3", "typeId": "024e-bdb1-7982-25a0"},
                   {"name": "LD", "$text": "8", "typeId": "02ad-ebe6-86e7-9fd6"},
                   {"name": "CL", "$text": "8", "typeId": "9cd1-0e7c-2cd6-5f2f"},
                   {"name": "WP", "$text": "7", "typeId": "f714-1726-37d3-44df"},
@@ -3494,7 +3502,7 @@
             ],
             "entryLinks": [
               {
-                "name": "Heavy Thunder hammer",
+                "name": "Legatine Great Axe",
                 "id": "b99c-56ee-cbe5-8aa9",
                 "hidden": false,
                 "import": true,
@@ -3638,7 +3646,7 @@
                     "type": "upgrade",
                     "entryLinks": [
                       {
-                        "name": "Aegis warblade",
+                        "name": "Sovereign blade",
                         "id": "12db-0061-f9e2-e38e",
                         "hidden": false,
                         "import": true,
