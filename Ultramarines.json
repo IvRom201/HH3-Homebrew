@@ -1989,7 +1989,18 @@
                   {"id": "f6d6-e3c6-c2da-c3c0", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {"name": "Peritarch Targeter", "id": "36ba-4670-46e9-36b6", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
+              {
+                "name": "Peritarch Targeter",
+                "id": "36ba-4670-46e9-36b6",
+                "hidden": false,
+                "import": true,
+                "targetId": "7379-8243-491e-7be9",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "5ab0-73ac-ff4d-8809", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "3940-445e-e25a-6458", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
             ],
             "profiles": [
               {
@@ -2131,7 +2142,18 @@
                   {"id": "4f6f-155e-e83b-5058", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {"name": "Peritarch Targeter", "id": "174e-6fbf-a7c7-14f9", "hidden": false, "import": true, "targetId": "7379-8243-491e-7be9", "type": "selectionEntry"}
+              {
+                "name": "Peritarch Targeter",
+                "id": "174e-6fbf-a7c7-14f9",
+                "hidden": false,
+                "import": true,
+                "targetId": "7379-8243-491e-7be9",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "a51e-8e24-d4f3-2b38", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "d5cb-41b7-e1dc-63e2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
             ],
             "modifiers": [
               {

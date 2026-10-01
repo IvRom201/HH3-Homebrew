@@ -3237,7 +3237,7 @@
             "targetId": "a545-36ec-d50e-2ae4",
             "type": "selectionEntry",
             "constraints": [
-              {"id": "c470-1fd9-f854-e3de", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 0},
+              {"id": "c470-1fd9-f854-e3de", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "1b87-d82d-9469-4854", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
             ],
             "modifiers": [{"field": "9893-c379-920b-8982", "type": "set", "value": 10}]
