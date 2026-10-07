@@ -111074,6 +111074,16 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Saturnine teleportation transponder",
+                "id": "8c79-7871-0624-eec8",
+                "hidden": false,
+                "import": true,
+                "targetId": "b347-5137-3d53-53ab",
+                "type": "selectionEntry",
+                "constraints": [{"id": "b29d-006a-beb5-16ad", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 60}]
               }
             ],
             "profiles": [
