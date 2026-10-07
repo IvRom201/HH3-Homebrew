@@ -56271,6 +56271,75 @@
                     ]
                   }
                 ]
+              },
+              {
+                "name": "Gravis Banestrike Bolt Cannon",
+                "id": "ab50-ae2e-cc39-1478",
+                "hidden": true,
+                "import": true,
+                "targetId": "4692-e46d-7f05-ab2a",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                "modifiers": [
+                  {
+                    "comment": "IH",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "0e0a-e490-ee7f-7033",
+                                "childName": "Panoply of Old - Alpha Legion",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "c49e-0bb2-8109-d028",
+                                "childName": "Alpha Legion",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "unit",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "c49e-0bb2-8109-d028",
+                            "childName": "Alpha Legion",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -56669,6 +56738,75 @@
                           }
                         ],
                         "conditions": [{"childId": "736e-3967-e72b-e3ac", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Gravis Banestrike Bolt Cannon",
+                "id": "91f9-14b3-ee98-cf2b",
+                "hidden": true,
+                "import": true,
+                "targetId": "4692-e46d-7f05-ab2a",
+                "type": "selectionEntry",
+                "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}],
+                "modifiers": [
+                  {
+                    "comment": "IH",
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "0e0a-e490-ee7f-7033",
+                                "childName": "Panoply of Old - Alpha Legion",
+                                "field": "selections",
+                                "includeChildForces": true,
+                                "includeChildSelections": true,
+                                "scope": "roster",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          },
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {
+                                "childId": "c49e-0bb2-8109-d028",
+                                "childName": "Alpha Legion",
+                                "field": "selections",
+                                "includeChildSelections": true,
+                                "scope": "unit",
+                                "shared": true,
+                                "type": "atLeast",
+                                "value": 1
+                              },
+                              {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [
+                          {
+                            "childId": "c49e-0bb2-8109-d028",
+                            "childName": "Alpha Legion",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "scope": "force",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
                       }
                     ]
                   }

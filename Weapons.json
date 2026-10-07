@@ -14470,6 +14470,89 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Gravis Banestrike Bolt Cannon",
+        "id": "4692-e46d-7f05-ab2a",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+          {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 0},
+          {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+          {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+          {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+          {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+          {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+          {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+          {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+        ],
+        "infoLinks": [
+          {
+            "name": "Breaching (X)",
+            "id": "cd45-0604-e659-da6b",
+            "comment": "FP",
+            "hidden": false,
+            "targetId": "b094-0b64-eb57-aed6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Breaching (5+)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Gravis Banestrike Bolt Cannon",
+            "id": "620b-7902-422a-03c3",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "24", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "6", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "6", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Breaching (5+)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Bolt", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Twin Banestrike Bolt Cannon",
+        "id": "62a8-5492-24ae-3f11",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Breaching (X)",
+            "id": "d256-1c78-32eb-970d",
+            "comment": "6+",
+            "hidden": false,
+            "targetId": "b094-0b64-eb57-aed6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Breaching (6+)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Twin Banestrike Bolt Cannon",
+            "id": "866e-b6f6-8f90-3d75",
+            "hidden": false,
+            "page": 52,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "24", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "6", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "6", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "2", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Breaching (6+)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Bolt", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
