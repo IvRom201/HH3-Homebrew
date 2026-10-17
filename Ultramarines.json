@@ -884,6 +884,24 @@
                     "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10}]
                   }
                 ]
+              },
+              {
+                "name": "1 in unit may take Company Standard",
+                "id": "ef74-7b25-92af-a202",
+                "hidden": false,
+                "constraints": [{"id": "48d1-7b4d-a29f-d6d9", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "max", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "Company standard",
+                    "id": "08c4-715d-9569-121d",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "08b9-48cb-732a-aa75",
+                    "type": "selectionEntry",
+                    "costs": [{"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 20}]
+                  }
+                ],
+                "modifiers": [{"field": "48d1-7b4d-a29f-d6d9", "type": "increment", "value": 1}]
               }
             ]
           }
@@ -3614,7 +3632,7 @@
               {"id": "31ef-0ea7-2658-ad1f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
             ],
             "costs": [
-              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 40},
+              {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 35},
               {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
               {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
               {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
@@ -3801,7 +3819,7 @@
             "characteristics": [
               {"name": "IM", "$text": "I", "typeId": "6eec-4093-f946-1014"},
               {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
-              {"name": "SM", "$text": "+2", "typeId": "4505-de6f-d4ae-6280"},
+              {"name": "SM", "$text": "+1", "typeId": "4505-de6f-d4ae-6280"},
               {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},
               {"name": "D", "$text": "1", "typeId": "6a9d-4feb-065a-33e7"},
               {"name": "Special Rules", "$text": "Breaching (5+)", "typeId": "ebe0-7b28-b40c-694e"},
