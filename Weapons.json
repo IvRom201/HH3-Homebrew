@@ -14553,6 +14553,66 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Overcharged Graviton pistol",
+        "id": "afd2-dc52-67c1-6216",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "infoLinks": [
+          {"name": "Pistol", "id": "354a-dd97-4009-872d", "hidden": false, "targetId": "2bf6-55c8-6810-a71c", "type": "rule"},
+          {
+            "name": "Breaching (X)",
+            "id": "889c-5c72-b051-4d46",
+            "hidden": false,
+            "targetId": "b094-0b64-eb57-aed6",
+            "type": "rule",
+            "modifiers": [{"comment": "6", "field": "name", "type": "set", "value": "Breaching (6+)"}]
+          },
+          {
+            "name": "Shock (X)",
+            "id": "3059-c0d3-f188-335a",
+            "hidden": false,
+            "targetId": "c6fd-28d0-3f80-672c",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Shock (Pinned)"}]
+          },
+          {
+            "name": "Pinning (X)",
+            "id": "e377-3267-b350-f716",
+            "hidden": false,
+            "targetId": "88b6-6493-e4d7-1805",
+            "type": "rule",
+            "modifiers": [{"comment": "1", "field": "name", "type": "set", "value": "Pinning (1)"}]
+          },
+          {
+            "name": "Overload (X)",
+            "id": "3b7c-3e35-9581-efe1",
+            "hidden": false,
+            "targetId": "1d3a-d1e2-871a-63ae",
+            "type": "rule",
+            "modifiers": [{"comment": "1", "field": "name", "type": "set", "value": "Overload (1)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Overcharged Graviton pistol",
+            "id": "929e-64cf-1039-dae8",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {"name": "R", "$text": "12", "typeId": "cdb0-8654-6840-1037"},
+              {"name": "FP", "$text": "4", "typeId": "5037-1f27-1790-e355"},
+              {"name": "RS", "$text": "6", "typeId": "b9da-ee13-79f9-fa63"},
+              {"name": "AP", "$text": "4", "typeId": "7a23-0248-2b94-5951"},
+              {"name": "D", "$text": "1", "typeId": "88c3-1ca5-7dc1-f291"},
+              {"name": "Special Rules", "$text": "Pistol, Breaching (5+), Shock (Pinned), Pinning (2), Overload (1)", "typeId": "5aad-137a-8ee2-63fd"},
+              {"name": "Traits", "$text": "Assault, Graviton", "typeId": "1247-79d2-6cc1-8a03"}
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

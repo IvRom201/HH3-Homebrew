@@ -3817,7 +3817,7 @@
             "typeId": "3587-6dcd-005c-c263",
             "typeName": "Melee Weapon",
             "characteristics": [
-              {"name": "IM", "$text": "I", "typeId": "6eec-4093-f946-1014"},
+              {"name": "IM", "$text": "-1", "typeId": "6eec-4093-f946-1014"},
               {"name": "AM", "$text": "A", "typeId": "03d0-6094-84f0-e27e"},
               {"name": "SM", "$text": "+1", "typeId": "4505-de6f-d4ae-6280"},
               {"name": "AP", "$text": "3", "typeId": "a014-126b-3b7b-27e8"},

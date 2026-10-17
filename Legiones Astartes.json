@@ -37114,6 +37114,76 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "name": "Two overcharged graviton pistols",
+                    "id": "e7c4-c65b-c8dd-f40e",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [
+                      {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
+                      {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+                      {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+                      {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+                      {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+                      {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+                      {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+                      {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Overcharged Graviton pistol",
+                        "id": "575c-4a6b-9d23-d23b",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "afd2-dc52-67c1-6216",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {"id": "e813-9f0b-535d-babe", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
+                          {"id": "47cf-d0c5-fa88-30e7", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "IH",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "1c05-5fde-9ef6-9807",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  },
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "00f5-a974-fd19-84e5", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "736e-3967-e72b-e3ac", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -84602,6 +84672,76 @@
                         "constraints": [
                           {"id": "d07d-0676-4c52-2c8a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
                           {"id": "5e0c-b0e6-fd4b-0cda", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Two overcharged graviton pistols",
+                    "id": "a726-6452-998a-dcbb",
+                    "hidden": false,
+                    "import": true,
+                    "type": "upgrade",
+                    "costs": [
+                      {"name": "Point(s)", "typeId": "9893-c379-920b-8982", "value": 10},
+                      {"name": "Reaction Point(s)", "typeId": "c9ba-097e-c47f-ecc2", "value": 0},
+                      {"name": "Auxiliary Detachment(s)", "typeId": "3e8e-05ee-be52-12d6", "value": 0},
+                      {"name": "Apex Detachment(s)", "typeId": "159d-855c-533d-f592", "value": 0},
+                      {"name": "Combined Warlord and Lord of War Points", "typeId": "14bd-cad0-cd3d-8b23", "value": 0},
+                      {"name": "Mech LB", "typeId": "7275-cbe8-a563-7152", "value": 0},
+                      {"name": "Tank Detachments", "typeId": "2cdf-186c-a655-d907", "value": 0},
+                      {"name": "ZM Primary Detachment", "typeId": "37ff-b26e-18a9-7f57", "value": 0}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Overcharged Graviton pistol",
+                        "id": "97c8-3de6-70ee-46f7",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "afd2-dc52-67c1-6216",
+                        "type": "selectionEntry",
+                        "constraints": [
+                          {"id": "6898-09cf-987b-56f2", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2},
+                          {"id": "62ce-4970-b9c1-04e8", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}
+                        ]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "comment": "IH",
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditionGroups": [
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {
+                                    "childId": "1c05-5fde-9ef6-9807",
+                                    "field": "selections",
+                                    "includeChildForces": true,
+                                    "includeChildSelections": true,
+                                    "scope": "roster",
+                                    "shared": true,
+                                    "type": "atLeast",
+                                    "value": 1
+                                  },
+                                  {"childId": "c195-9a6a-a56b-4634", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              },
+                              {
+                                "type": "and",
+                                "conditions": [
+                                  {"childId": "00f5-a974-fd19-84e5", "field": "selections", "includeChildSelections": true, "scope": "unit", "shared": true, "type": "atLeast", "value": 1},
+                                  {"childId": "3256-29e9-1d7a-12a7", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}
+                                ]
+                              }
+                            ],
+                            "conditions": [{"childId": "736e-3967-e72b-e3ac", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "instanceOf", "value": 1}]
+                          }
                         ]
                       }
                     ]
