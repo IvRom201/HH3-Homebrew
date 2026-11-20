@@ -136,7 +136,18 @@
         "type": "selectionEntry",
         "categoryLinks": [{"name": "Troops", "id": "1e92-a992-cd55-d3d5", "primary": true, "targetId": "88e6-d373-4152-0dd8"}]
       },
-      {"name": "Rampager assult Squad", "id": "f9cf-21bf-40ff-52b3", "hidden": false, "import": true, "targetId": "22a5-3413-f42b-203e", "type": "selectionEntry"}
+      {
+        "name": "Rampager assault Squad",
+        "id": "f9cf-21bf-40ff-52b3",
+        "hidden": false,
+        "import": true,
+        "targetId": "22a5-3413-f42b-203e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {"name": "Heavy Assault", "id": "b1e7-ad31-fd43-9037", "hidden": false, "primary": true, "targetId": "3235-bd79-e9b1-60fa"},
+          {"name": "World Eaters", "id": "8759-fcf1-78df-6ac0", "hidden": false, "primary": false, "targetId": "48b7-17a8-eaf4-d6c2"}
+        ]
+      }
     ],
     "sharedSelectionEntries": [
       {

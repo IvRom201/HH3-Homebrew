@@ -3852,7 +3852,7 @@
                       {"name": "CL", "$text": "1", "typeId": "9cd1-0e7c-2cd6-5f2f"},
                       {"name": "WP", "$text": "1", "typeId": "f714-1726-37d3-44df"},
                       {"name": "IN", "$text": "1", "typeId": "29c5-925d-5b1d-1e77"},
-                      {"name": "SAV", "$text": "3+", "typeId": "03bd-4ecb-351d-143b"},
+                      {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
                       {"name": "INV", "$text": "-", "typeId": "a951-a772-7ce0-0b64"}
                     ],
                     "modifierGroups": [
@@ -6148,7 +6148,7 @@
                       {"name": "CL", "$text": "1", "typeId": "9cd1-0e7c-2cd6-5f2f"},
                       {"name": "WP", "$text": "1", "typeId": "f714-1726-37d3-44df"},
                       {"name": "IN", "$text": "1", "typeId": "29c5-925d-5b1d-1e77"},
-                      {"name": "SAV", "$text": "3+", "typeId": "03bd-4ecb-351d-143b"},
+                      {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
                       {"name": "INV", "$text": "-", "typeId": "a951-a772-7ce0-0b64"}
                     ],
                     "modifierGroups": [
@@ -9859,7 +9859,7 @@
                       {"name": "CL", "$text": "1", "typeId": "9cd1-0e7c-2cd6-5f2f"},
                       {"name": "WP", "$text": "1", "typeId": "f714-1726-37d3-44df"},
                       {"name": "IN", "$text": "1", "typeId": "29c5-925d-5b1d-1e77"},
-                      {"name": "SAV", "$text": "3+", "typeId": "03bd-4ecb-351d-143b"},
+                      {"name": "SAV", "$text": "4+", "typeId": "03bd-4ecb-351d-143b"},
                       {"name": "INV", "$text": "-", "typeId": "a951-a772-7ce0-0b64"}
                     ],
                     "modifierGroups": [
