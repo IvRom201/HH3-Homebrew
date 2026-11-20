@@ -9,7 +9,7 @@
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 2,
+    "revision": 3,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -46,22 +46,6 @@
     ],
     "entryLinks": [
       {
-        "name": "Orks Army Rules & Armoury Reference",
-        "id": "eb1d-4a60-d4fb-fd89",
-        "hidden": false,
-        "import": true,
-        "targetId": "d56a-0706-e11a-a5d5",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Army Configuration",
-            "id": "16f2-fdf9-0d89-43bf",
-            "primary": true,
-            "targetId": "abfa-86ab-1726-077a"
-          }
-        ]
-      },
-      {
         "name": "Armoury of the Orks",
         "id": "36ce-84e8-acfe-86ae",
         "hidden": false,
@@ -75,39 +59,25 @@
             "primary": true,
             "targetId": "abfa-86ab-1726-077a"
           }
-        ]
+        ],
+        "sortIndex": 101
       },
       {
-        "name": "Warboss",
-        "id": "a097-099c-c688-27c4",
+        "name": "Orks Army Rules & Armoury Reference",
+        "id": "eb1d-4a60-d4fb-fd89",
         "hidden": false,
         "import": true,
-        "targetId": "95cb-d33b-c277-8f34",
+        "targetId": "d56a-0706-e11a-a5d5",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "High Command",
-            "id": "2412-c92c-f95b-23f5",
+            "name": "Army Configuration",
+            "id": "16f2-fdf9-0d89-43bf",
             "primary": true,
-            "targetId": "d9a6-9b5f-b18a-4d63"
+            "targetId": "abfa-86ab-1726-077a"
           }
-        ]
-      },
-      {
-        "name": "Mega Warboss",
-        "id": "682f-8e42-ce97-8e0a",
-        "hidden": false,
-        "import": true,
-        "targetId": "7295-6ef3-59a3-6bec",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "High Command",
-            "id": "0c27-675a-9da8-d5d1",
-            "primary": true,
-            "targetId": "d9a6-9b5f-b18a-4d63"
-          }
-        ]
+        ],
+        "sortIndex": 102
       },
       {
         "name": "Kustom Meka-dread",
@@ -123,55 +93,42 @@
             "primary": true,
             "targetId": "d9a6-9b5f-b18a-4d63"
           }
-        ]
+        ],
+        "sortIndex": 201
       },
       {
-        "name": "Bigboss",
-        "id": "a030-75ae-6915-41db",
+        "name": "Mega Warboss",
+        "id": "682f-8e42-ce97-8e0a",
         "hidden": false,
         "import": true,
-        "targetId": "3713-32e0-f845-e0d3",
+        "targetId": "7295-6ef3-59a3-6bec",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Command",
-            "id": "2544-0cf7-63f8-fce7",
+            "name": "High Command",
+            "id": "0c27-675a-9da8-d5d1",
             "primary": true,
-            "targetId": "6dbf-654a-f06f-2d69"
+            "targetId": "d9a6-9b5f-b18a-4d63"
           }
-        ]
+        ],
+        "sortIndex": 202
       },
       {
-        "name": "Mega Bigboss",
-        "id": "b4d7-3765-a334-3be1",
+        "name": "Warboss",
+        "id": "a097-099c-c688-27c4",
         "hidden": false,
         "import": true,
-        "targetId": "0320-7c4f-d9d7-0e93",
+        "targetId": "95cb-d33b-c277-8f34",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Command",
-            "id": "3015-080c-d70f-0377",
+            "name": "High Command",
+            "id": "2412-c92c-f95b-23f5",
             "primary": true,
-            "targetId": "6dbf-654a-f06f-2d69"
+            "targetId": "d9a6-9b5f-b18a-4d63"
           }
-        ]
-      },
-      {
-        "name": "Freebooter Kaptin",
-        "id": "736e-e450-a62d-3d6f",
-        "hidden": false,
-        "import": true,
-        "targetId": "dd25-5765-a316-dd5d",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Command",
-            "id": "9d6c-6b18-729c-3023",
-            "primary": true,
-            "targetId": "6dbf-654a-f06f-2d69"
-          }
-        ]
+        ],
+        "sortIndex": 203
       },
       {
         "name": "Big Mek",
@@ -187,7 +144,42 @@
             "primary": true,
             "targetId": "6dbf-654a-f06f-2d69"
           }
-        ]
+        ],
+        "sortIndex": 301
+      },
+      {
+        "name": "Bigboss",
+        "id": "a030-75ae-6915-41db",
+        "hidden": false,
+        "import": true,
+        "targetId": "3713-32e0-f845-e0d3",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Command",
+            "id": "2544-0cf7-63f8-fce7",
+            "primary": true,
+            "targetId": "6dbf-654a-f06f-2d69"
+          }
+        ],
+        "sortIndex": 302
+      },
+      {
+        "name": "Freebooter Kaptin",
+        "id": "736e-e450-a62d-3d6f",
+        "hidden": false,
+        "import": true,
+        "targetId": "dd25-5765-a316-dd5d",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Command",
+            "id": "9d6c-6b18-729c-3023",
+            "primary": true,
+            "targetId": "6dbf-654a-f06f-2d69"
+          }
+        ],
+        "sortIndex": 303
       },
       {
         "name": "Mega Big Mek",
@@ -203,7 +195,25 @@
             "primary": true,
             "targetId": "6dbf-654a-f06f-2d69"
           }
-        ]
+        ],
+        "sortIndex": 304
+      },
+      {
+        "name": "Mega Bigboss",
+        "id": "b4d7-3765-a334-3be1",
+        "hidden": false,
+        "import": true,
+        "targetId": "0320-7c4f-d9d7-0e93",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Command",
+            "id": "3015-080c-d70f-0377",
+            "primary": true,
+            "targetId": "6dbf-654a-f06f-2d69"
+          }
+        ],
+        "sortIndex": 305
       },
       {
         "name": "Painboss",
@@ -219,23 +229,8 @@
             "primary": true,
             "targetId": "6dbf-654a-f06f-2d69"
           }
-        ]
-      },
-      {
-        "name": "Mekaniaks",
-        "id": "de34-e826-b902-11a7",
-        "hidden": false,
-        "import": true,
-        "targetId": "0fe4-cba7-3671-0323",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Retinue",
-            "id": "0f52-936a-e383-8a28",
-            "primary": true,
-            "targetId": "a38e-50ff-310f-f19e"
-          }
-        ]
+        ],
+        "sortIndex": 306
       },
       {
         "name": "Mad Doks",
@@ -251,7 +246,8 @@
             "primary": true,
             "targetId": "a38e-50ff-310f-f19e"
           }
-        ]
+        ],
+        "sortIndex": 401
       },
       {
         "name": "Madboyz Mob",
@@ -267,55 +263,25 @@
             "primary": true,
             "targetId": "a38e-50ff-310f-f19e"
           }
-        ]
+        ],
+        "sortIndex": 402
       },
       {
-        "name": "Weirdboy",
-        "id": "427c-d417-3fa9-a203",
+        "name": "Mekaniaks",
+        "id": "de34-e826-b902-11a7",
         "hidden": false,
         "import": true,
-        "targetId": "133d-5240-0113-6664",
+        "targetId": "0fe4-cba7-3671-0323",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Elites",
-            "id": "5b1c-55e5-d9c3-54eb",
+            "name": "Retinue",
+            "id": "0f52-936a-e383-8a28",
             "primary": true,
-            "targetId": "5d5e-958f-e388-50b5"
+            "targetId": "a38e-50ff-310f-f19e"
           }
-        ]
-      },
-      {
-        "name": "Nobz Mob",
-        "id": "ebc0-1b98-ea9b-ce1f",
-        "hidden": false,
-        "import": true,
-        "targetId": "9379-9152-d20e-8642",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Elites",
-            "id": "4aea-6510-c1e0-4fb3",
-            "primary": true,
-            "targetId": "5d5e-958f-e388-50b5"
-          }
-        ]
-      },
-      {
-        "name": "Warbiker Nobz Mob",
-        "id": "7e0e-1385-8704-3ce4",
-        "hidden": false,
-        "import": true,
-        "targetId": "196c-bc37-127f-d419",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Elites",
-            "id": "bb46-435b-3aca-c19d",
-            "primary": true,
-            "targetId": "5d5e-958f-e388-50b5"
-          }
-        ]
+        ],
+        "sortIndex": 403
       },
       {
         "name": "Flash Gitz Mob",
@@ -331,7 +297,59 @@
             "primary": true,
             "targetId": "5d5e-958f-e388-50b5"
           }
-        ]
+        ],
+        "sortIndex": 501
+      },
+      {
+        "name": "Nobz Mob",
+        "id": "ebc0-1b98-ea9b-ce1f",
+        "hidden": false,
+        "import": true,
+        "targetId": "9379-9152-d20e-8642",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Elites",
+            "id": "4aea-6510-c1e0-4fb3",
+            "primary": true,
+            "targetId": "5d5e-958f-e388-50b5"
+          }
+        ],
+        "sortIndex": 502
+      },
+      {
+        "name": "Warbiker Nobz Mob",
+        "id": "7e0e-1385-8704-3ce4",
+        "hidden": false,
+        "import": true,
+        "targetId": "196c-bc37-127f-d419",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Elites",
+            "id": "bb46-435b-3aca-c19d",
+            "primary": true,
+            "targetId": "5d5e-958f-e388-50b5"
+          }
+        ],
+        "sortIndex": 503
+      },
+      {
+        "name": "Weirdboy",
+        "id": "427c-d417-3fa9-a203",
+        "hidden": false,
+        "import": true,
+        "targetId": "133d-5240-0113-6664",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Elites",
+            "id": "5b1c-55e5-d9c3-54eb",
+            "primary": true,
+            "targetId": "5d5e-958f-e388-50b5"
+          }
+        ],
+        "sortIndex": 504
       },
       {
         "name": "Meganobz Mob",
@@ -347,7 +365,8 @@
             "primary": true,
             "targetId": "3235-bd79-e9b1-60fa"
           }
-        ]
+        ],
+        "sortIndex": 601
       },
       {
         "name": "Stormboyz Mob",
@@ -383,55 +402,8 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "name": "Slugga Boyz Mob",
-        "id": "d86c-9a6f-4b14-b9a6",
-        "hidden": false,
-        "import": true,
-        "targetId": "5f08-2fc3-fb02-7f95",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Troops",
-            "id": "2744-e284-0104-7c1a",
-            "primary": true,
-            "targetId": "88e6-d373-4152-0dd8"
-          }
-        ]
-      },
-      {
-        "name": "Shoota Boyz Mob",
-        "id": "9f93-18c9-6a04-fe9d",
-        "hidden": false,
-        "import": true,
-        "targetId": "e8d2-4b33-a9ad-a468",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Troops",
-            "id": "0d4e-0f01-0eda-0567",
-            "primary": true,
-            "targetId": "88e6-d373-4152-0dd8"
-          }
-        ]
-      },
-      {
-        "name": "‘Ard Boyz Mob",
-        "id": "29d5-8762-2cf2-41dc",
-        "hidden": false,
-        "import": true,
-        "targetId": "18f9-a612-739c-dd1e",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Troops",
-            "id": "d23b-ec73-3399-287f",
-            "primary": true,
-            "targetId": "88e6-d373-4152-0dd8"
-          }
-        ]
+        ],
+        "sortIndex": 602
       },
       {
         "name": "Gretchin Mob",
@@ -447,131 +419,59 @@
             "primary": true,
             "targetId": "88e6-d373-4152-0dd8"
           }
-        ]
+        ],
+        "sortIndex": 701
       },
       {
-        "name": "Burna Mob",
-        "id": "d393-9984-256c-726e",
+        "name": "Shoota Boyz Mob",
+        "id": "9f93-18c9-6a04-fe9d",
         "hidden": false,
         "import": true,
-        "targetId": "ac6c-ecd9-b0f9-ebb6",
+        "targetId": "e8d2-4b33-a9ad-a468",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Support",
-            "id": "fd01-8a61-ba0d-da1c",
+            "name": "Troops",
+            "id": "0d4e-0f01-0eda-0567",
             "primary": true,
-            "targetId": "345f-9ba6-9b02-ed5c"
+            "targetId": "88e6-d373-4152-0dd8"
           }
         ],
-        "modifiers": [
-          {
-            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "0672-44dc-9570-a641",
-                "field": "forces",
-                "includeChildForces": false,
-                "includeChildSelections": false,
-                "scope": "ancestor",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "sortIndex": 702
       },
       {
-        "name": "Loota Mob",
-        "id": "549c-c645-f658-813b",
+        "name": "Slugga Boyz Mob",
+        "id": "d86c-9a6f-4b14-b9a6",
         "hidden": false,
         "import": true,
-        "targetId": "cd1f-a244-e878-5be1",
+        "targetId": "5f08-2fc3-fb02-7f95",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Support",
-            "id": "adb1-2f8e-2e93-e052",
+            "name": "Troops",
+            "id": "2744-e284-0104-7c1a",
             "primary": true,
-            "targetId": "345f-9ba6-9b02-ed5c"
+            "targetId": "88e6-d373-4152-0dd8"
           }
         ],
-        "modifiers": [
-          {
-            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "0672-44dc-9570-a641",
-                "field": "forces",
-                "includeChildForces": false,
-                "includeChildSelections": false,
-                "scope": "ancestor",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
+        "sortIndex": 703
       },
       {
-        "name": "Tankbusta Mob",
-        "id": "58b9-7b31-8828-2f99",
+        "name": "‘Ard Boyz Mob",
+        "id": "29d5-8762-2cf2-41dc",
         "hidden": false,
         "import": true,
-        "targetId": "63e4-a3a7-cf3c-d59c",
+        "targetId": "18f9-a612-739c-dd1e",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Support",
-            "id": "2c3e-ce49-0bc0-ce4d",
+            "name": "Troops",
+            "id": "d23b-ec73-3399-287f",
             "primary": true,
-            "targetId": "345f-9ba6-9b02-ed5c"
+            "targetId": "88e6-d373-4152-0dd8"
           }
         ],
-        "modifiers": [
-          {
-            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
-            "field": "hidden",
-            "type": "set",
-            "value": true,
-            "conditions": [
-              {
-                "childId": "0672-44dc-9570-a641",
-                "field": "forces",
-                "includeChildForces": false,
-                "includeChildSelections": false,
-                "scope": "ancestor",
-                "shared": true,
-                "type": "instanceOf",
-                "value": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Killa Kan Mob",
-        "id": "c504-b050-95e5-b0ae",
-        "hidden": false,
-        "import": true,
-        "targetId": "1d30-3441-ff19-237e",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Support",
-            "id": "b828-6fc2-8501-3a37",
-            "primary": true,
-            "targetId": "345f-9ba6-9b02-ed5c"
-          }
-        ]
+        "sortIndex": 704
       },
       {
         "name": "Big Gunz Battery",
@@ -607,7 +507,136 @@
               }
             ]
           }
-        ]
+        ],
+        "sortIndex": 801
+      },
+      {
+        "name": "Burna Mob",
+        "id": "d393-9984-256c-726e",
+        "hidden": false,
+        "import": true,
+        "targetId": "ac6c-ecd9-b0f9-ebb6",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "fd01-8a61-ba0d-da1c",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0672-44dc-9570-a641",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "sortIndex": 802
+      },
+      {
+        "name": "Killa Kan Mob",
+        "id": "c504-b050-95e5-b0ae",
+        "hidden": false,
+        "import": true,
+        "targetId": "1d30-3441-ff19-237e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "b828-6fc2-8501-3a37",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          }
+        ],
+        "sortIndex": 803
+      },
+      {
+        "name": "Loota Mob",
+        "id": "549c-c645-f658-813b",
+        "hidden": false,
+        "import": true,
+        "targetId": "cd1f-a244-e878-5be1",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "adb1-2f8e-2e93-e052",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0672-44dc-9570-a641",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "sortIndex": 804
+      },
+      {
+        "name": "Tankbusta Mob",
+        "id": "58b9-7b31-8828-2f99",
+        "hidden": false,
+        "import": true,
+        "targetId": "63e4-a3a7-cf3c-d59c",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Support",
+            "id": "2c3e-ce49-0bc0-ce4d",
+            "primary": true,
+            "targetId": "345f-9ba6-9b02-ed5c"
+          }
+        ],
+        "modifiers": [
+          {
+            "comment": "Orks restriction: Apex - Dread Mob allows only Killa Kan Mob",
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "0672-44dc-9570-a641",
+                "field": "forces",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "ancestor",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "sortIndex": 805
       },
       {
         "name": "Deff Dread",
@@ -623,7 +652,8 @@
             "primary": true,
             "targetId": "2499-7239-685f-8465"
           }
-        ]
+        ],
+        "sortIndex": 901
       },
       {
         "name": "Mega-dread",
@@ -639,7 +669,8 @@
             "primary": true,
             "targetId": "2499-7239-685f-8465"
           }
-        ]
+        ],
+        "sortIndex": 902
       },
       {
         "name": "Trukk",
@@ -655,7 +686,8 @@
             "primary": true,
             "targetId": "d162-4711-5d60-0a48"
           }
-        ]
+        ],
+        "sortIndex": 1001
       },
       {
         "name": "Battlewagon",
@@ -671,7 +703,8 @@
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
           }
-        ]
+        ],
+        "sortIndex": 1101
       },
       {
         "name": "Big Trakk",
@@ -687,7 +720,8 @@
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
           }
-        ]
+        ],
+        "sortIndex": 1102
       },
       {
         "name": "Squiggoth",
@@ -703,7 +737,25 @@
             "primary": true,
             "targetId": "52d0-8b78-439e-18e5"
           }
-        ]
+        ],
+        "sortIndex": 1103
+      },
+      {
+        "name": "Deffkoptas",
+        "id": "0efb-acf5-4633-2116",
+        "hidden": false,
+        "import": true,
+        "targetId": "d74c-21a6-7617-c1f5",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Recon",
+            "id": "f1a1-28b3-5744-cecb",
+            "primary": true,
+            "targetId": "2b65-a3f2-620a-dc58"
+          }
+        ],
+        "sortIndex": 1201
       },
       {
         "name": "Kommandos Mob",
@@ -739,23 +791,8 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "name": "Deffkoptas",
-        "id": "0efb-acf5-4633-2116",
-        "hidden": false,
-        "import": true,
-        "targetId": "d74c-21a6-7617-c1f5",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Recon",
-            "id": "f1a1-28b3-5744-cecb",
-            "primary": true,
-            "targetId": "2b65-a3f2-620a-dc58"
-          }
-        ]
+        ],
+        "sortIndex": 1202
       },
       {
         "name": "Warkopta",
@@ -791,55 +828,8 @@
               }
             ]
           }
-        ]
-      },
-      {
-        "name": "Warbiker Mob",
-        "id": "21f4-ad48-73ba-8937",
-        "hidden": false,
-        "import": true,
-        "targetId": "d873-df60-49c6-5874",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Fast Attack",
-            "id": "e7be-64b2-4426-af13",
-            "primary": true,
-            "targetId": "cf96-8891-3f9a-8921"
-          }
-        ]
-      },
-      {
-        "name": "Warbuggy Squadron",
-        "id": "e9aa-45ea-b8f9-6400",
-        "hidden": false,
-        "import": true,
-        "targetId": "8cb4-0b24-fea5-2b2b",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Fast Attack",
-            "id": "08be-469c-42a9-b073",
-            "primary": true,
-            "targetId": "cf96-8891-3f9a-8921"
-          }
-        ]
-      },
-      {
-        "name": "Dakkajet",
-        "id": "dba2-2415-cb75-5b00",
-        "hidden": false,
-        "import": true,
-        "targetId": "493e-eb82-45d0-c1d5",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Fast Attack",
-            "id": "a02c-9182-2e26-b03a",
-            "primary": true,
-            "targetId": "cf96-8891-3f9a-8921"
-          }
-        ]
+        ],
+        "sortIndex": 1203
       },
       {
         "name": "Bommer",
@@ -855,7 +845,25 @@
             "primary": true,
             "targetId": "cf96-8891-3f9a-8921"
           }
-        ]
+        ],
+        "sortIndex": 1301
+      },
+      {
+        "name": "Dakkajet",
+        "id": "dba2-2415-cb75-5b00",
+        "hidden": false,
+        "import": true,
+        "targetId": "493e-eb82-45d0-c1d5",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Fast Attack",
+            "id": "a02c-9182-2e26-b03a",
+            "primary": true,
+            "targetId": "cf96-8891-3f9a-8921"
+          }
+        ],
+        "sortIndex": 1302
       },
       {
         "name": "Kustom Junka",
@@ -871,39 +879,42 @@
             "primary": true,
             "targetId": "cf96-8891-3f9a-8921"
           }
-        ]
+        ],
+        "sortIndex": 1303
       },
       {
-        "name": "Gobsmasha Wagon",
-        "id": "872b-6e0b-5192-3e7a",
+        "name": "Warbiker Mob",
+        "id": "21f4-ad48-73ba-8937",
         "hidden": false,
         "import": true,
-        "targetId": "e0c4-1f04-dc11-0348",
+        "targetId": "d873-df60-49c6-5874",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Armour",
-            "id": "a98e-a05c-1718-8e04",
+            "name": "Fast Attack",
+            "id": "e7be-64b2-4426-af13",
             "primary": true,
-            "targetId": "643a-1012-bd51-6537"
+            "targetId": "cf96-8891-3f9a-8921"
           }
-        ]
+        ],
+        "sortIndex": 1304
       },
       {
-        "name": "Guntrukk",
-        "id": "45ca-419e-11da-738a",
+        "name": "Warbuggy Squadron",
+        "id": "e9aa-45ea-b8f9-6400",
         "hidden": false,
         "import": true,
-        "targetId": "3cd4-30c4-b22e-d8f9",
+        "targetId": "8cb4-0b24-fea5-2b2b",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Armour",
-            "id": "005c-5fa3-0ae3-8f0d",
+            "name": "Fast Attack",
+            "id": "08be-469c-42a9-b073",
             "primary": true,
-            "targetId": "643a-1012-bd51-6537"
+            "targetId": "cf96-8891-3f9a-8921"
           }
-        ]
+        ],
+        "sortIndex": 1305
       },
       {
         "name": "Dakka-trakk",
@@ -919,23 +930,25 @@
             "primary": true,
             "targetId": "643a-1012-bd51-6537"
           }
-        ]
+        ],
+        "sortIndex": 1401
       },
       {
-        "name": "Gun Squiggoth",
-        "id": "39da-9a0b-e43b-61aa",
+        "name": "Gobsmasha Wagon",
+        "id": "872b-6e0b-5192-3e7a",
         "hidden": false,
         "import": true,
-        "targetId": "7756-44a9-bfe5-95b2",
+        "targetId": "e0c4-1f04-dc11-0348",
         "type": "selectionEntry",
         "categoryLinks": [
           {
             "name": "Armour",
-            "id": "b368-c88c-fa7a-1b6f",
+            "id": "a98e-a05c-1718-8e04",
             "primary": true,
             "targetId": "643a-1012-bd51-6537"
           }
-        ]
+        ],
+        "sortIndex": 1402
       },
       {
         "name": "Grot Mega-tank",
@@ -951,7 +964,8 @@
             "primary": true,
             "targetId": "643a-1012-bd51-6537"
           }
-        ]
+        ],
+        "sortIndex": 1403
       },
       {
         "name": "Grot Tank Battle Mob",
@@ -967,71 +981,42 @@
             "primary": true,
             "targetId": "643a-1012-bd51-6537"
           }
-        ]
+        ],
+        "sortIndex": 1404
       },
       {
-        "name": "Gorkanaut",
-        "id": "45fd-64cf-94af-8a7e",
+        "name": "Gun Squiggoth",
+        "id": "39da-9a0b-e43b-61aa",
         "hidden": false,
         "import": true,
-        "targetId": "f16e-a637-352f-f52e",
+        "targetId": "7756-44a9-bfe5-95b2",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Lord of War",
-            "id": "8a90-f04e-0259-0978",
+            "name": "Armour",
+            "id": "b368-c88c-fa7a-1b6f",
             "primary": true,
-            "targetId": "a46f-a465-0ead-d6b8"
+            "targetId": "643a-1012-bd51-6537"
           }
-        ]
+        ],
+        "sortIndex": 1405
       },
       {
-        "name": "Morkanaut",
-        "id": "0327-ed43-7db9-f708",
+        "name": "Guntrukk",
+        "id": "45ca-419e-11da-738a",
         "hidden": false,
         "import": true,
-        "targetId": "a2de-4a94-a7ca-12c2",
+        "targetId": "3cd4-30c4-b22e-d8f9",
         "type": "selectionEntry",
         "categoryLinks": [
           {
-            "name": "Lord of War",
-            "id": "c1c4-cfc4-3c18-1b3d",
+            "name": "Armour",
+            "id": "005c-5fa3-0ae3-8f0d",
             "primary": true,
-            "targetId": "a46f-a465-0ead-d6b8"
+            "targetId": "643a-1012-bd51-6537"
           }
-        ]
-      },
-      {
-        "name": "Stompa",
-        "id": "cf28-84bc-750f-6bc2",
-        "hidden": false,
-        "import": true,
-        "targetId": "486c-6fa5-3701-f9d3",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Lord of War",
-            "id": "0785-d922-920a-8f04",
-            "primary": true,
-            "targetId": "a46f-a465-0ead-d6b8"
-          }
-        ]
-      },
-      {
-        "name": "Kill Tank",
-        "id": "206e-6613-f22b-98e1",
-        "hidden": false,
-        "import": true,
-        "targetId": "e387-07e6-b3bf-3eeb",
-        "type": "selectionEntry",
-        "categoryLinks": [
-          {
-            "name": "Lord of War",
-            "id": "70d7-8baa-8887-37a4",
-            "primary": true,
-            "targetId": "a46f-a465-0ead-d6b8"
-          }
-        ]
+        ],
+        "sortIndex": 1406
       },
       {
         "name": "Gargantuan Squiggoth",
@@ -1047,7 +1032,76 @@
             "primary": true,
             "targetId": "a46f-a465-0ead-d6b8"
           }
-        ]
+        ],
+        "sortIndex": 1501
+      },
+      {
+        "name": "Gorkanaut",
+        "id": "45fd-64cf-94af-8a7e",
+        "hidden": false,
+        "import": true,
+        "targetId": "f16e-a637-352f-f52e",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Lord of War",
+            "id": "8a90-f04e-0259-0978",
+            "primary": true,
+            "targetId": "a46f-a465-0ead-d6b8"
+          }
+        ],
+        "sortIndex": 1502
+      },
+      {
+        "name": "Kill Tank",
+        "id": "206e-6613-f22b-98e1",
+        "hidden": false,
+        "import": true,
+        "targetId": "e387-07e6-b3bf-3eeb",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Lord of War",
+            "id": "70d7-8baa-8887-37a4",
+            "primary": true,
+            "targetId": "a46f-a465-0ead-d6b8"
+          }
+        ],
+        "sortIndex": 1503
+      },
+      {
+        "name": "Morkanaut",
+        "id": "0327-ed43-7db9-f708",
+        "hidden": false,
+        "import": true,
+        "targetId": "a2de-4a94-a7ca-12c2",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Lord of War",
+            "id": "c1c4-cfc4-3c18-1b3d",
+            "primary": true,
+            "targetId": "a46f-a465-0ead-d6b8"
+          }
+        ],
+        "sortIndex": 1504
+      },
+      {
+        "name": "Stompa",
+        "id": "cf28-84bc-750f-6bc2",
+        "hidden": false,
+        "import": true,
+        "targetId": "486c-6fa5-3701-f9d3",
+        "type": "selectionEntry",
+        "categoryLinks": [
+          {
+            "name": "Lord of War",
+            "id": "0785-d922-920a-8f04",
+            "primary": true,
+            "targetId": "a46f-a465-0ead-d6b8"
+          }
+        ],
+        "sortIndex": 1505
       }
     ],
     "sharedSelectionEntries": [
