@@ -3860,6 +3860,17 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
+        "infoLinks": [
+          {
+            "name": "Aflame (X)",
+            "id": "4ed1-feef-eb8e-0f78",
+            "comment": "1",
+            "hidden": false,
+            "targetId": "fdc7-d2a1-338f-df11",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Aflame (1)"}]
+          }
+        ],
         "profiles": [
           {
             "name": "Legatine Great Axe",
@@ -4730,10 +4741,10 @@
             "typeId": "5ec5-e0c3-1701-6f16",
             "typeName": "Wargear",
             "characteristics": [
-              {"name": "Summary", "$text": "Coriolis pattern power shields reduce the Damage of wounds suffered.", "typeId": "8e7d-a0ae-fd85-983c"},
+              {"name": "Summary", "$text": "Konor Pattern storm shields reduce the Damage of wounds suffered.", "typeId": "8e7d-a0ae-fd85-983c"},
               {
                 "name": "Description",
-                "$text": "When a wound is allocated to a Model with a Coriolis pattern power shield, the Damage Characteristic of the Unsaved Wound is modified by -1 (to a minimum of 1). Additionally, a Model with a Coriolis pattern power shield gains the Shield Trait.",
+                "$text": "When a wound is allocated to a Model with a Konor Pattern Storm Shield, the Damage Characteristic of the Unsaved Wound is modified by -1 (to a minimum of 1). Additionally, a Model with a Coriolis pattern power shield gains the Shield Trait.",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
