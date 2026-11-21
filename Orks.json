@@ -1,6 +1,6 @@
 {
   "catalogue": {
-    "name": "                        ZZZ - Orks",
+    "name": "Orks",
     "id": "1b0d-fa7c-ac28-7e46",
     "authorContact": "https://github.com/IvRom201/HH3-Homebrew/issues",
     "authorName": "IvRom201 / generated from Always Strikes First Orks HH3",
@@ -9,7 +9,7 @@
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 4,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -8032,7 +8032,7 @@
             ]
           },
           {
-            "name": "Warboss — full datasheet (p.7)",
+            "name": "Warboss — Wargear & Special Rules",
             "id": "39fe-5f3d-004b-3b27",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -8040,12 +8040,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 7",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "WARBOSS\n\nHIGH COMMAND\n\n90 Points\n\nUNIT COMPOSITION: 1 WARBOSS\n• This model may be replaced with 1 Warboss on Warbike for +30 Points\n\nAn Ork Warboss is the largest and most powerful of all the Orks in its tribe. A bloodthirsty and battle- hardened warrior\nequipped with the best wargear the tribe can provide, he towers above even its personal retinue. Though some Warbosses are\ncunning enough to plan a battle before the bullets start flying, it is only on the front line that Warbosses truly excel. When the\nbattle is raging, these monstrous and all-powerful Orks give full rein to their battlelust, charging into the ranks of the enemy\nand slaughtering everything in their path. The Warboss becomes a living embodiment of Orkdom, and commands respect and\nfear from friend and foe alike.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Twin dakkaguns (Warboss on Warbike only)\n\nSPECIAL RULES\nWarboss\n• Bulky (2)\n• Eternal Warrior (1)\n• Fear (1)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (LD)\n\nTRAITS\n• Xenos\n• [Orks]\n• Prophet of the Waaagh!\n• Smokescreen (Warboss on Warbike only)\n\nWarboss on Warbike\n• Bulky (3)\n• Eternal Warrior (1)\n• Fear (1)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (LD)\n• Outflank\nTYPE\n• Warboss: Infantry (Command)\n• Warboss on Warbike: Cavalry (Command)\n\nOPTIONS\n• This Model may have its slugga and/or choppa\nexchanged for one item each from the Ork Boss\nWeapons list.\n• This Model may have its slugga exchanged for a\nkustom shoota for +10 Points or one item from the\nOrk Kombi-weapons list.\n• This Model may have an attack squig for +10 Points.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Twin dakkaguns (Warboss on Warbike only)\n\nSPECIAL RULES\nWarboss\n• Bulky (2)\n• Eternal Warrior (1)\n• Fear (1)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (LD)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -8306,7 +8306,7 @@
             ]
           },
           {
-            "name": "Mega Warboss — full datasheet (p.8)",
+            "name": "Mega Warboss — Wargear & Special Rules",
             "id": "b722-9cc3-edc2-633c",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -8314,12 +8314,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 8",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MEGA WARBOSS\n\nHIGH COMMAND\n\n130 Points\n\nUNIT COMPOSITION: 1 MEGA WARBOSS\n\nAny good Ork Hunter knows the safest way to deal with a rampaging Warboss is to hit them with tank-busting artillery from\nas far away as possible. By donning a piston-driven suit of incredibly durable mega armour, this Warboss makes a mockery of\nsuch underhanded enemy tactics, much to the terror of its foes. The strongest and meanest among its already brutal kin, the\nWarboss supplements its fearsome bulk and staggering might with powered armour that makes him a force to be reckoned with\non the battlefield.\n\nWARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Bulky (3)\n• Eternal Warrior (1)\n• Fear (1)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (LD)\n• Slow and Purposeful\n\nTRAITS\n• Xenos\n• [Orks]\n• Prophet of the Waaagh!\n\nTYPE\n• Infantry (Command, Heavy)\nOPTIONS\n• This Model may have its kombi-shoota exchanged for a\nkustom shoota for +10 Points or one item from the\nOrk Kombi-weapons list.",
+                "$text": "WARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Bulky (3)\n• Eternal Warrior (1)\n• Fear (1)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (LD)\n• Slow and Purposeful",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -8517,7 +8517,7 @@
             ]
           },
           {
-            "name": "Kustom Meka-dread — full datasheet (p.9)",
+            "name": "Kustom Meka-dread — Wargear & Special Rules",
             "id": "e56f-5f6a-5032-3aee",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -8525,12 +8525,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 9",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "KUSTOM MEKA-DREAD\n\nHIGH COMMAND\n\n180 Points\n\nUNIT COMPOSITION: 1 KUSTOM MEKA-DREAD\n\nFew Meks have the skill to create Mega-Dreads and the competition to pilot these monstrosities is fierce. Orks that do so often\ngo quite insane with joy over the damage their machines can inflict, while some Big Meks, jealous of those who get to “av all da\nfun” build their own even more outlandish examples of these machines for personal use. These fearsome ‘kustomized MekaDreads’ are even more insane and dangerously unpredictable than the rest, often fitted with multiple tool-equipped servo-arms\nfor “battlefield fixin’s\" and experimental and energy hungry weapons.\n\nWARGEAR\n• Two big shootas\n\nSPECIAL RULES\n• Battlesmith (2)\n• Bulky (8)\n• Explodes (4+)\n• Implacable Advance\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Walker (Heavy)\nOPTIONS\nThis Model must have one of the following options\nselected for it:\n• Two options from the following list:\n- Dread rippa klaw .............................................. Free\n- Mega killsaw ............................................ +5 Points\n- Shunta .................................................... +25 Points\n- Killkannon .............................................. +35 Points\n• Paired dread rippa klaws ........................... +10 Points\n• Paired mega killsaws ................................. +10 Points",
+                "$text": "WARGEAR\n• Two big shootas\n\nSPECIAL RULES\n• Battlesmith (2)\n• Bulky (8)\n• Explodes (4+)\n• Implacable Advance",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -9103,7 +9103,7 @@
             ]
           },
           {
-            "name": "Bigboss — full datasheet (p.10)",
+            "name": "Bigboss — Wargear & Special Rules",
             "id": "83b1-41e3-2d49-f201",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -9111,12 +9111,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 10",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "BIGBOSS\n\nCOMMAND\n\n50 Points\n\nUNIT COMPOSITION: 1 BIGBOSS\n• This model may be replaced with 1 Bigboss on Warbike for +30 Points\n• This model may be replaced with 1 Bigboss on Wartrike for +50 Points\n\nAn Ork Bigboss, as his name implies, is a particularly large and unpleasant Ork Nob who really enjoys bossing other, smaller,\nOrks around. The Bigboss's ability in combat ensures that he is respected, if not admired, by the Orks under his command.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Twin dakkaguns (Bigboss on Warbike only)\n• Three twin boomstikks (Bigboss on Wartrike only)\n\nSPECIAL RULES\nBigboss\n• Impact (S)\n• Implacable Advance\n• Mob Rule (LD)\n• Officer of the Line (2)\n\nTRAITS\n• Xenos\n• [Orks]\n• Smokescreen\n(Bigboss on Warbike and Bigboss on Wartrike only)\n\nBigboss on Warbike\n• Bulky (2)\n• Eternal Warrior (1)\n• Firing Protocols (2)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (LD)\n• Officer of the Line (2)\n• Outflank\n\nOPTIONS\n• This Model may have its slugga and/or choppa\nexchanged for one item each from the Ork Boss\nWeapons list.\n• This Model may have its slugga exchanged for one\nitem from the Ork Kombi-weapons list.\n• This Model may have the Waaagh! Banner for +20\nPoints.\n• This Model may have an attack squig for +10 Points.\n\nBigboss on Wartrike\n• Bulky (3)\n• Eternal Warrior (1)\n• Firing Protocols (3)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (LD)\n• Officer of the Line (2)\nTYPE\n• Bigboss: Infantry (Command)\n• Bigboss on Warbike: Cavalry (Command)\n• Bigboss on Wartrike: Cavalry (Command)\n\nWARGEAR\nWaaagh! Banner\nA warband's banner is decorated with glyphs, trophies and the blood of defeated enemies to show how dangerous the\nowners are. The banner has a near-religious significance to the Orks and they will fight all the harder in its presence.\nA Waaagh! banner grants benefits in Charges and Challenges.\nAll Models in a Unit with a Waaagh! banner gain the Fear (1) and Impact (WS) Special Rules. In addition, a Model\nwith a Waaagh! banner counts as an additional 6 Models for the purposes of Outside Support in a Challenge.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Twin dakkaguns (Bigboss on Warbike only)\n• Three twin boomstikks (Bigboss on Wartrike only)\n\nSPECIAL RULES\nBigboss\n• Impact (S)\n• Implacable Advance\n• Mob Rule (LD)\n• Officer of the Line (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -9368,7 +9368,7 @@
             ]
           },
           {
-            "name": "Mega Bigboss — full datasheet (p.11)",
+            "name": "Mega Bigboss — Wargear & Special Rules",
             "id": "cfdf-5b5f-3d6d-74d6",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -9376,12 +9376,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 11",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MEGA BIGBOSS\n\nCOMMAND\n\n90 Points\n\nUNIT COMPOSITION: 1 MEGA BIGBOSS\n\nMega-armour is the very pinnacle of the Ork armourers' craft, being large, noisy, very heavy and dead 'ard.\n\nWARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (LD)\n• Officer of the Line (2)\n• Slow and Purposeful\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Command, Heavy)\nOPTIONS\n• This Model may have its kombi-shoota exchanged for\none item from the Ork Kombi-weapons list.\n• This Model may have the Waaagh! Banner for +20\nPoints.",
+                "$text": "WARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (LD)\n• Officer of the Line (2)\n• Slow and Purposeful",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -9570,7 +9570,7 @@
             ]
           },
           {
-            "name": "Freebooter Kaptin — full datasheet (p.11)",
+            "name": "Freebooter Kaptin — Wargear & Special Rules",
             "id": "e2bd-1d7e-6868-ca69",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -9578,12 +9578,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 11",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "FREEBOOTER KAPTIN\n\nCOMMAND\n\n45 Points\n\nUNIT COMPOSITION: 1 FREEBOOTER KAPTIN\n\nFreebooter Kaptins are extremely tough and aggressive Orks with fiery tempers. They command tremendous loyalty from their\nBoyz, who not only don't object to their bullying and violent ways but actually expect their commanders to behave in this\nfashion. The Kaptin's occasionally murderous outbursts serve only to impress the Boyz and remind them what a fine leader\nthey have. Kaptins dress in an even more flamboyant style than Freebooter Boyz, favouring large decorated hats and\nvoluminous coats in which they conceal numerous weapons and flasks of Fungus Rum.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Gitfinda\n\nSPECIAL RULES\n• Impact (S)\n• Mob Rule (CL)\nTYPE\n• Infantry (Command, Heavy)\n\nTRAITS\n• Xenos\n• Freebooterz\nOPTIONS\n• This Model may have its slugga and/or choppa\nexchanged for one item each from the Ork Boss\nWeapons list.\n\n• This Model may have its slugga exchanged for one\nsnazzgun for +10 Points or one item from the Ork\nKombi-weapons list.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Gitfinda\n\nSPECIAL RULES\n• Impact (S)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -9874,7 +9874,7 @@
             ]
           },
           {
-            "name": "Big Mek — full datasheet (p.12)",
+            "name": "Big Mek — Wargear & Special Rules",
             "id": "d014-0614-de34-23f0",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -9882,12 +9882,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 12",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "BIG MEK\n\nCOMMAND\n\n45 Points\n\nUNIT COMPOSITION: 1 BIG MEK\n• This model may be replaced with 1 Big Mek on Warbike for +30 Points\n\nSome Meks gain so much power that they slowly garner a following of acolytes, tread-heads and fellow Meks. These visionary\nMekaniaks are known as Big Meks, and their mastery of Ork technology is second to none.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Twin dakkaguns (Big Mek on Warbike only)\n\nSPECIAL RULES\nBig Mek\n• Battlesmith (2)\n• Impact (S)\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n• Smokescreen (Big Mek on Warbike only)\n\nBig Mek on Warbike\n• Battlesmith (2)\n• Bulky (2)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (CL)\n• Outflank\nTYPE\n• Big Mek: Infantry (Command)\n• Big Mek on Warbike: Cavalry (Command)\n\nOPTIONS\n• This Big Mek or Big Mek on Warbike may have its\nslugga and/or choppa exchanged for one item each\nfrom the Ork Mek Wargear list.\n• This Big Mek or Big Mek on Warbike may have its\nslugga exchanged for a kustom shoota for +10 Points\nor one item from the Ork Kombi-weapons list.\n\n• This Big Mek may have its slugga exchanged for one of\nthe following. If either of these options are taken, this\nBig Mek gains the Bulky (2) Special Rule and\nexchanges the Command Sub-Type for the Champion\nSub-Type:\n- Shokk attack gun ................................... +60 Points\n- Traktor blasta ......................................... +30 Points\n• This Big Mek or Big Mek on Warbike may have a\nkustom force field for +30 Points.\n• This Big Mek or Big Mek on Warbike may have up to\nthree grot oilers for +5 Points each.\n\nWARGEAR\nGrot Oiler\nGrot oilers are the assistants of Ork Meks, and are mostly employed putting out fires or crawling into functioning\nmachinery.\nA grot oiler improves the value of X for the Model’s Battlesmith (X) Special Rule.\nGrot oilers are treated as a special kind of Marker that is moved with the Model it belongs to but is ignored for all\ngame purposes. A grot oiler may be expended once per Battle during any activation of the owning Model’s Battlesmith\n(X) Special Rule, before making an Intelligence Check for the Acting Model. During this activation of the Battlesmith\n(X) Special Rule, the value of X is improved by +1. The grot oiler Marker is then removed from play. Only a single grot\noiler may be expended in this way per activation of the Battlesmith (X) Special Rule.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Twin dakkaguns (Big Mek on Warbike only)\n\nSPECIAL RULES\nBig Mek\n• Battlesmith (2)\n• Impact (S)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -10274,7 +10274,7 @@
             ]
           },
           {
-            "name": "Mega Big Mek — full datasheet (p.13)",
+            "name": "Mega Big Mek — Wargear & Special Rules",
             "id": "0309-a52e-b7e7-171a",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -10282,12 +10282,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 13",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MEGA BIG MEK\n\nCOMMAND\n\n85 Points\n\nUNIT COMPOSITION: 1 MEGA BIG MEK\n\nWhen Mega Big Meks go to war they do it in style; festooned in massive mechanised contraptions of their own design and\nbrimming with kustom dakka.\n\nWARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Battlesmith (2)\n• Bulky (2)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (CL)\n• Slow and Purposeful\n• Tellyportas\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Command, Heavy)\nOPTIONS\n• This Model may have its power klaw exchanged for\none killsaw for Free.\n• This Model may have its kombi-shoota exchanged for a\nkustom mega-blasta for +10 Points or one item from\nthe Ork Kombi-weapons list.\n\n• This Model may have one of the following:\n- Teleport blasta ....................................... +25 Points\n- Kustom force field .................................. +30 Points\n• This Model may have up to three grot oilers for +5\nPoints each.\n\nSPECIAL RULES\nTellyportas\nWhat Ork teleportation technology lacks in safety measures, accuracy, reliability, blueprints or indeed the most basic\ncomprehension of its functions by those who use it, it more than makes up for in its ability to catapult mobs of bellowing\nOrks through the warp and directly into the teeth of their horrified foes.\nIf a Unit that includes only Models with the Infantry Type or Walker Type is selected to fill a Prime Force Organisation\nSlot in an Army that includes one or more Mega Big Meks, the following Prime Advantage can be selected:\nTellyporta Boyz\nAll Models in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Deep Strike\nSpecial Rule. When performing a Deep Strike with a Unit with this Prime Advantage, make a Scatter Roll for the first\nModel placed before placing the rest of the Unit.",
+                "$text": "WARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Battlesmith (2)\n• Bulky (2)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (CL)\n• Slow and Purposeful\n• Tellyportas",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -10656,7 +10656,7 @@
             ]
           },
           {
-            "name": "Painboss — full datasheet (p.14)",
+            "name": "Painboss — Wargear & Special Rules",
             "id": "c0d3-7f31-a52a-e984",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -10664,12 +10664,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 14",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "PAINBOSS\n\nCOMMAND\n50 Points\n\nUNIT COMPOSITION: 1 PAINBOSS\n\nVeteran Painboyz become increasingly obsessed with perfecting their own methods of 'serjery\" and eventually drift away from\ntheir Warboss. Left to their own devices, they will indulge in ever more extreme eksperiments. Any Ork brave/stupid enough to\nventure into a Painboss's lab has to be careful otherwise it may wake up to find itself with a new set of mechanical lungs that\nallow it to breathe underwater even though it probably only went in to get a bad tooth removed!.\n\nWARGEAR\n• Choppa\n\nSPECIAL RULES\n• Cyborks\n• Feel No Pain (5+)\n• Impact (S)\n• Medic (4+)\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Command)\nOPTIONS\n• This Model may have its choppa exchanged for one\npower klaw for +20 Points or one item from the Ork\nDok Wargear list.\n• This Model may have up to three grot orderlies for +5\nPoints each.\n\nWARGEAR\nGrot Orderly\nPainboyz are often accompanied by grot orderlies, whose job it is to carry tools and gather up discarded limbs and organs.\nA grot orderly allows a single Recovery Test to be made.\nGrot orderlies are treated as a special kind of Marker that is moved with the Model it belongs to but is ignored for all\ngame purposes. A grot orderly may be expended once per Battle whenever another Model in the same unit as the\nModel with the grot orderly suffers an Unsaved Wound. The Model with the grot orderly may make a Recovery Test for\nthe wounded Model (as described in the Medic (X) Special Rule). The grot orderly Marker is then removed from play.\nOnly a single grot orderly may be expended in this way per Unsaved Wound.\n\nSPECIAL RULES\nCyborks\nAny Ork brave/stupid enough to venture into a Painboss's lab has to be careful otherwise it may wake up to find itself with\na new set of mechanical lungs that allow it to breathe underwater even though it probably only went in to get a bad tooth\nremoved!\nIf a Unit that includes only Models with the Infantry Type is selected to fill a Prime Force Organisation Slot in an Army\nthat includes one or more Painbosses, the following Prime Advantage can be selected:\nCyborks\nAll Models in the Unit selected to fill a Prime Force Organisation Slot with this Prime Advantage gain the Eternal\nWarrior (1) and Feel No Pain (5+) Special Rules.",
+                "$text": "WARGEAR\n• Choppa\n\nSPECIAL RULES\n• Cyborks\n• Feel No Pain (5+)\n• Impact (S)\n• Medic (4+)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -10903,7 +10903,7 @@
             ]
           },
           {
-            "name": "Mekaniaks — full datasheet (p.15)",
+            "name": "Mekaniaks — Wargear & Special Rules",
             "id": "71d9-018f-004d-efa5",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -10911,12 +10911,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 15",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MEKANIAKS\n\nRETINUE\n\n10 Points\n\nUNIT COMPOSITION: 1 MEKBOY\n• May include up to 4 additional Mekboys at +10 Points per model.\n\nMekboyz, also known as Mekaniaks or Meks, are Orks with a natural gift for engineering. Meks are responsible for inventing,\nbuilding and maintaining the machinery and weaponry that the Orks use. They are obsessed with creating ever larger and\nmore devastating war machines to unleash upon the foe.\n\nWARGEAR\n• Slugga\n• Choppa\n\nSPECIAL RULES\n• Battlesmith (1)\n• Impact (S)\n• Mob Rule (CL)\n• Oddboyz\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Specialist)\n\nOPTIONS\n• Any Model may have its slugga and/or choppa\nexchanged for one item each from the Ork Mek\nWargear list.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n\nSPECIAL RULES\n• Battlesmith (1)\n• Impact (S)\n• Mob Rule (CL)\n• Oddboyz",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -11084,7 +11084,7 @@
             ]
           },
           {
-            "name": "Mad Doks — full datasheet (p.15)",
+            "name": "Mad Doks — Wargear & Special Rules",
             "id": "c7d4-7d6f-f5bb-8479",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -11092,12 +11092,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 15",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MAD DOKS\n\nRETINUE\n\n10 Points\n\nUNIT COMPOSITION: 1 PAINBOY\n• May include up to 4 additional Painboys at +10 Points per model.\n\nThe boundless surgical expertise of the Painboyz is such that they are undeterred by wounds no matter how severe they are. As\nlong as the patient isn't (quite) dead, the Painboyz will do their utmost to save him.\n\nWARGEAR\n• Choppa\n\nSPECIAL RULES\n• Impact (S)\n• Feel No Pain (5+)\n• Medic (5+)\n• Mob Rule (CL)\n• Oddboyz\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Specialist, Light)\nOPTIONS\n• Any Model may have its choppa exchanged for one\nitem from the Ork Dok Wargear list.",
+                "$text": "WARGEAR\n• Choppa\n\nSPECIAL RULES\n• Impact (S)\n• Feel No Pain (5+)\n• Medic (5+)\n• Mob Rule (CL)\n• Oddboyz",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -11265,7 +11265,7 @@
             ]
           },
           {
-            "name": "Madboyz Mob — full datasheet (p.16)",
+            "name": "Madboyz Mob — Wargear & Special Rules",
             "id": "5639-c699-f0dd-e4be",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -11273,12 +11273,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 16",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MADBOYZ MOB\n\nRETINUE\n\n40 Points\n\nUNIT COMPOSITION: 5 MADBOYZ\n• May include up to 15 additional Madboyz at +6 Points per Model.\n\nThe Ork techno-gene allows Orks to inherit the knowledge and experience of their forebears and enables them to maintain a\nhigh level of technology. Unfortunately it doesn't always work out. There are always a few individuals whose genetic influences\nfail to mesh properly. The Ork finds his mind full of distractions and contradictions. Wild ideas about the universe buzz round\nhis brain. Curious bits of unconnected knowledge keep intruding upon his consciousness. These disturbed Orks are called\nMadboyz.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Expendable (1)\n• Heedless\n• Madmob\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Light)\n\nOPTIONS\n• Any Model in this Unit may have its slugga and choppa\nexchanged for one shoota for Free.\n• For every five models in this Unit, one Model in this\nUnit may have its choppa exchanged for one\nchainsword for Free.\n\nSPECIAL RULES\nMadmob\nMadboyz are extremely unpredictable. Their minds swirl with strange ideas or sudden momentary enthusiasms, and they\ntend to act as a single body. If one Madboy thinks he has lost his boot the whole mob is likely to become obsessed with the\nidea of finding it! Such is the way with Madboyz.\nA Unit that includes any Models with this Special Rule cannot be joined by other Models except for Weirdboys. In\n\naddition, whenever a Unit that includes any Models with this Special Rule would gain either the Routed or Pinned\nStatus, they instead gain the Suppressed and Stunned Statuses and the Hatred (Everything) Special Rule.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Expendable (1)\n• Heedless\n• Madmob\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -11518,7 +11518,7 @@
             ]
           },
           {
-            "name": "Weirdboy — full datasheet (p.17)",
+            "name": "Weirdboy — Wargear & Special Rules",
             "id": "709c-d90e-94b3-3d9f",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -11526,12 +11526,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 17",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "WEIRDBOY\n\nELITES\n\n50 Points\n\nUNIT COMPOSITION: 1 WEIRDBOY\n\nWeirdboyz are the most psychically powerful of all Orks. They act as a focal point for the psychic energy subconsciously\ngenerated by their greenskin comrades, energy that binds them together with a common purpose. Weirdboyz resonate with the\npower of sheer Orkiness, and the more Orks there are nearby, the higher the charge held within their bodies.\n\nWARGEAR\n• Force staff\n\nSPECIAL RULES\n• Impact (S)\n• Mob Rule (WP)\n• Power of the Waaagh! Discipline\n\nTRAITS\n• Xenos\n• [Orks]\n• Psyker\n• Warphead\n\nTYPE\n• Infantry (Champion, Specialist)\n\nPOWER OF THE WAAAGH! DISCIPLINE\nA Weirdboy in a battle trance is a terrifying sight. His eyes pop and his limbs flail as he storms toward the enemy. When the\nsurge reaches its excruciating peak, the Weirdboy will direct the resultant discharge in a display of pyrotechnics that either\nblasts his enemies to pieces or energises his comrades with crackling green energy.\nA Model with the Power of the Waaagh! Discipline gains the following benefits:\n• The Explodes (5+) and Heedless special rules.\n• The ‘Eadbanger Psychic Weapon.\n• The Warpath Psychic Power.\n• The ‘Warphead’ Trait.\n\n‘EADBANGER\n\nFocus: The Focus of the Power must be a Model with the\nWarphead Trait under the Active Player's control, and\nmust be either part of the Unit making a Charge or within\n12\" and with Line of Sight to one or more Models in that\nUnit.\n\n(Psychic Weapon)\nThe Weirdboy sends out arcs of crackling energy that ground\nthemselves upon the enemy, causing heads to explode.\nR\n\nFP\n\nRS\n\nAP\n\nD\n\nSpecial Rules\n\nTraits\n\n18\n\n1\n\n5\n\n2\n\n1\n\nForce (Damage),\nPrecision (4+),\nTargeted (+3),\nOverload (1)\n\nRanged,\nPsychic\n\nTarget: The Target Unit must be the Unit currently\nselected and in the process of making a Charge.\nDuration: If successfully Manifested, the effects of this\nPsychic Power last until the end of the current Assault\nPhase.\nProcess\n\nWARPATH\n\n1. Once the Focus and Target Unit have been decided,\nmake a Manifestation Check.\n\nThe Weirdboy disperses the energy coursing through his\nframe into the Orks around him with dramatic effect.\n\n2. If the Manifestation Check is successful, then no\nVolley Attack may be made for the Target Unit, but all\nModels in the Target Unit gain a bonus of +2 to their\nAttacks Characteristic.\n\n(Psychic Power, Blessing)\n\nThis Power is used in the Charge Sub-Phase to add a\nbonus to a Unit's Attacks.\n\n3. If the Manifestation Check fails then there is no\nfurther effect.\n\nTrigger: The Active Player may choose to Manifest the\nWarpath Psychic Power in the Charge Sub-Phase, at Step\n4 of the Charge process before any Unit makes a Volley\nAttack.",
+                "$text": "WARGEAR\n• Force staff\n\nSPECIAL RULES\n• Impact (S)\n• Mob Rule (WP)\n• Power of the Waaagh! Discipline",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -11649,7 +11649,7 @@
             ]
           },
           {
-            "name": "Nobz Mob — full datasheet (p.18)",
+            "name": "Nobz Mob — Wargear & Special Rules",
             "id": "3877-fd35-a639-c402",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -11657,12 +11657,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 18",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "NOBZ MOB\n\nELITES\n\n55 Points\n\nUNIT COMPOSITION: 3 NOBS\n• May include up to 12 additional Nobs at +15 Points per Model.\n\nThe Orks call their ruling caste Nobz. Ork nobility is determined not by some accident of birth or sparkly heirloom but by the\nsheer size and belligerence of the Ork claimant. The only Ork bigger and scarier than a Nob is a Warboss, and the Nobz delight\nin reminding lesser Orks about their natural supremacy using their scarred fists and iron- shod boots.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (1)\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry\n\nOPTIONS\n• Any Model in this Unit may have its slugga and/or\nchoppa exchanged for one item each from the Ork Boss\nWeapons list.\n\n• Any Model in this Unit may have its slugga exchanged\nfor one item from the Ork Kombi-weapons list.\n• Any Model in this Unit may have a bosspole for +5\nPoints per Model.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (1)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -11893,7 +11893,7 @@
             ]
           },
           {
-            "name": "Warbiker Nobz Mob — full datasheet (p.18)",
+            "name": "Warbiker Nobz Mob — Wargear & Special Rules",
             "id": "d648-34ce-22b3-3e7b",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -11901,12 +11901,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 18",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "WARBIKER NOBZ MOB\n\nELITES\n\n120 Points\n\nUNIT COMPOSITION: 3 WARBIKER NOBZ\n• May include up to 6 additional Nobz at +35 Points per Model.\n\nSome Nobz even take to the field astride monstrous Warbikes, roaring through the enemy ranks like blood-soaked battering\nrams covered in guns.\nM\nWS\nBS\nS\nT\nW\nI\nA\nLD\nCL\nWP\nIN\nSAV INV\nWarbiker Nob\n\n14\n\n5\n\n2\n\n4\n\n4\n\nWARGEAR\n• Slugga\n• Twin dakkaguns\n• Stikkbombs\n\n3\n\n3\n\n3\n\n7\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (CL)\n• Outflank\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Cavalry\n\nOPTIONS\n• Any Model in this Unit may have its slugga exchanged\nfor one item from the Ork Boss Weapons list.\n• Any Model in this Unit may have a bosspole for +5\nPoints per Model.\n\n8\n\n7\n\n4\n\n4+\n\n-",
+                "$text": "WARGEAR\n• Slugga\n• Twin dakkaguns\n• Stikkbombs 3 3 3 7\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (CL)\n• Outflank",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -12119,7 +12119,7 @@
             ]
           },
           {
-            "name": "Flash Gitz Mob — full datasheet (p.19)",
+            "name": "Flash Gitz Mob — Wargear & Special Rules",
             "id": "ec04-120f-dc22-a30e",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -12127,12 +12127,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 19",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "FLASH GITZ MOB\n\nELITES\n\n80 Points\n\nUNIT COMPOSITION: 3 FLASH GITZ\n• May include up to 7 additional Flash Gitz at +24 Points per Model.\n\nThe richest and most obnoxious of all Orks are indisputably the Flash Gitz. These unsavoury individuals pursue a life of\nconquest and pillage, plying the stars in grotesquely ornamented Kill Kroozas and attack craft. The Flash Gitz take every\nopportunity they can to fight alongside the rest of the Boyz, if only to flaunt their revoltingly powerful weaponry in front of\ntheir less fortunate brethren.\n\nWARGEAR\n• Snazzgun\n• Stikkbombs\n\nSPECIAL RULES\n• Bulky (2)\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Heavy)\n\nOPTIONS\n• Any Model in this Unit may have one item from the\nOrk Boss Weapons list.\n• Any Model in this Unit may have a bosspole for +5\nPoints per Model.",
+                "$text": "WARGEAR\n• Snazzgun\n• Stikkbombs\n\nSPECIAL RULES\n• Bulky (2)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -12345,7 +12345,7 @@
             ]
           },
           {
-            "name": "Meganobz Mob — full datasheet (p.20)",
+            "name": "Meganobz Mob — Wargear & Special Rules",
             "id": "0361-422b-15e1-7a61",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -12353,12 +12353,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 20",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MEGANOBZ MOB\n\nHEAVY ASSAULT\n\n150 Points\n\nUNIT COMPOSITION: 3 MEGANOBZ\n• May include up to 6 additional Meganobz at +45 Points per Model.\n\nOrk veterans who value the thrill of close combat above all else often become Meganobz. Only the richest of Ork Nobz can\nafford to join the ranks of this elite group. They are characterised by the bulky exoskeletons they wear into battle, which they\ncall mega armour, and by a dogged belief in their own invulnerability.\n\nWARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (CL)\n• Slow and Purposeful\n• Vanguard (3)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Heavy)\nOPTIONS\n• Any Model in this Unit may have its kombi-shoota\nexchanged for one item from the Ork Kombi-weapons\nlist.\n• Any Model in this Unit may have its kombi-shoota and\npower klaw exchanged for one pair of killsaws for +10\nPoints.\n\n• Any Model in this Unit may have a bosspole for +5\nPoints per Model.",
+                "$text": "WARGEAR\n• Kombi-shoota\n• Power klaw\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (A)\n• Implacable Advance\n• Mob Rule (CL)\n• Slow and Purposeful\n• Vanguard (3)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -12700,7 +12700,7 @@
             ]
           },
           {
-            "name": "Stormboyz Mob — full datasheet (p.21)",
+            "name": "Stormboyz Mob — Wargear & Special Rules",
             "id": "e383-df72-0cd4-fbfa",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -12708,12 +12708,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 21",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "STORMBOYZ MOB\n\nHEAVY ASSAULT\n\n50 Points\n\nUNIT COMPOSITION: 5 STORMBOYZ\n• May include up to 25 additional Stormboyz at +8 Points per Model.\n• One Stormboy may be replaced with a Drillboss for +10 Points.\n\nStormboyz, the shock troops of many successful warbands, are far too efficient and disciplined by the standards of rightthinking greenskins. Their contrary stance to the good old-fashioned values of anarchy and disorder manifests in a desire to be\norganised and obedient. Nevertheless, they are still Orks, and share the Orkish desire to get into battle as quickly as possible.\nTo this end they go to war strapped to rokkit packs that, when activated, propel their wearers forward on great tongues of oily\nblack flame.\nM\nWS\nBS\nS\nT\nW\nI\nA\nLD\nCL\nWP\nIN\nSAV INV\nStormboy\nDrillboss\n\n12\n12\n\n4\n5\n\n2\n2\n\n3\n4\n\n4\n4\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Rokkit Packs\n\n1\n2\n\n2\n3\n\n2\n3\n\n7\n8\n\n7\n8\n\n6\n7\n\n5\n5\n\n6+\n6+\n\n-\n\nSPECIAL RULES\n• Bulky (2)\n• Deep Strike\n• Impact (S)\n• Mob Rule (CL)\n• Vanguard (2)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Stormboyz: Infantry (Antigrav)\n• Drillboss: Infantry (Sergeant, Antigrav)\n\nOPTIONS\n• For every five models in this Unit, one Stormboy in this\nUnit may have its choppa exchanged for one\nchainsword for Free.\n• If this Unit includes a Drillboss, the Drillboss in this\nUnit may have its slugga and/or choppa exchanged for\none item each from the Ork Boss Weapons list.\n\nWARGEAR\nRokkit Pack\nStormboyz use crude rokkit packs to propel themselves across the battlefield in huge, bounding leaps. Whether they smash\ninto enemy lines or a solid ferrocrete wall is a different matter entirely, however.\nRokkit packs allow a boosted jump but risk causing Wounds.\nIn the Effects Sub-Phase of the Start Phase, the Controlling Player of a Unit in which every Model is equipped with a\nrokkit pack can choose to boost their jumps. Until the end of this Turn, Models in that Unit equipped with rokkit packs\ngain the Fast (3) Special Rule but must make Dangerous Terrain Tests when making a Rush or Charge Move.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n• Rokkit Packs 1 2 2 3 2 3 7 8 7 8 6 7 5 5 6+ 6+\n-\n\nSPECIAL RULES\n• Bulky (2)\n• Deep Strike\n• Impact (S)\n• Mob Rule (CL)\n• Vanguard (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -13010,7 +13010,7 @@
             ]
           },
           {
-            "name": "Slugga Boyz Mob — full datasheet (p.22)",
+            "name": "Slugga Boyz Mob — Wargear & Special Rules",
             "id": "a956-2598-e029-e2fd",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -13018,12 +13018,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 22",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "SLUGGA BOYZ MOB\n\nTROOPS\n\n60 Points\n\nUNIT COMPOSITION: 10 SLUGGA BOYZ\n• May include up to 20 additional Slugga Boyz at +5 Points per Model.\n• One Slugga Boy may be replaced with a Slugga Nob for +10 Points.\n\nSlugga Boyz are the heart and soul of most Ork warbands. They are normally formed into huge mobs and are armed for close\ncombat with hefty, razor-edged choppas and the big-bore Ork pistols known as sluggas.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (2)\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Slugga Boyz: Infantry (Light)\n• Slugga Nob: Infantry (Sergeant, Light)\n\nOPTIONS\n• For every five models in this Unit, one Slugga Boy in\nthis Unit may have its choppa exchanged for one\nchainsword for Free.\n• Up to three Slugga Boyz in this Unit may each have\ntheir slugga and choppa exchanged for one item from\nthe Ork Special Weapons list.\n\n• If this Unit includes a Slugga Nob, the Slugga Nob in\nthis Unit may have its slugga and/or choppa\nexchanged for one item each from the Ork Boss\nWeapons list.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (2)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -13338,7 +13338,7 @@
             ]
           },
           {
-            "name": "Shoota Boyz Mob — full datasheet (p.22)",
+            "name": "Shoota Boyz Mob — Wargear & Special Rules",
             "id": "f865-02da-d79a-fafe",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -13346,12 +13346,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 22",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "SHOOTA BOYZ MOB\n\nTROOPS\n\n60 Points\n\nUNIT COMPOSITION: 10 SHOOTA BOYZ\n• May include up to 20 additional Shoota Boyz at +5 Points per Model.\n• One Shoota Boy may be replaced with a Shoota Nob for +10 Points.\n\nSlugga Boyz are the heart and soul of most Ork warbands. They are normally formed into huge mobs and are armed for close\ncombat with hefty, razor-edged choppas and the big-bore Ork pistols known as sluggas.\n\nWARGEAR\n• Shoota\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (2)\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Shoota Boyz: Infantry (Light)\n• Shoota Nob: Infantry (Sergeant, Light)\n\nOPTIONS\n• Up to three Shoota Boyz in this Unit may each have\ntheir shoota exchanged for one item from the Ork\nSpecial Weapons list.\n\n• If this Unit includes a Shoota Nob, the Shoota Nob in\nthis Unit may have its shoota exchanged for one item\nfrom the Ork Kombi-weapons list.",
+                "$text": "WARGEAR\n• Shoota\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (2)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -13621,7 +13621,7 @@
             ]
           },
           {
-            "name": "‘Ard Boyz Mob — full datasheet (p.23)",
+            "name": "‘Ard Boyz Mob — Wargear & Special Rules",
             "id": "6c27-903d-15aa-c493",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -13629,12 +13629,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 23",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "‘ARD BOYZ MOB\n\nTROOPS\n\n80 Points\n\nUNIT COMPOSITION: 10 ‘ARD BOYZ\n• May include up to 10 additional ‘Ard Boyz at +6 Points per Model.\n• One ‘Ard Boy may be replaced with an ‘Ard Nob for +10 Points.\n\n‘Ard Boyz wear heavy armour pieced together from steel plates and equipment scavenged from defeated foes. Their thick\narmour combined with the natural toughness of Orhs means that 'Ard Boyz are able to wade through the fiercest fire fights\nwith barely a scratch.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (1)\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• ‘Ard Boyz: Infantry\n• ‘Ard Nob: Infantry (Sergeant)\n\nOPTIONS\n• Any Model in this Unit may have its slugga and choppa\nexchanged for one shoota for Free.\n• For every five models in this Unit, one ‘Ard Boy in this\nUnit may have its choppa exchanged for one\nchainsword for Free.\n\n• Up to two ‘Ard Boyz in this Unit may each have their\nslugga and choppa exchanged for one item from the\nOrk Special Weapons list.\n• If this Unit includes an ‘Ard Nob, the ‘Ard Nob in this\nUnit may have its slugga and/or choppa exchanged for\none item each from the Ork Boss Weapons list.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Line (1)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -13994,7 +13994,7 @@
             ]
           },
           {
-            "name": "Gretchin Mob — full datasheet (p.23)",
+            "name": "Gretchin Mob — Wargear & Special Rules",
             "id": "76d8-5ffe-f08c-a622",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -14002,12 +14002,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 23",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GRETCHIN MOB\n\nTROOPS\n\n35 Points\n\nUNIT COMPOSITION: 1 RUNTHERD, 10 GRETCHIN\n• May include up to 40 additional Gretchin at +3 Points per Model.\n• For every 10 Gretchin in this Unit, this Unit may include one Runtherd for +6 Points.\n\nGretchin mobs make up for their shocking lack of quality with sheer quantity. The natural cowardice and feeble-limbed\nincompetence of the Gretchin race does not predispose them to the arts of war. There do exist Gretchin with a little more\nbackbone, though, and when emboldened by the possession of a gun of their own these diminutive greenskins can be convinced\nto take the field with promises of plunder and, when that fails, threats of a beating.\n\nWARGEAR\n• Grot blasta (Gretchin only)\n• Slugga (Runtherd only)\n• Herding stikk (Runtherd only)\n\nSPECIAL RULES\n• Downtrodden\n• Expendable (3)\n• Impact (S) (Runtherd only)\n• Support Unit (1)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Gretchin: Infantry (Light)\n• Runtherd: Infantry (Sergeant, Light)\n\nOPTIONS\n• Any Runtherd in this Unit may have a squighound for\n+5 Points.",
+                "$text": "WARGEAR\n• Grot blasta (Gretchin only)\n• Slugga (Runtherd only)\n• Herding stikk (Runtherd only)\n\nSPECIAL RULES\n• Downtrodden\n• Expendable (3)\n• Impact (S) (Runtherd only)\n• Support Unit (1)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -14286,7 +14286,7 @@
             ]
           },
           {
-            "name": "Burna Mob — full datasheet (p.24)",
+            "name": "Burna Mob — Wargear & Special Rules",
             "id": "1ead-23e3-5e5f-aecf",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -14294,12 +14294,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 24",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "BURNA MOB\n\nSUPPORT\n\n70 Points\n\nUNIT COMPOSITION: 5 BURNA BOYZ\n• May include up to 10 additional Burna Boyz at +12 Points per Model.\n• Up to three Burna Boyz may be replaced with one Mek each for Free.\n\nBurna Boyz are dedicated arsonists all. They love nothing more than burning other people's stuff, and the owners into the\nbargain. The dual spectacle of leaping flame and frantically flailing victim is a thing of beauty to a Burna Boy, and they will\ntake any excuse to set someone on fire.\n\nWARGEAR\n• Burna (Burna Boy only)\n• Slugga (Mek only)\n• Choppa (Mek only)\n• Stikkbombs\n\nSPECIAL RULES\n• Battlesmith (1) (Mek only)\n• Impact (S)\n• Mob Rule (CL)\n• Support Unit (2)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry\n\nOPTIONS\n• Any Mek in this Unit may have its slugga and choppa\nexchanged for one item from the Ork Mek Wargear list.\n\nLOOTA MOB\n\nSUPPORT\n\n80 Points\n\nUNIT COMPOSITION: 5 LOOTAS\n• May include up to 10 additional Lootas at +14 Points per Model.\n• Up to three Lootas may be replaced with one Mek each for Free.\n\nToting massive deffguns that fill the air with a rain of shots, rokkits and energy blasts, Loota mobs provide a warband with\nmuch needed and extremely heavy covering fire. When a mob of Lootas cuts loose, the overwhelming storm of dakka they\ncreate churns infantry to a blood-soaked pulp while tanks shudder and clang, their crews and systems perforated until the\nvehicles shudder to a halt leaking oil and gore.\n\nLoota\nMek\n\nM\n\nWS\n\nBS\n\nS\n\nT\n\nW\n\nI\n\nA\n\nLD\n\nCL\n\nWP\n\nIN\n\nSAV\n\nINV\n\n6\n6\n\n4\n4\n\n2\n3\n\n3\n3\n\n4\n4\n\n1\n1\n\n2\n2\n\n2\n2\n\n6\n6\n\n7\n7\n\n6\n6\n\n5\n8\n\n4+\n4+\n\n-\n\nWARGEAR\n• Deffgun (Loota only)\n• Slugga (Mek only)\n• Choppa (Mek only)\n• Stikkbombs\n\nSPECIAL RULES\n• Battlesmith (1) (Mek only)\n• Impact (S)\n• Mob Rule (CL)\n• Support Unit (2)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Heavy)\n\nOPTIONS\n• Any Mek in this Unit may have its slugga and choppa\nexchanged for one item from the Ork Mek Wargear list.",
+                "$text": "WARGEAR\n• Burna (Burna Boy only)\n• Slugga (Mek only)\n• Choppa (Mek only)\n• Stikkbombs\n\nSPECIAL RULES\n• Battlesmith (1) (Mek only)\n• Impact (S)\n• Mob Rule (CL)\n• Support Unit (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -14710,7 +14710,7 @@
             ]
           },
           {
-            "name": "Loota Mob — full datasheet (p.24)",
+            "name": "Loota Mob — Wargear & Special Rules",
             "id": "2087-2286-1c30-d287",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -14718,12 +14718,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 24",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "BURNA MOB\n\nSUPPORT\n\n70 Points\n\nUNIT COMPOSITION: 5 BURNA BOYZ\n• May include up to 10 additional Burna Boyz at +12 Points per Model.\n• Up to three Burna Boyz may be replaced with one Mek each for Free.\n\nBurna Boyz are dedicated arsonists all. They love nothing more than burning other people's stuff, and the owners into the\nbargain. The dual spectacle of leaping flame and frantically flailing victim is a thing of beauty to a Burna Boy, and they will\ntake any excuse to set someone on fire.\n\nWARGEAR\n• Burna (Burna Boy only)\n• Slugga (Mek only)\n• Choppa (Mek only)\n• Stikkbombs\n\nSPECIAL RULES\n• Battlesmith (1) (Mek only)\n• Impact (S)\n• Mob Rule (CL)\n• Support Unit (2)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry\n\nOPTIONS\n• Any Mek in this Unit may have its slugga and choppa\nexchanged for one item from the Ork Mek Wargear list.\n\nLOOTA MOB\n\nSUPPORT\n\n80 Points\n\nUNIT COMPOSITION: 5 LOOTAS\n• May include up to 10 additional Lootas at +14 Points per Model.\n• Up to three Lootas may be replaced with one Mek each for Free.\n\nToting massive deffguns that fill the air with a rain of shots, rokkits and energy blasts, Loota mobs provide a warband with\nmuch needed and extremely heavy covering fire. When a mob of Lootas cuts loose, the overwhelming storm of dakka they\ncreate churns infantry to a blood-soaked pulp while tanks shudder and clang, their crews and systems perforated until the\nvehicles shudder to a halt leaking oil and gore.\n\nLoota\nMek\n\nM\n\nWS\n\nBS\n\nS\n\nT\n\nW\n\nI\n\nA\n\nLD\n\nCL\n\nWP\n\nIN\n\nSAV\n\nINV\n\n6\n6\n\n4\n4\n\n2\n3\n\n3\n3\n\n4\n4\n\n1\n1\n\n2\n2\n\n2\n2\n\n6\n6\n\n7\n7\n\n6\n6\n\n5\n8\n\n4+\n4+\n\n-\n\nWARGEAR\n• Deffgun (Loota only)\n• Slugga (Mek only)\n• Choppa (Mek only)\n• Stikkbombs\n\nSPECIAL RULES\n• Battlesmith (1) (Mek only)\n• Impact (S)\n• Mob Rule (CL)\n• Support Unit (2)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Infantry (Heavy)\n\nOPTIONS\n• Any Mek in this Unit may have its slugga and choppa\nexchanged for one item from the Ork Mek Wargear list.",
+                "$text": "WARGEAR\n• Burna (Burna Boy only)\n• Slugga (Mek only)\n• Choppa (Mek only)\n• Stikkbombs\n\nSPECIAL RULES\n• Battlesmith (1) (Mek only)\n• Impact (S)\n• Mob Rule (CL)\n• Support Unit (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -15134,7 +15134,7 @@
             ]
           },
           {
-            "name": "Tankbusta Mob — full datasheet (p.25)",
+            "name": "Tankbusta Mob — Wargear & Special Rules",
             "id": "d1b7-9322-1061-1110",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -15142,12 +15142,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 25",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "TANKBUSTA MOB\n\nSUPPORT\n\n70 Points\n\nUNIT COMPOSITION: 5 TANKBUSTAS\n• May include up to 10 additional Tankbustas at +12 Points per Model.\n• One Tankbusta may be replaced with a Wrecka Nob for +10 Points.\n\nTankbustas are Orks who have become completely addicted to the thrill of destroying the armoured fighting vehicles of their\nfoes. Their whistling volleys of rokkits, and lethal tankbusta bomb assaults can spell annihilation for even the heaviest tanks.\n\nWARGEAR\n• Rokkit launcha (Tankbusta only)\n• Two rokkit pistols (Wrecka Boss only)\n• Stikkbombs\n• Tankbusta bombs\n\nSPECIAL RULES\n• Impact (S)\n• Mob Rule (CL)\nTYPE\n• Tankbusta: Infantry\n• Wrecka Nob: Infantry (Sergeant)\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• For every five models in this Unit, one Tankbusta in\nthis Unit may have their rokkit launcha exchanged for\none of the following:\n- Two rokkit pistols .............................................. Free\n- Tankhammer ........................... +5 Points per Model\n- Knucklebustas.......................... +5 Points per Model\n• One Tankbusta in this Unit may have a pulsa rokkit for\n+30 Points.\n\n• Up to three Models in the Unit may each have a bomb\nsquig for +10 Points per Model.\n• If this Unit includes a Wrecka Nob, the Wrecka Nob in\nthis Unit may have each rokkit pistol exchanged for\none item each from the Ork Boss Weapons list or one\nof the following:\n- Rokkit launcha.......................................... +5 Points\n- Tankhammer .......................................... +10 Points",
+                "$text": "WARGEAR\n• Rokkit launcha (Tankbusta only)\n• Two rokkit pistols (Wrecka Boss only)\n• Stikkbombs\n• Tankbusta bombs\n\nSPECIAL RULES\n• Impact (S)\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -15630,7 +15630,7 @@
             ]
           },
           {
-            "name": "Killa Kan Mob — full datasheet (p.25)",
+            "name": "Killa Kan Mob — Wargear & Special Rules",
             "id": "aa5b-bc7c-d35a-4f30",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -15638,12 +15638,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 25",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "KILLA KAN MOB\n\nSUPPORT\n\n30 Points\n\nUNIT COMPOSITION: 1 KILLA KAN\n• May include up to 8 additional Killa Kans at +30 Points per Model.\n•\n\nA Killa Kan is outwardly similar to its larger cousin, the Deff Dread. However, Killa Kans are piloted by Grots rather than Orks.\nGretchin practically queue up for the chance to become a Killa Kan pilot. After a lifetime of menial tasks punctuated by casual\nviolence, the idea of striding about in a hulking metal body and lording it over its Ork oppressors is irresistible to a Grot.\n\nWARGEAR\n• Kan klaw\n\nSPECIAL RULES\n• Bulky (4)\n• Downtrodden\n• Implacable Advance\n• Expendable (2)\n• Explodes (6+)\n• Support Unit (1)\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• Every Model in this Unit must have one item from the\nOrk Kan Ranged Weapons list selected for it.\n\nTYPE\n• Walker (Skirmish)",
+                "$text": "WARGEAR\n• Kan klaw\n\nSPECIAL RULES\n• Bulky (4)\n• Downtrodden\n• Implacable Advance\n• Expendable (2)\n• Explodes (6+)\n• Support Unit (1)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -15979,7 +15979,7 @@
             ]
           },
           {
-            "name": "Big Gunz Battery — full datasheet (p.26)",
+            "name": "Big Gunz Battery — Wargear & Special Rules",
             "id": "9d1e-2575-d8cf-cb64",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -15987,12 +15987,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 26",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "BIG GUNZ BATTERY\n\nSUPPORT\n\n15 Points\n\nUNIT COMPOSITION: 1 BIG GUN CREW*\n• May include up to 4 additional Big Gun Crews at +15 Points per Big Gun Crew.\n• Any Big Gun Crew in this Unit may include up to 3 additional Gretchin Gunners at +3\nPoints per Model\n• Any Big Gun Crew in this Unit may include 1 Runtherd at +6 Points per Model\n* Each Big Gun Crew consists of 2 Gretchin Gunners and 1 Big Gun Carrier.\n\nThe roar of Big Gunz has heralded the end for many a hapless foe. Spitting out blasts of crackling energy, swatting planes out\nof the air or crushing their victims in crackling fists of bright green force, these big, clanky field guns have enough dakka to\nstomp even the toughest targets.\n\nWARGEAR\nGretchin Gunner\n• None\nBig Gun Carrier\n• None\nRuntherd\n• Slugga\n• Herding stikk\n\nSPECIAL RULES\n• Big Gun Crew\n• Bulky (3) (Big Gun Carrier only)\n• Downtrodden\n• Slow and Purposeful\n• Support Unit (1)\nTYPE\n• Gretchin Gunner: Infantry\n• Big Gun Carriage: Infantry\n• Runtherd: Infantry (Sergeant)\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• Each Big Gun Carrier must have one item from the Ork\nBig Gunz list or one of the following:\n- Bubblechukka ....................... +20 Points per Model\n- Kustom mega-kannon ........... +20 Points per Model\n- Smasha gun .......................... +20 Points per Model\n- Traktor kannon ..................... +20 Points per Model\n\n• Any Runtherd in this Unit may have a squighound for\n+5 Points.\n\nSPECIAL RULES\nBig Gun Crew\nThe Orks drag the Big Gunz into battle behind speeding wagons and Trukks before abandoning them in a heap and leaving\nthe grots to sort them out.\nThe Characteristics of different Models with this Special Rule are used in different situations.\nEach time Wound Tests are made for a Fire Group that targets a Unit that includes any Models with this Special Rule, if\nany Big Gun Carrier Models are in this Unit, the Toughness Characteristic of the Big Gun Carriers is treated as being\nthe majority. If any wounds are generated by these Wound Tests, the Target Model selected must be a Big Gun Carrier\nModel if possible.\nEach time Wound Tests are made for a Strike Group targeting this Unit, the Toughness Characteristic of the Gretchin\nGunner Models is treated as being the majority. If any wounds are generated by these Wound Tests, the Target Model\nselected must be a Gretchin Gunner Model (or Runtherd Model), if possible.\nIf at any point there are no Gretchin Gunner Models remaining in this Unit, the remaining Models are immediately\nRemoved as Casualties.",
+                "$text": "WARGEAR\nGretchin Gunner\n• None Big Gun Carrier\n• None Runtherd\n• Slugga\n• Herding stikk\n\nSPECIAL RULES\n• Big Gun Crew\n• Bulky (3) (Big Gun Carrier only)\n• Downtrodden\n• Slow and Purposeful\n• Support Unit (1)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -16409,7 +16409,7 @@
             ]
           },
           {
-            "name": "Deff Dread — full datasheet (p.27)",
+            "name": "Deff Dread — Wargear & Special Rules",
             "id": "f8ae-57f3-9f22-52f0",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -16417,12 +16417,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 27",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "DEFF DREAD\n\nWAR-ENGINE\n\n110 Points\n\nUNIT COMPOSITION: 1 DEFF DREAD\n\nThough frequently varied in shape and size, Deff Dreads always epitomise three main ideals of Ork warfare: big, shooty and\nstompy. They thunder and clank towards the foe, limbs waving as heavy weapons spit death into the enemy ranks and powered\nshears snip excitedly in anticipation of the bloodletting to come.\n\nWARGEAR\n• None\n\nSPECIAL RULES\n• Bulky (6)\n• Explodes (4+)\n• Firing Protocols (2)\n• Implacable Advance\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Walker\n\nOPTIONS\nThis Model must have one of the following options\nselected for it:\n• Paired dread klaws for Free and two options from the\nOrk Kan Ranged Weapons list\n• Triple dread klaws for +10 Points and one option from\nthe Ork Kan Ranged Weapons list\n• Lots o’ dread klaws for +20 Points",
+                "$text": "WARGEAR\n• None\n\nSPECIAL RULES\n• Bulky (6)\n• Explodes (4+)\n• Firing Protocols (2)\n• Implacable Advance",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -16701,7 +16701,7 @@
             ]
           },
           {
-            "name": "Mega-dread — full datasheet (p.27)",
+            "name": "Mega-dread — Wargear & Special Rules",
             "id": "b7e1-38c3-802c-e1ad",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -16709,12 +16709,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 27",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MEGA-DREAD\n\nWAR-ENGINE\n\n190 Points\n\nUNIT COMPOSITION: 1 MEGA-DREAD\n\nThe Mega-dread is a hulking, armour-plated monster, much larger and considerably more powerful than the more commonly\nencountered Deff Dreads and Killa Kans. They fit enormous hydraulic power into a relatively compact frame, which makes\nthem far more manoeuvrable on the battlefield than the larger Stompa.\n\nWARGEAR\n• Two big shootas\n\nSPECIAL RULES\n• Bulky (7)\n• Explodes (4+)\n• Firing Protocols (2)\n• Implacable Advance\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Walker (Heavy)\n\nOPTIONS\nThis Model must have one of the following options\nselected for it:\n• Two options from the following list:\n- Dread rippa klaw .............................................. Free\n- Mega killsaw ............................................ +5 Points\n- Killkannon .............................................. +35 Points\n• Paired dread rippa klaws ........................... +10 Points\n• Paired mega killsaws ................................. +10 Points",
+                "$text": "WARGEAR\n• Two big shootas\n\nSPECIAL RULES\n• Bulky (7)\n• Explodes (4+)\n• Firing Protocols (2)\n• Implacable Advance",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -17089,7 +17089,7 @@
             ]
           },
           {
-            "name": "Trukk — full datasheet (p.28)",
+            "name": "Trukk — Wargear & Special Rules",
             "id": "d4df-ada3-87f5-9fc9",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -17097,12 +17097,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 28",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "TRUKK\n\nTRANSPORT\n\n30 Points\n\nUNIT COMPOSITION: 1 TRUKK\n• This Model may be replaced with 1 ‘Ard Case Trukk for +5 Points.\n\nTrukks are built for speed and speed alone, and usually have little in the way of armour plating. A direct hit upon a Trukk can\ncause it to come apart in a clattering, cartwheeling pile of burning wreckage. Still, because Trukks are so light it is easy to bail\nout when they crash, and it is just as likely that a hit will smash apart some wotsit that the driver only hammered into place so\nhe could keep an eye on it.\nArmour\nTrukk\n‘Ard Case Trukk\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n16\n16\n\n2\n2\n\n10\n11\n\n10\n10\n\n10\n10\n\n4\n4\n\n12\n12\n\nWARGEAR\n• None\n\nSPECIAL RULES\n• Auto-repair (5+)\n• Assault Vehicle (Trukk only)\n• Ramshackle\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Vehicle (Transport, Rapid)\n\nOPTIONS\n• This Model must have one item from the Ork Pintle\nWeapons list selected for it.\n\n• This Model may have any of the following options\nselected for it:\n- Reinforced ram ........................................ +5 Points\n- Assault gubbins ........................................ +5 Points\n- Grot riggers .............................................. +5 Points\n\nACCESS POINTS\n• Trukk: This Model has Access Points on all of its\nFacings.\n• ‘Ard Case Trukk: This Model has one Access Point on\nits Rear Facing.",
+                "$text": "WARGEAR\n• None\n\nSPECIAL RULES\n• Auto-repair (5+)\n• Assault Vehicle (Trukk only)\n• Ramshackle",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -17405,7 +17405,7 @@
             ]
           },
           {
-            "name": "Battlewagon — full datasheet (p.29)",
+            "name": "Battlewagon — Wargear & Special Rules",
             "id": "24fe-15a0-6a55-222a",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -17413,12 +17413,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 29",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "BATTLEWAGON\n\nHEAVY TRANSPORT\n\n110 Points\n\nUNIT COMPOSITION: 1 BATTLEWAGON\n• This Model may be replaced with 1 Gunwagon for +40 Points.\n\nBattlewagons are massive metal gunbeasts that prowl through the ranks of the Orks on great clanking treads. Some are mobile\nfortresses, packed to the gunnels with Ork warriors. Others bristle with ordnance and heavy weaponry. The iron fists of the Ork\nwarband, Battlewagons fulfil many battlefield roles, but first amongst them is grinding the enemy into the ground.\nArmour\nBattlewagon\nGunwagon\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n12\n12\n\n2\n2\n\n14\n14\n\n13\n13\n\n11\n11\n\n8\n8\n\n20\n12\n\nWARGEAR\nBattlewagon\n• None\nGunwagon\n• Turret Mounted killkannon\n\nSPECIAL RULES\n• Assault Vehicle (Battlewagon only)\nTYPE\n• Vehicle (Transport)\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• This Model may have one item from the Ork Big Gunz\nlist selected for it. Any item selected in this way\nbecomes Turret Mounted.\n• This Model may have up to four items from the Ork\nPintle Weapons list selected for it.\n\n• This Model may have one of the following options\nselected for it:\n- Reinforced ram ........................................ +5 Points\n- Deff rolla ................................................ +10 Points\n• This Model may have any of the following options\nselected for it:\n- Assault gubbins ...................................... +10 Points\n- Grot riggers ............................................ +10 Points\n\nACCESS POINTS\n• Battlewagon: This Model has Access Points on all of\nits Facings.\n• Gunwagon: This Model has Access Points on both Side\nFacings and the Rear Facing.",
+                "$text": "WARGEAR\nBattlewagon\n• None Gunwagon\n• Turret Mounted killkannon\n\nSPECIAL RULES\n• Assault Vehicle (Battlewagon only)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -17730,7 +17730,7 @@
             ]
           },
           {
-            "name": "Big Trakk — full datasheet (p.30)",
+            "name": "Big Trakk — Wargear & Special Rules",
             "id": "fe82-36c1-340b-a8a6",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -17738,12 +17738,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 30",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "BIG TRAKK\n\nHEAVY TRANSPORT\n\n60 Points\n\nUNIT COMPOSITION: 1 BIG TRAKK\n\n‘Big Trakks’ are basically vehicles based on an up-armoured trukk chassis or rigs scavenged from battlefield wrecks and fitted\nout with bigger, (and importantly) louder engines and heavy gauge tank treads able to cope with the roughest terrain.\nArmour\nBig Trakk\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n12\n\n2\n\n13\n\n12\n\n11\n\n6\n\n16\n\nWARGEAR\n• Two Centreline Mounted big shootas\n\nSPECIAL RULES\n• Assault Vehicle\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Vehicle (Transport)\n\nOPTIONS\n• This Model may have up to two items from the Ork\nPintle Weapons list selected for it.\n• This Model may have one of the following options\nselected for it:\n- Reinforced ram ........................................ +5 Points\n- Deff rolla ................................................ +10 Points\n\n• This Model may have any of the following options\nselected for it:\n- Assault gubbins ...................................... +10 Points\n- Grot riggers ............................................ +10 Points\n\nACCESS POINTS\n• This Model has Access Points on all of its Facings.",
+                "$text": "WARGEAR\n• Two Centreline Mounted big shootas\n\nSPECIAL RULES\n• Assault Vehicle",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -18067,7 +18067,7 @@
             ]
           },
           {
-            "name": "Squiggoth — full datasheet (p.30)",
+            "name": "Squiggoth — Wargear & Special Rules",
             "id": "58e2-d99f-6cd9-9946",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -18075,12 +18075,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 30",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "SQUIGGOTH\n\nHEAVY TRANSPORT\n\n180 Points\n\nUNIT COMPOSITION: 1 SQUIGGOTH\n\nSquigs, or to give them their full name, squiggly beasts, are common creatures amongst Ork communities. Squiggoths are\nsuper-squigs.Whilst they have the appearance of huge, monstrous lizard-like creatures, their physiology is actually closer to\nthat of fungus - an enraged and very deadly fungus!\n\nSquiggoth\n\nM\n\nWS\n\nBS\n\nS\n\nT\n\nW\n\nI\n\nA\n\nLD\n\nCL\n\nWP\n\nIN\n\nTransport\nSAV INV Capacity\n\n9\n\n3\n\n2\n\n6\n\n7\n\n6\n\n1\n\n4\n\n10\n\n9\n\n7\n\n3\n\n4+\n\nWARGEAR\n• Tusks and stomping feet\n\n-\n\n10\n\nSPECIAL RULES\n• Bulky (8)\n• Feel No Pain (5+)\n• Implacable Advance\n\nTRAITS\n• Xenos\n• Snakebites\n\nTYPE\n• Cavalry (Transport)\n\nOPTIONS\n• This Model may have one item from the Ork Big Gunz\nlist selected for it.\n\nACCESS POINTS\n• This Model has Access Points on its Rear Facing,\ndetermined as though it were a Model with the Vehicle\ntype.",
+                "$text": "WARGEAR\n• Tusks and stomping feet\n- 10\n\nSPECIAL RULES\n• Bulky (8)\n• Feel No Pain (5+)\n• Implacable Advance",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -18300,7 +18300,7 @@
             ]
           },
           {
-            "name": "Kommandos Mob — full datasheet (p.31)",
+            "name": "Kommandos Mob — Wargear & Special Rules",
             "id": "e675-a6c9-994a-e9ab",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -18308,12 +18308,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 31",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "KOMMANDOS MOB\n\nRECON\n\n60 Points\n\nUNIT COMPOSITION: 5 KOMMANDOS\n• May include up to 15 additional Kommandos at +10 Points per Model.\n• If this Unit includes 10 or more Models, one Kommando may be replaced with a\nKommando Nob for +10 Points.\n\nOrk Kommandos epitomise the Orky virtue of low cunning. Nothing makes a Kommando happier than creeping up on an\nunsuspecting enemy, its mates slithering through the undergrowth at its side. When the time is right, the Kommandos will\nburst from their concealment, slashing, stabbing and shooting their stunned prey before they have a chance to strike back.\n\nWARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Infiltrate (9)\n• Mob Rule (CL)\n• Move Through Cover\n• Support Unit (2)\n\nTRAITS\n• Xenos\n• [Orks]\n• Smokescreen\n\nTYPE\n• Kommando: Infantry (Light, Skirmish)\n• Kommando Nob: Infantry (Sergeant, Light, Skirmish)\n\nOPTIONS\n• Any Model in this Unit may have its slugga and choppa\nexchanged for one of the following:\n- Paired choppas ................................................. Free\n- Shoota .............................................................. Free\n• For every five Models in this Unit, one Kommando in\nthis Unit may have its slugga and choppa exchanged\nfor one item from the Ork Special Weapons list or one\nof the following:\n- Kombi-shoota ......................... +2 Points per Model\n- Breacha ram ......................... +10 Points per Model\n- Shokk pistol and commz ....... +20 Points per Model\n\n• For every five Models in this Unit, one Kommando may\nhave melta bombs selected for it for +10 Points per\nModel.\n• If this Unit includes a Kommando Nob, the Kommando\nNob in this Unit may have its slugga and/or choppa\nexchanged for one item each from the Ork Boss\nWeapons list.\n• If this Unit includes a Kommando Nob, the Kommando\nNob in this Unit may have any of the following:\n- Distraction grot ..................................... +10 Points\n- Bomb squig............................................. +10 Points\n\nWARGEAR\nCommz\nCommz units are a typical example of Kommando cunning and forethought. They allow Kommandos to range ahead of the\nOrk army, scouting out enemy positions and reporting back any important information that they find out.\nCommz grant a bonus to Reserves Tests.\nWhile a Model with commz is on the Battlefield, before making a Reserves Test for a Unit in Reserves, the Controlling\nPlayer can select for that Model to activate the commz. If they do, they can modify the result of that Reserves Test by\n+1. Only one Model can activate commz for each Reserves Test.\n\nDistraction Grot\nFor Grots to last long in the brutal reality of Ork society, they have to learn to lie, cheat, steal, sneak, suck up and plan traits all valuable to Kommando kill teams.\nA Distraction Grot allows a Unit to perform a free Reposition Reaction.\nDistraction Grots are treated as a special kind of Marker that is moved with the Model it belongs to but is ignored for\nall game purposes. Once per game, immediately after declaring a Reposition Reaction, a Unit with a Distraction Grot\ndoes not need to pay the usual Cost: no points need to be spent from the Reactive Player’s Reaction Allotment. In\naddition, during Step 2 of the process for this Reposition Reaction, the Unit with the Distraction Grot increases the\ndistance they move by +3 inches. The Distraction Grot is then removed from play.",
+                "$text": "WARGEAR\n• Slugga\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Impact (S)\n• Infiltrate (9)\n• Mob Rule (CL)\n• Move Through Cover\n• Support Unit (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -18859,7 +18859,7 @@
             ]
           },
           {
-            "name": "Deffkoptas — full datasheet (p.32)",
+            "name": "Deffkoptas — Wargear & Special Rules",
             "id": "bf9b-a4fd-7363-04d7",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -18867,12 +18867,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 32",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "DEFFKOPTAS\n\nRECON\n\n30 Points\n\nUNIT COMPOSITION: 1 DEFFKOPTA\n• May include up to 8 additional Deffkoptas at +28 Points per Model.\n\nDeffkoptas are the lunatic inventions of Meks obsessed with flight. Each Deffkopta is a one-man attack craft that has a set of\nwhirring rotors mounted above the pilot’s head and a jet booster at the rear. The rotors hold the Deffkopta aloft as the booster\nsends it screaming across the battlefield in the general direction of the enemy, its underslung weapons spitting death.\n\nWARGEAR\n• Choppa\n• Twin rokkit launchas\n• Stikkbombs\n\nSPECIAL RULES\n• Bulky (3)\n• Deep Strike\n• Impact (S)\n• Implacable Advance\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Cavalry (Antigrav, Skirmish)\n\nOPTIONS\n• Any Model in this Unit may have its twin rokkit\nlauncha exchanged for one of the following:\n- Twin big shootas ............................................... Free\n- Kustom mega-blasta ......................................... Free\n\n• Any Model in this Unit may have any of the following:\n- Big bomb ............................................... +10 Points\n- Killsaw .................................................... +20 Points",
+                "$text": "WARGEAR\n• Choppa\n• Twin rokkit launchas\n• Stikkbombs\n\nSPECIAL RULES\n• Bulky (3)\n• Deep Strike\n• Impact (S)\n• Implacable Advance\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -19172,7 +19172,7 @@
             ]
           },
           {
-            "name": "Warkopta — full datasheet (p.32)",
+            "name": "Warkopta — Wargear & Special Rules",
             "id": "67cb-c09f-5852-c644",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -19180,12 +19180,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 32",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "WARKOPTA\n\nRECON\n\n65 Points\n\nUNIT COMPOSITION: 1 WARKOPTA\n\nThe Warkopta is a combination gunship, aerial transport, heavy lift and long range reconnaissance vehicle, popular with\nKommandos (who for unknown reasons refer to it as a Chinork) for getting them behind enemy lines.\nArmour\nTrukk\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n16\n\n2\n\n10\n\n10\n\n10\n\n4\n\n10\n\nWARGEAR\n• Centreline Mounted twin supa shoota\n• Pintle Mounted big shoota\n\nSPECIAL RULES\n• Assault Vehicle\n• Deep Strike\n• Light Transport\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Vehicle (Antigrav, Transport)\n\nOPTIONS\n• This Model may have up to two Centreline (Front,\nRear) Mounted big bombs selected for it for +10\nPoints each.\nACCESS POINTS\n• This Model has Access Points on both Side Facings.",
+                "$text": "WARGEAR\n• Centreline Mounted twin supa shoota\n• Pintle Mounted big shoota\n\nSPECIAL RULES\n• Assault Vehicle\n• Deep Strike\n• Light Transport",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -19440,7 +19440,7 @@
             ]
           },
           {
-            "name": "Warbiker Mob — full datasheet (p.33)",
+            "name": "Warbiker Mob — Wargear & Special Rules",
             "id": "5746-9cc3-8e13-f51c",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -19448,12 +19448,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 33",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "WARBIKER MOB\n\nFAST ATTACK\n\n60 Points\n\nUNIT COMPOSITION: 3 WARBIKERS\n• May include up to 12 additional Warbikers at +18 Points per Model.\n• If this Unit includes 6 or more Models, one Warbiker may be replaced with a Warbiker\nNob for +10 Points.\n\nWarbikers function as outriders and shock troops for the main horde. The pall of exhaust and oily smoke thrown up by their\nvehicles helps conceal their advance, giving them a measure of protection from enemy guns.\n\nWARGEAR\n• Twin dakkaguns\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (CL)\n• Outflank\n• Vanguard (2)\n\nTRAITS\n• Xenos\n• [Orks]\n• Smokescreen\n\nTYPE\n• Warbiker: Cavalry\n• Warbiker Nob: Cavalry (Sergeant)\n\nOPTIONS\n• Any Model in this Unit may have its choppa exchanged\nfor one slugga for Free.\n\n• If this Unit includes a Watbiker Nob, the Warbiker Nob\nin this Unit may have its choppa exchanged for one\nitem from the Ork Boss Weapons list.",
+                "$text": "WARGEAR\n• Twin dakkaguns\n• Choppa\n• Stikkbombs\n\nSPECIAL RULES\n• Bulky (2)\n• Impact (S)\n• Implacable Advance\n• Mob Rule (CL)\n• Outflank\n• Vanguard (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -19750,7 +19750,7 @@
             ]
           },
           {
-            "name": "Warbuggy Squadron — full datasheet (p.33)",
+            "name": "Warbuggy Squadron — Wargear & Special Rules",
             "id": "600e-f72d-f89a-c5c7",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -19758,12 +19758,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 33",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "WARBUGGY SQUADRON\n\nFAST ATTACK\n\n30 Points\n\nUNIT COMPOSITION: 1 WARBUGGY\n• May include up to 5 additional Warbuggies at +30 Points per Model.\n• Any Warbuggy in this Unit may be replaced with 1 Wartrakk each for +5 Points per\nModel.\n\nWarbuggies are two-man attack vehicles that combine the raw speed of a Warbike with a formidable weapon payload. Those\nSpeed Freeks who own Warbuggies will group together in ramshackle bands that hurtle around the battlefield, blasting away\nat anything they can.\n\nWARGEAR\n• Twin big shootas\n\nSPECIAL RULES\n• Bulky (3)\n• Fast (2) (Warbuggy only)\n• Implacable Advance\n• Outflank\n• Mob Rule (CL)\n\nTRAITS\n• Xenos\n• [Orks]\n• Smokescreen\n\nTYPE\n• Cavalry (Skirmish)\nOPTIONS\n• Any Model in this Unit may have its twin big shoota\nexchanged for one twin rokkit launcha for Free.\n\n• Any Wartrakk in this Unit may have its twin big shoota\nexchanged for one skorcha for +5 Points per Model.",
+                "$text": "WARGEAR\n• Twin big shootas\n\nSPECIAL RULES\n• Bulky (3)\n• Fast (2) (Warbuggy only)\n• Implacable Advance\n• Outflank\n• Mob Rule (CL)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -19973,7 +19973,7 @@
             ]
           },
           {
-            "name": "Dakkajet — full datasheet (p.34)",
+            "name": "Dakkajet — Wargear & Special Rules",
             "id": "8a7e-270b-3a2c-de96",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -19981,12 +19981,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 34",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "DAKKAJET\n\nFAST ATTACK\n\n110 Points\n\nUNIT COMPOSITION: 1 DAKKAJET\n\nStreaking into battle through war-scorched skies, a Dakkajet's massive thruster leaves an oily contrail of black smoke in its\nwake even as its guns spit streams of bullets at the foe. Though not as nimble as the aircraft of some other races, Dakkajets are\ncapable of an incredible turn of speed that makes them a fearsome enemy to face in aerial combat.\nArmour\nDakkajet\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n24\n\n3\n\n11\n\n11\n\n11\n\n5\n\n-\n\nWARGEAR\n• Two Centreline Mounted twin supa shootas\n\nSPECIAL RULES\n• None\n\nTRAITS\n• Xenos\n• [Orks]\n• Interceptor\n\nTYPE\n• Vehicle (Flyer)\n\nOPTIONS\n• This Model may have one additional Centreline\nMounted twin supa shoota for +20 Points.\n\nBOMMER\n\nFAST ATTACK\n\n110 Points\n\nUNIT COMPOSITION: 1 BURNA-BOMMER\n• This model may be replaced with 1 Blitza-bommer for +20 Points\n\nEven on their best day, the average Ork flyboy has little patience for trajectories, payload arcs, and all the other ‘boring bits’ of\nhigh- altitude bombing. Strapped with as many incendiary bombs and rockets as is physically feasible, Burna-bommers streak\nlow over the battlefield, raining conflagrant death down on tightly-packed enemy infantry. Blitza-bommer pilots instead ensure\ntheir massively unsubtle boom bombs land more-or-less on target by simply dropping them from point-blank range.\nArmour\nBurna-bommer\nBlitza-bommer\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n22\n22\n\n2\n2\n\n11\n11\n\n11\n11\n\n11\n11\n\n5\n5\n\n-\n\nWARGEAR\n• Centreline Mounted twin-linked supa shoota\n• Turret Mounted big shoota with grot gunner\n• Two Centreline (Front, Rear) Mounted burna bombs\n(Burna-bommer only)\n• Two Centreline (Front, Rear) Mounted boom bombs\n(Blitza-bommer only)\n\nSPECIAL RULES\n• None\nTYPE\n• Vehicle (Flyer)\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• This Model may have its big shoota with grot gunner\nexchanged for a twin big shoota with grot gunner for\n+5 Points.\n\n• This Burna-bommer may have up to six Centreline\n(Front) Mounted skorcha missiles selected for it for\n+10 Points each.",
+                "$text": "WARGEAR\n• Two Centreline Mounted twin supa shootas\n\nSPECIAL RULES\n• None",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -20172,7 +20172,7 @@
             ]
           },
           {
-            "name": "Bommer — full datasheet (p.34)",
+            "name": "Bommer — Wargear & Special Rules",
             "id": "46aa-5878-b075-581f",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -20180,12 +20180,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 34",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "DAKKAJET\n\nFAST ATTACK\n\n110 Points\n\nUNIT COMPOSITION: 1 DAKKAJET\n\nStreaking into battle through war-scorched skies, a Dakkajet's massive thruster leaves an oily contrail of black smoke in its\nwake even as its guns spit streams of bullets at the foe. Though not as nimble as the aircraft of some other races, Dakkajets are\ncapable of an incredible turn of speed that makes them a fearsome enemy to face in aerial combat.\nArmour\nDakkajet\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n24\n\n3\n\n11\n\n11\n\n11\n\n5\n\n-\n\nWARGEAR\n• Two Centreline Mounted twin supa shootas\n\nSPECIAL RULES\n• None\n\nTRAITS\n• Xenos\n• [Orks]\n• Interceptor\n\nTYPE\n• Vehicle (Flyer)\n\nOPTIONS\n• This Model may have one additional Centreline\nMounted twin supa shoota for +20 Points.\n\nBOMMER\n\nFAST ATTACK\n\n110 Points\n\nUNIT COMPOSITION: 1 BURNA-BOMMER\n• This model may be replaced with 1 Blitza-bommer for +20 Points\n\nEven on their best day, the average Ork flyboy has little patience for trajectories, payload arcs, and all the other ‘boring bits’ of\nhigh- altitude bombing. Strapped with as many incendiary bombs and rockets as is physically feasible, Burna-bommers streak\nlow over the battlefield, raining conflagrant death down on tightly-packed enemy infantry. Blitza-bommer pilots instead ensure\ntheir massively unsubtle boom bombs land more-or-less on target by simply dropping them from point-blank range.\nArmour\nBurna-bommer\nBlitza-bommer\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n22\n22\n\n2\n2\n\n11\n11\n\n11\n11\n\n11\n11\n\n5\n5\n\n-\n\nWARGEAR\n• Centreline Mounted twin-linked supa shoota\n• Turret Mounted big shoota with grot gunner\n• Two Centreline (Front, Rear) Mounted burna bombs\n(Burna-bommer only)\n• Two Centreline (Front, Rear) Mounted boom bombs\n(Blitza-bommer only)\n\nSPECIAL RULES\n• None\nTYPE\n• Vehicle (Flyer)\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• This Model may have its big shoota with grot gunner\nexchanged for a twin big shoota with grot gunner for\n+5 Points.\n\n• This Burna-bommer may have up to six Centreline\n(Front) Mounted skorcha missiles selected for it for\n+10 Points each.",
+                "$text": "WARGEAR\n• Two Centreline Mounted twin supa shootas\n\nSPECIAL RULES\n• None",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -20371,7 +20371,7 @@
             ]
           },
           {
-            "name": "Kustom Junka — full datasheet (p.35)",
+            "name": "Kustom Junka — Wargear & Special Rules",
             "id": "8841-80cb-242f-bac5",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -20379,12 +20379,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 35",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "KUSTOM JUNKA\n\nFAST ATTACK\n\n40 Points\n\nUNIT COMPOSITION: 1 KUSTOM JUNKA\n\nOften Mekboy Junkas are a way for younger Mekboyz to showcase their skill and talent in building vehicles and weaponry,\nhopefully impressing Warbosses.\nArmour\nKustom Junka\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n16\n\n2\n\n11\n\n11\n\n10\n\n5\n\n-\n\nWARGEAR\n• None\n\nSPECIAL RULES\n• Don’t Press Dat!\n• Explodes (4+)\n\nTRAITS\n• Xenos\n• [Orks]\n• Smokescreen\n\nTYPE\n• Vehicle (Rapid)\n\nOPTIONS\n• This Model may have one item from the Ork Big Gunz\nlist selected for it, with any item selected in this way\nbecoming Turret Mounted, or one of the following:\n- Turret Mounted skorcha ........................... +5 Points\n- Turret Mounted kustom mega-blasta ....... +5 Points\n- Turret Mounted deffgun and Co-axial Mounted\n(deffgun) big shoota ............................... +15 Points\n• This Model may have one item from the Ork Big Gunz\nlist selected for it, with any item selected in this way\nbecoming Centreline Mounted.\n• This Model may have up to three items from the Ork\nPintle Weapons list selected for it.\n• This Model may have any of its Pintle Weapons\nexchanged for one item each from the Ork Hull\nWeapons list. Each Hull Mounted Weapon may be\ndesignated as either Hull (Front) Mounted or Hull\n(Rear) Mounted.\n\n• Any Hull or Pintle Mounted weapon this Model has\nmay be upgraded with a grot gunner for +5 Points per\nweapon.\n• This Model may have one Turret Mounted bomb squig\nfor +10 Points.\n• This Model may have one of the following options\nselected for it:\n- Reinforced ram ........................................ +5 Points\n- Deff rolla ............................................... +10 Points\n- Shokkjump engine .................................. +15 Points\n• This Model may have any of the following options\nselected for it:\n- Assault gubbins ........................................ +5 Points\n- Grot riggers .............................................. +5 Points\n- Kustom force field .................................. +30 Points\n\nINFAMOUS KUSTOM JUNKAS\nBoomdakka Snazzwagon\n\nKustom Boosta-blasta\n\n• Turret Mounted deffgun and Co-axial Mounted\n(deffgun) big shoota\n• Pintle Mounted big shoota\n• Assault gubbins\n• Grot riggers\n\n• Turret Mounted kannon\n• Assault gubbins\n\nRukkatrukk Squigbuggy\n• Turret Mounted lobba\n• Centreline Mounted lobba\n• Turret Mounted bomb squig\n• Reinforced ram\n• Assault gubbins\n\nMegatrakk Scrapjet\n• Centreline Mounted kannon\n• Hull (Front) Mounted twin rokkit launcha\n• Hull (Front) Mounted twin dakkagun\n• Hull (Rear) Mounted twin dakkagun with grot gunner\n• Deff rolla\n\nShokkjump Dragsta\n• Centreline Mounted zzap gun with grot gunner\n• Pintle Mounted rokkit launcha\n• Shokkjump engine",
+                "$text": "WARGEAR\n• None\n\nSPECIAL RULES\n• Don’t Press Dat!\n• Explodes (4+)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -21029,7 +21029,7 @@
             ]
           },
           {
-            "name": "Gobsmasha Wagon — full datasheet (p.36)",
+            "name": "Gobsmasha Wagon — Wargear & Special Rules",
             "id": "46a1-a472-abe6-32cf",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -21037,12 +21037,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 36",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GOBSMASHA WAGON\n\nARMOUR\n\n160 Points\n\nUNIT COMPOSITION: 1 GOBSMASHA WAGON\n\nThere seems to be no such thing as a standard Battlewagon, although there are many named sub-types within the category.\nTitles such as Lungbursta, Gobsmasha, Krusha, Bonecruncha, Gorespeeda and Dakkawagon are used by the Orks to describe a\nBattlewagon's specific role. The Gobsmasha Wagon sacrifices all its other weaponry to mount a huge artillery piece.\nArmour\nGobsmasha Wagon\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n12\n\n2\n\n14\n\n13\n\n11\n\n8\n\n-\n\nWARGEAR\n• Centreline Mounted supa-kannon\n\nSPECIAL RULES\n• None\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Vehicle\n\nOPTIONS\n• This Model may have its Centreline Mounted supakannon exchanged for one Centreline Mounted liftadroppa for +45 Points.\n• This Model may have up to two items from the Ork\nPintle Weapons list selected for it.\n\n• This Model may have one of the following options\nselected for it:\n- Reinforced ram ........................................ +5 Points\n- Deff rolla ................................................ +10 Points\n• This Model may have any of the following options\nselected for it:\n- Assault gubbins ...................................... +10 Points\n- Grot riggers ............................................ +10 Points",
+                "$text": "WARGEAR\n• Centreline Mounted supa-kannon\n\nSPECIAL RULES\n• None",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -21381,7 +21381,7 @@
             ]
           },
           {
-            "name": "Guntrukk — full datasheet (p.36)",
+            "name": "Guntrukk — Wargear & Special Rules",
             "id": "7d12-466d-025b-444b",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -21389,12 +21389,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 36",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GUNTRUKK\n\nARMOUR\n\n30 Points\n\nUNIT COMPOSITION: 1 GUNTRUKK\n\nEvery Ork Warboss knows that big guns like Kannons and Zzap guns are dead good, but they also know that they must be in\nthe right position to be fully effective. To get around this, the Orks have developed Guntrukks.\nArmour\nGuntrukk\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n16\n\n2\n\n10\n\n10\n\n10\n\n4\n\n-\n\nWARGEAR\n• None\n\nSPECIAL RULES\n• Ramshackle\n\nTRAITS\n• Xenos\n• [Orks]\n\nTYPE\n• Vehicle\n\nOPTIONS\n• This Model may have one item from the Ork Big Gunz\nlist selected for it, with any item selected in this way\nbecoming Turret Mounted.\n• This Model may have one item from the Ork Pintle\nWeapons list selected for it.\n\n• This Model may have any of the following options\nselected for it:\n- Reinforced ram ........................................ +5 Points\n- Assault gubbins ........................................ +5 Points\n- Grot riggers .............................................. +5 Points",
+                "$text": "WARGEAR\n• None\n\nSPECIAL RULES\n• Ramshackle",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -21661,7 +21661,7 @@
             ]
           },
           {
-            "name": "Dakka-trakk — full datasheet (p.37)",
+            "name": "Dakka-trakk — Wargear & Special Rules",
             "id": "fe08-6d4b-d502-7a42",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -21669,12 +21669,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 37",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "DAKKA-TRAKK\n\nARMOUR\n\n95 Points\n\nUNIT COMPOSITION: 1 DAKKA-TRAKK\n\nWhat they lack in speed over trukks, Big Trakks make up for in raw power, not to mention the fact they make excellent gun\ncarriers as well; able to mount the larger 'Big Gunz'. Some Meks even go as far as to mount huge bore 'Supa-Kannon' on Big\nTrakks despite the tact these weapons are almost the size of the vehicle itself! This however is much to the Orks' amusement as\na Supa-Kannon armed Big Trakk rears up like an enraged Tusker from the recoil every time it is fired.\nArmour\nDakka-trakk\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n12\n\n2\n\n13\n\n12\n\n11\n\n6\n\n-\n\nWARGEAR\n• Two Centreline Mounted big shootas\n• Turret Mounted flakka gunz\n\nSPECIAL RULES\n• None\nTYPE\n• Vehicle\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• This Model may have its Turret Mounted flakka gunz\nexchanged for one Centreline Mounted supa-kannon\nfor +30 Points.\n• This Model may have up to two items from the Ork\nPintle Weapons list selected for it.\n\n• This Model may have one of the following options\nselected for it:\n- Reinforced ram ........................................ +5 Points\n- Deff rolla ................................................ +10 Points\n• This Model may have any of the following options\nselected for it:\n- Assault gubbins ...................................... +10 Points\n- Grot riggers ............................................ +10 Points",
+                "$text": "WARGEAR\n• Two Centreline Mounted big shootas\n• Turret Mounted flakka gunz\n\nSPECIAL RULES\n• None",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -22043,7 +22043,7 @@
             ]
           },
           {
-            "name": "Gun Squiggoth — full datasheet (p.37)",
+            "name": "Gun Squiggoth — Wargear & Special Rules",
             "id": "43cf-fd10-34f2-6004",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -22051,12 +22051,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 37",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GUN SQUIGGOTH\n\nARMOUR\n\n170 Points\n\nUNIT COMPOSITION: 1 GUN SQUIGGOTH\n\nA squiggoth bred for battle will invariably have a howdah and a set of armour constructed (usually from spare scrap). Larger\nhowdahs are favoured, so that big gunz can be mounted.\n\nWARGEAR\n• Tusks and stomping feet\n\nSPECIAL RULES\n• Bulky (8)\n• Feel No Pain (5+)\n• Firing Protocols (2)\n• Implacable Advance\n\nTRAITS\n• Xenos\n• Snakebites\n\nTYPE\n• Cavalry\nOPTIONS\n• This Model must have two items from the Ork Big\nGunz list selected for it.",
+                "$text": "WARGEAR\n• Tusks and stomping feet\n\nSPECIAL RULES\n• Bulky (8)\n• Feel No Pain (5+)\n• Firing Protocols (2)\n• Implacable Advance",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -22162,7 +22162,7 @@
             ]
           },
           {
-            "name": "Grot Mega-tank — full datasheet (p.38)",
+            "name": "Grot Mega-tank — Wargear & Special Rules",
             "id": "74f8-c83b-5ba0-2435",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -22170,12 +22170,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 38",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GROT MEGA-TANK\n\nARMOUR\n\n70 Points\n\nUNIT COMPOSITION: 1 GROT MEGA-TANK\n\nGrot Mega-tanks are heavy tanks used by Gretchin hordes within Ork armies. They represent the pinnacle of Gretchin tank\ntechnology, an overpowering war machine that drives all before it in a storm of scrap and destruction.\nArmour\nGrot Mega-tank\n\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\n10\n\n3\n\n12\n\n11\n\n10\n\n5\n\n-\n\nWARGEAR\n• Reinforced ram\n• Grot riggers\n\nSPECIAL RULES\n• Downtrodden\n• Explodes (5+)\n\nTRAITS\n• Xenos\n• [Orks]\n• Smokescreen\n\nTYPE\n• Vehicle\n\nOPTIONS\n• This Model may have up to two of the following\noptions selected for it:\n- Turret Mounted twin big shoota .... +10 Points each\n- Turret Mounted twin\nrokkit launcha ............................... +10 Points each\n- Turret Mounted twin skorcha ........ +10 Points each\n- Turret Mounted twin grotzooka .... +20 Points each\n- Turret Mounted twin\nkustom mega-blasta ...................... +20 Points each\n\n• This Model may have one item from the Ork Kan\nRanged Weapons list, with any item selected in this\nway becoming Turret Mounted.\n• This Model may have up to two items from the Ork\nKan Ranged Weapons list, with any item selected in\nthis way becoming Sponson (Left) Mounted.\n• This Model may have up to two items from the Ork\nKan Ranged Weapons list, with any item selected in\nthis way becoming Sponson (Right) Mounted.\n• This Model may have a Pintle Mounted shoota selected\nfor it for +3 Points.",
+                "$text": "WARGEAR\n• Reinforced ram\n• Grot riggers\n\nSPECIAL RULES\n• Downtrodden\n• Explodes (5+)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -22589,7 +22589,7 @@
             ]
           },
           {
-            "name": "Grot Tank Battle Mob — full datasheet (p.38)",
+            "name": "Grot Tank Battle Mob — Wargear & Special Rules",
             "id": "609a-3446-508d-7a38",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -22597,12 +22597,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 38",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GROT TANK BATTLE MOB\n\nARMOUR\n\n75 Points\n\nUNIT COMPOSITION: 3 GROT TANKS\n• May include up to 5 additional Grot Tanks at +25 Points per Model.\n\nThe lunatic product of the deranged imaginations of grot riggers and scavs that have spent far too long basking in the insane\ngenius of the Big Meks, Grot Tanks are diminutive armoured vehicles made to imitate the far larger Ork Wagons and Tanks.\n\nWARGEAR\n• None\n\nSPECIAL RULES\n• Bulky (2)\n• Downtrodden\n• Expendable (2)\n• Implacable Advance\n• Firing Protocols (2)\n• Support Unit (1)\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• Every Model in this Unit must have one item from the\nOrk Kan Ranged Weapons list selected for it.\n• For every four Models in this Unit, one Grot Tank may\nhave a second item from the Ork Kan Ranged Weapons\nlist selected for it.\n\nTYPE\n• Cavalry (Skirmish)",
+                "$text": "WARGEAR\n• None\n\nSPECIAL RULES\n• Bulky (2)\n• Downtrodden\n• Expendable (2)\n• Implacable Advance\n• Firing Protocols (2)\n• Support Unit (1)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -22745,7 +22745,7 @@
             ]
           },
           {
-            "name": "Gorkanaut — full datasheet (p.39)",
+            "name": "Gorkanaut — Wargear & Special Rules",
             "id": "1e23-3b8e-dc4f-c573",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -22753,12 +22753,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 39",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GORKANAUT\n\nLORD OF WAR\n\n380 Points\n\nUNIT COMPOSITION: 1 GORKANAUT\n\nA Gorkanaut is everything an Ork aspires to be. Massive, tough, loud and destructive, its blocky silhouette looms menacingly\nover friend and foe alike. From its hulking, orkoid shape to the brutal weapons it wields, a Gorkanaut epitomises the unsubtle\nbrutality of Gork and its no-nonsense way of war.\n\nGorkanaut\n\nM\n\nWS\n\nBS\n\nS\n\nArmour\nFront\nRear\n\nI\n\nA\n\nHP\n\nTransport\nCapacity\n\n8\n\n4\n\n2\n\n8\n\n13\n\n2\n\n3\n\n8\n\n6\n\nWARGEAR\n• Hull (Front) Mounted deffstorm mega-shoota\n• Hull (Front) Mounted skorcha\n• Two Pintle Mounted rokkit launchas\n• Two Pintle Mounted twin big shootas\n• Klaw of Gork (or possibly Mork)\n\n11\n\nSPECIAL RULES\n• Effigy (6)\n• Explodes (4+)\n• Vanguard (2)\nTYPE\n• Vehicle (Knight*, Transport)\n* The rules for the Knight Sub-Type can be found in Liber\nQuestoris.\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• This Model may have grot riggers for selected for it for\n20 Points.\n\nACCESS POINTS\nThis Model has Access Points on its Front Facing.",
+                "$text": "WARGEAR\n• Hull (Front) Mounted deffstorm mega-shoota\n• Hull (Front) Mounted skorcha\n• Two Pintle Mounted rokkit launchas\n• Two Pintle Mounted twin big shootas\n• Klaw of Gork (or possibly Mork) 11\n\nSPECIAL RULES\n• Effigy (6)\n• Explodes (4+)\n• Vanguard (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -22904,7 +22904,7 @@
             ]
           },
           {
-            "name": "Morkanaut — full datasheet (p.39)",
+            "name": "Morkanaut — Wargear & Special Rules",
             "id": "cb94-29ac-0926-ebfe",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -22912,12 +22912,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 39",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "MORKANAUT\n\nLORD OF WAR\n\n365 Points\n\nUNIT COMPOSITION: 1 MORKANAUT\n\nWhere Gorkanauts epitomise the unsubtle brutality of almighty Gork, a Morkanaut displays all the lethal kunnin’ of equally\nalmighty Mork. Every Morkanaut is personally built and piloted by a skilled Mekboy, and packs a wild array of energy\nweapons and glowy gubbinz from the Mek’s own workshop.\n\nMorkanaut\n\nM\n\nWS\n\nBS\n\nS\n\nArmour\nFront\nRear\n\n8\n\n4\n\n2\n\n8\n\n13\n\nWARGEAR\n• Hull (Front) Mounted kustom mega-kannon\n• Hull (Front) Mounted kustom mega-blasta\n• Two Pintle Mounted rokkit launchas\n• Two Pintle Mounted twin big shootas\n• Klaw of Gork (or possibly Mork)\n\n11\n\nI\n\nA\n\nHP\n\nTransport\nCapacity\n\n2\n\n3\n\n8\n\n6\n\nSPECIAL RULES\n• Effigy (6)\n• Explodes (4+)\n• Vanguard (2)\nTYPE\n• Vehicle (Knight*, Transport)\n* The rules for the Knight Sub-Type can be found in Liber\nQuestoris.\n\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• This Model may have any of the following options\nselected for it:\n- Grot riggers ............................................ +20 Points\n- Kustom force-field .................................. +50 Points\n\nACCESS POINTS\nThis Model has Access Points on its Front Facing.",
+                "$text": "WARGEAR\n• Hull (Front) Mounted kustom mega-kannon\n• Hull (Front) Mounted kustom mega-blasta\n• Two Pintle Mounted rokkit launchas\n• Two Pintle Mounted twin big shootas\n• Klaw of Gork (or possibly Mork) 11 I A HP Transport Capacity 2 3 8 6\n\nSPECIAL RULES\n• Effigy (6)\n• Explodes (4+)\n• Vanguard (2)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -23210,7 +23210,7 @@
             ]
           },
           {
-            "name": "Stompa — full datasheet (p.40)",
+            "name": "Stompa — Wargear & Special Rules",
             "id": "561d-8206-94be-abf6",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -23218,12 +23218,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 40",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "STOMPA\n\nLORD OF WAR\n\n770 Points\n\nUNIT COMPOSITION: 1 STOMPA\n\nA Stompa is an effigy of war built by the Orks to ape their brutal gods. Cobbled together in typical Ork fashion, the Stompa’s\nbulk is festooned with overlapping metal plates, bolted atop one another to present a formidable frame and allow the Stompa\nto shrug off incoming firepower. It has a large crew of Orks and grots to keep its vast engine going and its weapons blazing\naway. And Stompas are festooned with weapons – ranging from big shootas and skorchas poking out from between their\nprotective plates to the deff kannon, an enormous piece of ordnance, and the bullet- spewing supa-gatler. A Stompa can also\ncarry a full mob of Orks to war, ready to jump out and put the boot in at a moment’s notice. Once in combat, a Stompa wields\nits mega- choppa – a massive whirring blade that can cleave a bastion in two or hack a Titan down to size in a flurry of\nroaring violence.\n\nM\n\nS\n\nPrimary\nArmour\n\nExposed\nArmour\n\nHP\n\nTransport\nCapacity\n\n-\n\n2\n\n13\n14\n\n11\n12\n\n8\n12\n\n20\n\nArms\n\n-\n\n2\n\n12\n\n10\n\n8\n\n-\n\nLegs\n\n15\n\n-\n\n14\n\n13\n\n10\n\n-\n\nHead\nCarapace\n\nWARGEAR\n• The Carapace Profile has two Front Mounted defensor\nbig shootas, one Front Mounted defensor skorcha, and\none Rear Mounted defensor big shoota.\n• The Arms Profile has an two Arm Mounted Weapons\n(see Options) and three Arm Mounted supa-rokkits.\n\nSPECIAL RULES\n• Effigy (12)\n• Repair Crew (D3)*\n\nTRAITS\n• Xenos\n• [Orks]\n• Light Battle\n\n* The rules for the Repair Crew (X) Special Rule and the\nTitan Sub-Type can be found in Liber Questoris.\n\nTYPE\n• Vehicle (Titan*, Transport)\n\nOPTIONS\n• This Model must have two Arm Mounted Weapons\nselected for it from the following options:\n- Arm Mounted mega-choppa and Co-axial (megachoppa) Mounted defensor twin big shoota\n- Arm Mounted deffkannon and Co-axial (deffkanon)\nMounted supa-gatler\n- Arm Mounted Stompa lifta-droppa\n\n• This Model may have up to two additional Arm\nMounted\nsupa-rokkits ........................................ +20 Points each\n• This Model may have one of the following options\nselected for it:\n- The Gargant Deflektor (1)\nSpecial Rule ............................................ +50 Points\n- The Gargant Deflektor (2)\nSpecial Rule .......................................... +100 Points\n\nACCESS POINTS\nThis Model has Access Points on its Rear Facing.",
+                "$text": "WARGEAR\n• The Carapace Profile has two Front Mounted defensor big shootas, one Front Mounted defensor skorcha, and one Rear Mounted defensor big shoota.\n• The Arms Profile has an two Arm Mounted Weapons (see Options) and three Arm Mounted supa-rokkits.\n\nSPECIAL RULES\n• Effigy (12)\n• Repair Crew (D3)*",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -23562,7 +23562,7 @@
             ]
           },
           {
-            "name": "Kill Tank — full datasheet (p.41)",
+            "name": "Kill Tank — Wargear & Special Rules",
             "id": "d834-8a4e-eda9-1263",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -23570,12 +23570,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 41",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "KILL TANK\n\nLORD OF WAR\n\n275 Points\n\nUNIT COMPOSITION: 1 KILL KRUSHA\n• This model may be replaced with 1 Kill Blasta for +55 Points or 1 Kill Bursta for +100\nPoints\n\nThe 'Kill Tanks' are a new and terrifying addition to the Orkish arsenal. Their use has spread to numerous Ork empires and\nwarbands across the galaxy. Kill tanks are an Ork heavy tank design, based around the twin Ork loves of speed and extreme\nviolence. These hulking, slab-sided machines are extremely durable and many have a heavily armoured, shovel- bladed prow\nsuitable for ramming their way through any obstacles in their path, while much of their mass is made up of engines and drive\nmechanics which, while temperamental, can propel the tank far faster than an equivalent Imperial machine of its size.\nArmour\nM\n\nBS\n\nFront\n\nSide\n\nRear\n\nHP\n\nTransport\nCapacity\n\nKill Krusha\nKill Blasta\n\n12\n10\n\n2\n2\n\n14\n14\n\n13\n13\n\n10\n11\n\n9\n10\n\n-\n\nKill Bursta\n\n10\n\n2\n\n14\n\n13\n\n11\n\n10\n\n-\n\nWARGEAR\nKill Krusha\n• Hull (Front) Mounted krusha kannon\n• Grot riggers\n• Reinforced ram\n\nSPECIAL RULES\n• Explodes (5+)\nTYPE\nKill Krusha\n• Vehicle (Super-heavy, Rapid)\n\nKill Blasta\n• Centreline Mounted gigashoota\n• Two Sponson Mounted twin big shootas\n• Grot riggers\n• Reinforced ram\n\nKill Blasta and Kill Bursta\n• Vehicle (Super-heavy)\n\nKill Bursta\n• Centreline Mounted bursta kannon\n• Two Sponson Mounted twin big shootas\n• Grot riggers\n• Reinforced ram\nTRAITS\n• Xenos\n• [Orks]\nOPTIONS\n• This Kill Krusha may have up to five items from the\nOrk Pintle Weapons list.\n• This Kill Blasta or Kill Bursta may have both Sponson\nMounted twin big shootas exchanged for one item\nfrom the Ork Sponson Weapons list.\n\n• This Model may have its reinforced ram exchanged for\none deff rolla for +10 Points.\n• This Model may have any of the following options\nselected for it:\n- Assault gubbins ..................................... +15 Points\n- Grot gunners for all its\nDefensive Weapons ................................. +10 Points",
+                "$text": "WARGEAR\nKill Krusha\n• Hull (Front) Mounted krusha kannon\n• Grot riggers\n• Reinforced ram\n\nSPECIAL RULES\n• Explodes (5+)",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
@@ -23872,7 +23872,7 @@
             ]
           },
           {
-            "name": "Gargantuan Squiggoth — full datasheet (p.42)",
+            "name": "Gargantuan Squiggoth — Wargear & Special Rules",
             "id": "a002-0ac1-7d39-f5c5",
             "hidden": false,
             "typeId": "5ec5-e0c3-1701-6f16",
@@ -23880,12 +23880,12 @@
             "characteristics": [
               {
                 "name": "Summary",
-                "$text": "Complete source datasheet, page 42",
+                "$text": "Unit equipment and special rules",
                 "typeId": "8e7d-a0ae-fd85-983c"
               },
               {
                 "name": "Description",
-                "$text": "GARGANTUAN SQUIGGOTH\n\nLORD OF WAR\n\n550 Points\n\nUNIT COMPOSITION: 1 GARGANTUAN SQUIGGOTH\n\nJust like with other large Battle Fortresses and Stompas, Orks see ownership of a Gargantuan Squiggoth as a sign of a\nWarboss’s power and wealth. Gargantuan Squiggoths grow to the size of small Titans and once a howdah has been mounted\nupon its back, a Warboss and its Nobz retinue can ride high, shooting down upon the enemy and cheering wildly as the\nSquiggoth ploughs through the enemy ranks, goring and trampling on its rampage of destruction.\n\nGargantuan\nSquiggoth\n\nM\n\nWS\n\nBS\n\nS\n\nT\n\nW\n\nI\n\nA\n\nLD\n\nCL\n\nWP\n\nIN\n\nTransport\nSAV INV Capacity\n\n12\n\n2\n\n2\n\n10\n\n8\n\n10\n\n1\n\n6\n\n12\n\n10\n\n7\n\n3\n\n3+\n\nWARGEAR\n• Tusks and stomping feet\n• Supa-kannon\n• Supa-lobba\n\nSPECIAL RULES\n• Bulky (16)\n• Eternal Warrior (1)\n• Feel No Pain (5+)\n• Firing Protocols (6)\n• Impact (WS)\n• Implacable Advance\n\nTRAITS\n• Xenos\n• Snakebites\n\nTYPE\n• Cavalry (Heavy, Transport)\nOPTIONS\n• This Model may have up to four items from the Ork\nPintle Weapons list selected for it.\nACCESS POINTS\nThis Model has Access Points on its Rear Facing,\ndetermined as though it were a Model with the Vehicle\ntype.\n\n-\n\n20",
+                "$text": "WARGEAR\n• Tusks and stomping feet\n• Supa-kannon\n• Supa-lobba\n\nSPECIAL RULES\n• Bulky (16)\n• Eternal Warrior (1)\n• Feel No Pain (5+)\n• Firing Protocols (6)\n• Impact (WS)\n• Implacable Advance",
                 "typeId": "9944-2f6d-d61b-03b5"
               }
             ]
