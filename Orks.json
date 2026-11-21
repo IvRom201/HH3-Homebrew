@@ -9,7 +9,7 @@
     "gameSystemId": "sys-9fe4-1dc3-b7c2-73cf",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 5,
+    "revision": 6,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -8032,6 +8032,141 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "34c3-3dcd-5ff7-2527",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "891a-7174-a1d6-7033",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
+            "name": "Twin dakkaguns (Warboss on Warbike only)",
+            "id": "241a-4a8f-469e-5bd3",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: twin dakkaguns"
+          },
+          {
             "name": "Warboss — Wargear & Special Rules",
             "id": "39fe-5f3d-004b-3b27",
             "hidden": false,
@@ -8304,6 +8439,96 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Kombi-shoota",
+            "id": "a455-a7f2-5ab7-bf8e",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "4",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: kombi-shoota"
+          },
+          {
+            "name": "Power klaw",
+            "id": "cf66-c16f-a997-6d27",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "-3",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+4",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Rending (6+)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Power",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: power klaw"
           },
           {
             "name": "Mega Warboss — Wargear & Special Rules",
@@ -8584,6 +8809,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Dread rippa klaw",
+                    "id": "4df6-3f04-13ee-d24f",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+1",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Critical Hit (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Power",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: dread rippa klaw"
                   }
                 ]
               },
@@ -8629,6 +8899,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Mega killsaw",
+                    "id": "384f-893e-54a4-a178",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+2",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armourbane, Shred (5+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Saw",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: mega killsaw"
                   }
                 ]
               },
@@ -8674,6 +8989,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Shunta",
+                    "id": "2e9f-7da9-e614-a50d",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "24",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "4",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Ordnance (RS, AP), Shock (Stunned), Stun (2)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Lifta-droppa",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: shunta"
                   }
                 ]
               },
@@ -8719,6 +9079,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Killkannon",
+                    "id": "facd-6f41-3527-4792",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "24",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "7",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Heavy (AP), Blast (3\"), Pinning (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Auto",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: killkannon"
                   }
                 ]
               },
@@ -8764,6 +9169,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Paired dread rippa klaws",
+                    "id": "f2db-03cc-b93f-0ec4",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "+1",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+1",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Critical Hit (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Power",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: paired dread rippa klaws"
                   }
                 ]
               },
@@ -8809,6 +9259,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Paired mega killsaws",
+                    "id": "4f8f-b18d-03ea-c1cc",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+2",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "4",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armourbane, Shred (5+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Saw",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: paired mega killsaws"
                   }
                 ]
               }
@@ -9103,6 +9598,141 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "5850-be5f-27ac-ed86",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "afa8-419c-2c79-179e",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
+            "name": "Twin dakkaguns (Bigboss on Warbike only)",
+            "id": "1418-6e4f-13d0-4c6d",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: twin dakkaguns"
+          },
+          {
             "name": "Bigboss — Wargear & Special Rules",
             "id": "83b1-41e3-2d49-f201",
             "hidden": false,
@@ -9368,6 +9998,96 @@
             ]
           },
           {
+            "name": "Kombi-shoota",
+            "id": "58a0-9fb8-db8c-af28",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "4",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: kombi-shoota"
+          },
+          {
+            "name": "Power klaw",
+            "id": "cb09-ea99-f857-cee2",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "-3",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+4",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Rending (6+)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Power",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: power klaw"
+          },
+          {
             "name": "Mega Bigboss — Wargear & Special Rules",
             "id": "cfdf-5b5f-3d6d-74d6",
             "hidden": false,
@@ -9568,6 +10288,96 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Slugga",
+            "id": "da7e-07f4-c15f-aa2d",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "138a-f6f6-d517-48a8",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
           },
           {
             "name": "Freebooter Kaptin — Wargear & Special Rules",
@@ -9874,6 +10684,141 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "30cb-0e28-e715-23f5",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "ea65-838b-f7ed-8bd2",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
+            "name": "Twin dakkaguns (Big Mek on Warbike only)",
+            "id": "ea33-6137-6be2-124a",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: twin dakkaguns"
+          },
+          {
             "name": "Big Mek — Wargear & Special Rules",
             "id": "d014-0614-de34-23f0",
             "hidden": false,
@@ -9986,6 +10931,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Shokk attack gun",
+                    "id": "de99-cad4-ab8f-7668",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "30",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "2D6",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "D6",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Blast (5\"), Ordnance (R & AP), Pinning (3), Shokk Attack",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: shokk attack gun"
                   }
                 ]
               },
@@ -10031,6 +11021,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Traktor blasta",
+                    "id": "e046-f83a-d375-190e",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "18",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "7",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "5",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Heavy (R & RS), Skyfire",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: traktor blasta"
                   }
                 ]
               },
@@ -10272,6 +11307,96 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Kombi-shoota",
+            "id": "42ab-6079-7182-77b9",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "4",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: kombi-shoota"
+          },
+          {
+            "name": "Power klaw",
+            "id": "4165-3d63-8e5d-d9e8",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "-3",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+4",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Rending (6+)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Power",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: power klaw"
           },
           {
             "name": "Mega Big Mek — Wargear & Special Rules",
@@ -10656,6 +11781,51 @@
             ]
           },
           {
+            "name": "Choppa",
+            "id": "4ecd-70c2-db0a-3232",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Painboss — Wargear & Special Rules",
             "id": "c0d3-7f31-a52a-e984",
             "hidden": false,
@@ -10903,6 +12073,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "3014-199b-cd17-2241",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "4cea-1eab-ba6b-6e3d",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Mekaniaks — Wargear & Special Rules",
             "id": "71d9-018f-004d-efa5",
             "hidden": false,
@@ -10950,7 +12210,8 @@
                     "type": "max",
                     "value": 4
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -11084,6 +12345,51 @@
             ]
           },
           {
+            "name": "Choppa",
+            "id": "6e28-5eb3-8972-12b3",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Mad Doks — Wargear & Special Rules",
             "id": "c7d4-7d6f-f5bb-8479",
             "hidden": false,
@@ -11131,7 +12437,8 @@
                     "type": "max",
                     "value": 4
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -11263,6 +12570,96 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Slugga",
+            "id": "f749-44c7-258d-a90a",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "e4ad-fba5-9406-8124",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
           },
           {
             "name": "Madboyz Mob — Wargear & Special Rules",
@@ -11402,7 +12799,8 @@
                     "type": "max",
                     "value": 15
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -11516,6 +12914,51 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Force staff",
+            "id": "422d-f360-337c-1c0f",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "+1",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+2",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Force (D)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Psychic",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: force staff"
           },
           {
             "name": "Weirdboy — Wargear & Special Rules",
@@ -11649,6 +13092,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "d4d8-5987-0e63-b4c2",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "480f-fa26-45dc-00c8",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Nobz Mob — Wargear & Special Rules",
             "id": "3877-fd35-a639-c402",
             "hidden": false,
@@ -11741,7 +13274,8 @@
                     "type": "max",
                     "value": 12
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -11893,6 +13427,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "032e-d883-9f4c-a993",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Twin dakkaguns",
+            "id": "fbc9-e6c4-505a-bff7",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: twin dakkaguns"
+          },
+          {
             "name": "Warbiker Nobz Mob — Wargear & Special Rules",
             "id": "d648-34ce-22b3-3e7b",
             "hidden": false,
@@ -11985,7 +13609,8 @@
                     "type": "max",
                     "value": 6
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -12119,6 +13744,51 @@
             ]
           },
           {
+            "name": "Snazzgun",
+            "id": "bd7d-4669-54b1-e8be",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "24",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "3",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Heavy (AP), Rending (6+), Breaching (6+), Pinning (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: snazzgun"
+          },
+          {
             "name": "Flash Gitz Mob — Wargear & Special Rules",
             "id": "ec04-120f-dc22-a30e",
             "hidden": false,
@@ -12211,7 +13881,8 @@
                     "type": "max",
                     "value": 7
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -12343,6 +14014,96 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Kombi-shoota",
+            "id": "d18c-f672-4b2c-2692",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "4",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: kombi-shoota"
+          },
+          {
+            "name": "Power klaw",
+            "id": "545a-bf62-1fc3-3d71",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "-3",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+4",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Rending (6+)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Power",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: power klaw"
           },
           {
             "name": "Meganobz Mob — Wargear & Special Rules",
@@ -12482,7 +14243,8 @@
                     "type": "max",
                     "value": 6
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -12700,6 +14462,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "3d51-6812-446a-cfa3",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "8f9b-5be6-c33e-e12f",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Stormboyz Mob — Wargear & Special Rules",
             "id": "e383-df72-0cd4-fbfa",
             "hidden": false,
@@ -12792,7 +14644,8 @@
                     "type": "max",
                     "value": 25
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -13010,6 +14863,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "3424-1dcf-0fe7-ba28",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "8104-ad2f-b947-4fdb",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Slugga Boyz Mob — Wargear & Special Rules",
             "id": "a956-2598-e029-e2fd",
             "hidden": false,
@@ -13102,7 +15045,8 @@
                     "type": "max",
                     "value": 20
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -13338,6 +15282,51 @@
             ]
           },
           {
+            "name": "Shoota",
+            "id": "e80c-4983-5a14-a44c",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "2",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: shoota"
+          },
+          {
             "name": "Shoota Boyz Mob — Wargear & Special Rules",
             "id": "f865-02da-d79a-fafe",
             "hidden": false,
@@ -13385,7 +15374,8 @@
                     "type": "max",
                     "value": 20
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -13621,6 +15611,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "b58a-049b-54d9-45d0",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "a273-2dfd-b496-4b15",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "‘Ard Boyz Mob — Wargear & Special Rules",
             "id": "6c27-903d-15aa-c493",
             "hidden": false,
@@ -13758,7 +15838,8 @@
                     "type": "max",
                     "value": 10
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -13994,6 +16075,141 @@
             ]
           },
           {
+            "name": "Grot blasta (Gretchin only)",
+            "id": "3ce7-8a39-aa19-0a41",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "3",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: grot blasta"
+          },
+          {
+            "name": "Slugga (Runtherd only)",
+            "id": "ab0b-6768-f032-1f6e",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Herding stikk (Runtherd only)",
+            "id": "78a0-02c2-8c78-00d7",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "+1",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+1",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Critical Hit (6+)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: herding stikk"
+          },
+          {
             "name": "Gretchin Mob — Wargear & Special Rules",
             "id": "76d8-5ffe-f08c-a622",
             "hidden": false,
@@ -14086,7 +16302,8 @@
                     "type": "max",
                     "value": 40
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -14286,6 +16503,141 @@
             ]
           },
           {
+            "name": "Burna (Burna Boy only)",
+            "id": "056b-8bc7-11cd-7ad1",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "Template",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Template, Panic (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Flame",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: burna"
+          },
+          {
+            "name": "Slugga (Mek only)",
+            "id": "b876-060b-bb02-3ef0",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa (Mek only)",
+            "id": "c57a-61cb-be45-d4d3",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Burna Mob — Wargear & Special Rules",
             "id": "1ead-23e3-5e5f-aecf",
             "hidden": false,
@@ -14468,7 +16820,8 @@
                     "type": "max",
                     "value": 10
                   }
-                ]
+                ],
+                "profiles": []
               },
               {
                 "name": "Additional Lootas",
@@ -14492,7 +16845,8 @@
                     "type": "max",
                     "value": 10
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -14710,6 +17064,141 @@
             ]
           },
           {
+            "name": "Burna (Burna Boy only)",
+            "id": "eb37-9ff2-8487-8934",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "Template",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Template, Panic (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Flame",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: burna"
+          },
+          {
+            "name": "Slugga (Mek only)",
+            "id": "eae9-59a0-571c-9378",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa (Mek only)",
+            "id": "aec3-2e53-f868-42e5",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Loota Mob — Wargear & Special Rules",
             "id": "2087-2286-1c30-d287",
             "hidden": false,
@@ -14892,7 +17381,8 @@
                     "type": "max",
                     "value": 10
                   }
-                ]
+                ],
+                "profiles": []
               },
               {
                 "name": "Additional Lootas",
@@ -14916,7 +17406,8 @@
                     "type": "max",
                     "value": 10
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -15134,6 +17625,96 @@
             ]
           },
           {
+            "name": "Rokkit launcha (Tankbusta only)",
+            "id": "daa2-5d99-01f5-7f43",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "24",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "8",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "3",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Missile",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: rokkit launcha"
+          },
+          {
+            "name": "Tankbusta bombs",
+            "id": "98fa-80b4-328b-1b82",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "-3",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "1",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "9",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "4",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Armourbane",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Detonation",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: tankbusta bombs"
+          },
+          {
             "name": "Tankbusta Mob — Wargear & Special Rules",
             "id": "d1b7-9322-1061-1110",
             "hidden": false,
@@ -15246,6 +17827,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tankhammer",
+                    "id": "0446-d436-6bf1-da1f",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-2",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "8",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armour-breaker (5+), Breaching (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: tankhammer"
                   }
                 ]
               },
@@ -15291,6 +17917,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Knucklebustas",
+                    "id": "f8d6-08de-f621-578e",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "+1",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+2",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armour-breaker (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: knucklebustas"
                   }
                 ]
               },
@@ -15426,6 +18097,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Rokkit launcha",
+                    "id": "2685-f8db-4075-6d7d",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "24",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "8",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "-",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Missile",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: rokkit launcha"
                   }
                 ]
               },
@@ -15471,6 +18187,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Tankhammer",
+                    "id": "c192-3dea-370f-ce9c",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-2",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "8",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "3",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armour-breaker (5+), Breaching (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: tankhammer"
                   }
                 ]
               },
@@ -15496,7 +18257,8 @@
                     "type": "max",
                     "value": 10
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -15630,6 +18392,51 @@
             ]
           },
           {
+            "name": "Kan klaw",
+            "id": "0120-b39a-a3e6-8d44",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+1",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Rending (6+)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Power",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: kan klaw"
+          },
+          {
             "name": "Killa Kan Mob — Wargear & Special Rules",
             "id": "aa5b-bc7c-d35a-4f30",
             "hidden": false,
@@ -15677,7 +18484,8 @@
                     "type": "max",
                     "value": 8
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -15979,6 +18787,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "7056-66f5-b10e-2f57",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Herding stikk",
+            "id": "8bba-80cf-5061-b8fd",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "+1",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+1",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Critical Hit (6+)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: herding stikk"
+          },
+          {
             "name": "Big Gunz Battery — Wargear & Special Rules",
             "id": "9d1e-2575-d8cf-cb64",
             "hidden": false,
@@ -16046,6 +18944,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Bubblechukka",
+                    "id": "e587-b2df-2cfb-d90d",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "36",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "3",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Blast (5\"), Heavy (AP), Ordnance (RS), Pinning (2)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: bubblechukka"
                   }
                 ]
               },
@@ -16091,6 +19034,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Kustom mega-kannon",
+                    "id": "3b0a-0cff-a89d-b6ae",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "36",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "7",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Heavy (RS), Blast (3\"), Breaching (5+), Overload (2)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Plasma",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: kustom mega-kannon"
                   }
                 ]
               },
@@ -16136,6 +19124,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Smasha gun",
+                    "id": "daa6-bd16-4967-810d",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "36",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "4",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Heavy (D), Ordnance (RS & AP), Shock (Stunned), Stun (2), Thrown (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Lifta-droppa",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: smasha gun"
                   }
                 ]
               },
@@ -16181,6 +19214,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Traktor kannon",
+                    "id": "84f4-83f2-6d39-ba06",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "36",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "7",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "5",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Heavy (RS), Ordnance (D), Shock (Pinned), Skyfire",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: traktor kannon"
                   }
                 ]
               },
@@ -16251,7 +19329,8 @@
                     "type": "max",
                     "value": 4
                   }
-                ]
+                ],
+                "profiles": []
               },
               {
                 "name": "Additional Gretchin Gunners",
@@ -16275,7 +19354,8 @@
                     "type": "max",
                     "value": 3
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -16768,6 +19848,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Dread rippa klaw",
+                    "id": "89eb-1e21-3c5a-dfa1",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+1",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Critical Hit (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Power",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: dread rippa klaw"
                   }
                 ]
               },
@@ -16813,6 +19938,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Mega killsaw",
+                    "id": "b4a4-7dbf-3ce2-c8c7",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+2",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armourbane, Shred (5+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Saw",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: mega killsaw"
                   }
                 ]
               },
@@ -16858,6 +20028,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Killkannon",
+                    "id": "5fbf-6f9c-2226-6e23",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "24",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "7",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Heavy (AP), Blast (3\"), Pinning (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Auto",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: killkannon"
                   }
                 ]
               },
@@ -16903,6 +20118,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Paired dread rippa klaws",
+                    "id": "f8fe-f87e-c74e-67ee",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "+1",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+1",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Critical Hit (6+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Power",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: paired dread rippa klaws"
                   }
                 ]
               },
@@ -16948,6 +20208,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Paired mega killsaws",
+                    "id": "487a-a588-5fb0-cbfc",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-1",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+2",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "4",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armourbane, Shred (5+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Saw",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: paired mega killsaws"
                   }
                 ]
               }
@@ -17296,6 +20601,51 @@
           }
         ],
         "profiles": [
+          {
+            "name": "Killkannon",
+            "id": "ca59-7842-d530-dfb1",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "24",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "7",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Heavy (AP), Blast (3\"), Pinning (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: killkannon"
+          },
           {
             "name": "Battlewagon",
             "id": "3a44-5e61-f848-0977",
@@ -18067,6 +21417,51 @@
             ]
           },
           {
+            "name": "Tusks and stomping feet",
+            "id": "d565-03d9-e67d-93de",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A), Reaping Blow (2)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: tusks and stomping feet"
+          },
+          {
             "name": "Squiggoth — Wargear & Special Rules",
             "id": "58e2-d99f-6cd9-9946",
             "hidden": false,
@@ -18300,6 +21695,96 @@
             ]
           },
           {
+            "name": "Slugga",
+            "id": "e6ce-b6c5-dbef-d3f8",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "12",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "6",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pistol",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Assault, Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: slugga"
+          },
+          {
+            "name": "Choppa",
+            "id": "49c1-74bd-a08f-728c",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Kommandos Mob — Wargear & Special Rules",
             "id": "e675-a6c9-994a-e9ab",
             "hidden": false,
@@ -18367,6 +21852,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Paired choppas",
+                    "id": "0e79-c83d-fe89-ca94",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "I",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "+1",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "S",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "-",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Impact (A)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Choppa",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: paired choppas"
                   }
                 ]
               },
@@ -18412,6 +21942,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Shoota",
+                    "id": "c7ca-0037-ab6e-4455",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "18",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "2",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "4",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "6",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "-",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Assault, Auto",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: shoota"
                   }
                 ]
               },
@@ -18457,6 +22032,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Kombi-shoota",
+                    "id": "6d28-8785-b1bf-56d4",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "18",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "4",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "4",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "6",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "-",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Auto",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: kombi-shoota"
                   }
                 ]
               },
@@ -18502,6 +22122,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Breacha ram",
+                    "id": "fa58-a905-da02-c23e",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-3",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+3",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armour-breaker (6+), Shock (Stunned)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: breacha ram"
                   }
                 ]
               },
@@ -18682,6 +22347,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Bomb squig",
+                    "id": "ad8a-26c9-87fa-a387",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "12",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "8",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "3",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armourbane, Breaching (6+), Critical Hit (6+), Limited (1), Targeted (+3)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: bomb squig"
                   }
                 ]
               },
@@ -18707,7 +22417,8 @@
                     "type": "max",
                     "value": 15
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -18859,6 +22570,51 @@
             ]
           },
           {
+            "name": "Choppa",
+            "id": "7001-f377-b842-22db",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Deffkoptas — Wargear & Special Rules",
             "id": "bf9b-a4fd-7363-04d7",
             "hidden": false,
@@ -18971,6 +22727,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Kustom mega-blasta",
+                    "id": "01ad-98bf-83f3-3195",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "24",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "8",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "4",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Breaching (5+), Overload (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Plasma",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: kustom mega-blasta"
                   }
                 ]
               },
@@ -19016,6 +22817,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Big bomb",
+                    "id": "5df5-4077-61f6-923b",
+                    "hidden": false,
+                    "typeId": "c591-09ed-3e6f-eb2b",
+                    "typeName": "Ranged Weapon",
+                    "characteristics": [
+                      {
+                        "name": "R",
+                        "$text": "6",
+                        "typeId": "cdb0-8654-6840-1037"
+                      },
+                      {
+                        "name": "FP",
+                        "$text": "1",
+                        "typeId": "5037-1f27-1790-e355"
+                      },
+                      {
+                        "name": "RS",
+                        "$text": "4",
+                        "typeId": "b9da-ee13-79f9-fa63"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "5",
+                        "typeId": "7a23-0248-2b94-5951"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "1",
+                        "typeId": "88c3-1ca5-7dc1-f291"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Blast (3\"), Limited (1), Stun (1)",
+                        "typeId": "5aad-137a-8ee2-63fd"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "-",
+                        "typeId": "1247-79d2-6cc1-8a03"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: big bomb"
                   }
                 ]
               },
@@ -19061,6 +22907,51 @@
                         "typeId": "9944-2f6d-d61b-03b5"
                       }
                     ]
+                  },
+                  {
+                    "name": "Killsaw",
+                    "id": "ea6e-435e-a5b0-173c",
+                    "hidden": false,
+                    "typeId": "3587-6dcd-005c-c263",
+                    "typeName": "Melee Weapon",
+                    "characteristics": [
+                      {
+                        "name": "IM",
+                        "$text": "-3",
+                        "typeId": "6eec-4093-f946-1014"
+                      },
+                      {
+                        "name": "AM",
+                        "$text": "A",
+                        "typeId": "03d0-6094-84f0-e27e"
+                      },
+                      {
+                        "name": "SM",
+                        "$text": "+3",
+                        "typeId": "4505-de6f-d4ae-6280"
+                      },
+                      {
+                        "name": "AP",
+                        "$text": "2",
+                        "typeId": "a014-126b-3b7b-27e8"
+                      },
+                      {
+                        "name": "D",
+                        "$text": "2",
+                        "typeId": "6a9d-4feb-065a-33e7"
+                      },
+                      {
+                        "name": "Special Rules",
+                        "$text": "Armourbane, Shred (5+)",
+                        "typeId": "ebe0-7b28-b40c-694e"
+                      },
+                      {
+                        "name": "Traits",
+                        "$text": "Saw",
+                        "typeId": "76e3-c188-bc65-3467"
+                      }
+                    ],
+                    "comment": "Orks auto weapon: killsaw"
                   }
                 ]
               },
@@ -19086,7 +22977,8 @@
                     "type": "max",
                     "value": 8
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -19117,6 +23009,96 @@
           }
         ],
         "profiles": [
+          {
+            "name": "Twin supa shoota",
+            "id": "bcc4-80c7-db41-2962",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "36",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "6",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Suppressive (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: twin supa shoota"
+          },
+          {
+            "name": "Big shoota",
+            "id": "bc90-4106-52d2-29ff",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "36",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "3",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: big shoota"
+          },
           {
             "name": "Trukk",
             "id": "88a9-2e07-2aa5-de7e",
@@ -19440,6 +23422,96 @@
             ]
           },
           {
+            "name": "Twin dakkaguns",
+            "id": "8545-2bb6-e2e8-f355",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "18",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: twin dakkaguns"
+          },
+          {
+            "name": "Choppa",
+            "id": "d3fc-b1a1-413d-0b24",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "-",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Choppa",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: choppa"
+          },
+          {
             "name": "Warbiker Mob — Wargear & Special Rules",
             "id": "5746-9cc3-8e13-f51c",
             "hidden": false,
@@ -19532,7 +23604,8 @@
                     "type": "max",
                     "value": 12
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -19887,7 +23960,8 @@
                     "type": "max",
                     "value": 5
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -20975,6 +25049,51 @@
         ],
         "profiles": [
           {
+            "name": "Supa-kannon",
+            "id": "d2fd-2b6c-b368-4ccd",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "60",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Ordnance (RS), Blast (5\"), Barrage (2), Breaching (6+), Pinning (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: supa-kannon"
+          },
+          {
             "name": "Gobsmasha Wagon",
             "id": "4da6-a524-49fb-1df2",
             "hidden": false,
@@ -21607,6 +25726,51 @@
         ],
         "profiles": [
           {
+            "name": "Flakka gunz",
+            "id": "4ef7-c922-ea87-90c3",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "48",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "6",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "7",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Breaching (6+), Heavy (FP), Skyfire",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: flakka gunz"
+          },
+          {
             "name": "Dakka-trakk",
             "id": "e8b5-f55d-ddd2-b500",
             "hidden": false,
@@ -22041,6 +26205,51 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Tusks and stomping feet",
+            "id": "ea12-bb91-c0f0-7377",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A), Reaping Blow (2)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: tusks and stomping feet"
           },
           {
             "name": "Gun Squiggoth — Wargear & Special Rules",
@@ -22636,7 +26845,8 @@
                     "type": "max",
                     "value": 5
                   }
-                ]
+                ],
+                "profiles": []
               }
             ]
           }
@@ -22685,6 +26895,141 @@
           }
         ],
         "profiles": [
+          {
+            "name": "Deffstorm mega-shoota",
+            "id": "9aac-b03c-06fc-e54c",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "36",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "12",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "6",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Pinning (1), Shred (6+)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: deffstorm mega-shoota"
+          },
+          {
+            "name": "Skorcha",
+            "id": "b254-82d9-a2ad-52e5",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "Template",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Template, Panic (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Flame",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: skorcha"
+          },
+          {
+            "name": "Klaw of Gork (or possibly Mork)",
+            "id": "a62a-ff61-d366-f5a9",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+3",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "4",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Critical Hit (6+), Shock (Suppressed)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Power",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: klaw of gork (or possibly mork)"
+          },
           {
             "name": "Gorkanaut",
             "id": "b36f-8f41-bd78-8c0b",
@@ -22844,6 +27189,141 @@
           }
         ],
         "profiles": [
+          {
+            "name": "Kustom mega-kannon",
+            "id": "e4d7-8f3c-4336-e64b",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "36",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "7",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Heavy (RS), Blast (3\"), Breaching (5+), Overload (2)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Plasma",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: kustom mega-kannon"
+          },
+          {
+            "name": "Kustom mega-blasta",
+            "id": "a4e5-c67c-d912-c5b2",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "24",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "8",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Breaching (5+), Overload (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Plasma",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: kustom mega-blasta"
+          },
+          {
+            "name": "Klaw of Gork (or possibly Mork)",
+            "id": "7e2f-f624-6456-b6f7",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "+3",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "2",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "4",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Critical Hit (6+), Shock (Suppressed)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "Power",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: klaw of gork (or possibly mork)"
+          },
           {
             "name": "Morkanaut",
             "id": "860f-c98b-0160-c661",
@@ -23048,6 +27528,96 @@
           }
         ],
         "profiles": [
+          {
+            "name": "Defensor skorcha",
+            "id": "47ee-23d6-8be5-814d",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "10",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Blast (5\"), Panic (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Flame, Tactical",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: defensor skorcha"
+          },
+          {
+            "name": "Defensor big shoota",
+            "id": "6cc5-6206-e23e-9bdd",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "36",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "4",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "5",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "1",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "-",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "Auto, Tactical",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: defensor big shoota"
+          },
           {
             "name": "Stompa — Head",
             "id": "6f54-262f-add2-d265",
@@ -23870,6 +28440,141 @@
                 "typeId": "a951-a772-7ce0-0b64"
               }
             ]
+          },
+          {
+            "name": "Tusks and stomping feet",
+            "id": "cd68-299f-e9ad-61d9",
+            "hidden": false,
+            "typeId": "3587-6dcd-005c-c263",
+            "typeName": "Melee Weapon",
+            "characteristics": [
+              {
+                "name": "IM",
+                "$text": "I",
+                "typeId": "6eec-4093-f946-1014"
+              },
+              {
+                "name": "AM",
+                "$text": "A",
+                "typeId": "03d0-6094-84f0-e27e"
+              },
+              {
+                "name": "SM",
+                "$text": "S",
+                "typeId": "4505-de6f-d4ae-6280"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "a014-126b-3b7b-27e8"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "6a9d-4feb-065a-33e7"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Impact (A), Reaping Blow (2)",
+                "typeId": "ebe0-7b28-b40c-694e"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "76e3-c188-bc65-3467"
+              }
+            ],
+            "comment": "Orks auto weapon: tusks and stomping feet"
+          },
+          {
+            "name": "Supa-kannon",
+            "id": "fd1c-93ad-83b5-b771",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "60",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "5",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Ordnance (RS), Blast (5\"), Barrage (2), Breaching (6+), Pinning (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: supa-kannon"
+          },
+          {
+            "name": "Supa-lobba",
+            "id": "3181-70f8-eac3-f2be",
+            "hidden": false,
+            "typeId": "c591-09ed-3e6f-eb2b",
+            "typeName": "Ranged Weapon",
+            "characteristics": [
+              {
+                "name": "R",
+                "$text": "48",
+                "typeId": "cdb0-8654-6840-1037"
+              },
+              {
+                "name": "FP",
+                "$text": "1",
+                "typeId": "5037-1f27-1790-e355"
+              },
+              {
+                "name": "RS",
+                "$text": "4",
+                "typeId": "b9da-ee13-79f9-fa63"
+              },
+              {
+                "name": "AP",
+                "$text": "4",
+                "typeId": "7a23-0248-2b94-5951"
+              },
+              {
+                "name": "D",
+                "$text": "2",
+                "typeId": "88c3-1ca5-7dc1-f291"
+              },
+              {
+                "name": "Special Rules",
+                "$text": "Ordnance (RS), Blast (5\"), Barrage (2), Pinning (1)",
+                "typeId": "5aad-137a-8ee2-63fd"
+              },
+              {
+                "name": "Traits",
+                "$text": "-",
+                "typeId": "1247-79d2-6cc1-8a03"
+              }
+            ],
+            "comment": "Orks auto weapon: supa-lobba"
           },
           {
             "name": "Gargantuan Squiggoth — Wargear & Special Rules",
