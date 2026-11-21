@@ -72,7 +72,7 @@ CATS_WITH_NO_PRIMES = [
 class GameTests(unittest.TestCase):
 
     def setUp(self):
-        self.system = System('horus-heresy-3rd-edition',
+        self.system = System('HH3-Homebrew',
                              settings={
                                  SystemSettingsKeys.GAME_IMPORT_SPEC: GameImportSpecs.HERESY3E,
                              },
